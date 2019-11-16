@@ -1,0 +1,23 @@
+version: 1
+creator: xdebug 2.7.2 (PHP 7.3.8-1+0~20190807.43+debian10~1.gbp7731bf)
+cmd: Command line code
+part: 1
+positions: line
+
+events: Time Memory
+
+fl=(1) php:internal
+fn=(1) php::ini_get_all
+1 50 15976
+
+fl=(2) Command line code
+fn=(2) {main}
+
+summary: 109 520
+
+1 59 -15456
+cfl=(1)
+cfn=(1)
+calls=1 0 0
+1 50 15976
+

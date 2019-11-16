@@ -1,0 +1,15 @@
+version: 1
+creator: xdebug 2.7.2 (PHP 7.3.8-1+0~20190807.43+debian10~1.gbp7731bf)
+cmd: /p3t/phpappfolder/public_php/M2M/index.php
+part: 1
+positions: line
+
+events: Time Memory
+
+fl=(1) /p3t/phpappfolder/public_php/M2M/index.php
+fn=(1) {main}
+
+summary: 144 3152
+
+1 144 3152
+

@@ -1,0 +1,12575 @@
+version: 1
+creator: xdebug 2.7.2 (PHP 7.3.8-1+0~20190807.43+debian10~1.gbp7731bf)
+cmd: /p3t/phpappfolder/public_php/M2M/index.php
+part: 1
+positions: line
+
+events: Time Memory
+
+fl=(1) /p3t/phpappfolder/includes/vendor/composer/autoload_real.php
+fn=(1) require_once::/p3t/phpappfolder/includes/vendor/composer/autoload_real.php
+1 0 0
+
+fl=(2) php:internal
+fn=(2) php::spl_autoload_register
+22 5 520
+
+fl=(3) /p3t/phpappfolder/includes/vendor/composer/ClassLoader.php
+fn=(3) require::/p3t/phpappfolder/includes/vendor/composer/ClassLoader.php
+1 0 0
+
+fl=(1)
+fn=(4) ComposerAutoloaderInit278cf0a2223ad86eeeab6943634f1ad9::loadClassLoader
+9 22 2456
+cfl=(3)
+cfn=(3)
+calls=1 0 0
+12 0 0
+
+fl=(2)
+fn=(5) php::spl_autoload_call
+23 11 0
+cfl=(1)
+cfn=(4)
+calls=1 0 0
+23 22 2456
+
+fl=(2)
+fn=(6) php::{zend_pass}
+23 0 0
+
+fl=(2)
+fn=(7) php::spl_autoload_unregister
+24 1 -144
+
+fl=(2)
+fn=(8) php::function_exists
+26 0 0
+
+fl=(4) /p3t/phpappfolder/includes/vendor/composer/autoload_static.php
+fn=(9) require_once::/p3t/phpappfolder/includes/vendor/composer/autoload_static.php
+1 1 0
+
+fl=(2)
+fn=(10) php::Closure::bind
+819 5 824
+
+fl=(4)
+fn=(11) Composer\Autoload\ComposerStaticInit278cf0a2223ad86eeeab6943634f1ad9::getInitializer
+811 38 0
+cfl=(2)
+cfn=(10)
+calls=1 0 0
+819 5 824
+
+fl=(4)
+fn=(12) Composer\Autoload\ClassLoader::Composer\Autoload\{closure:/p3t/phpappfolder/includes/vendor/composer/autoload_static.php:813-819}
+813 8 -824
+
+fl=(2)
+fn=(2)
+302 3 128
+
+fl=(3)
+fn=(13) Composer\Autoload\ClassLoader->register
+300 19 0
+cfl=(2)
+cfn=(2)
+calls=1 0 0
+302 3 128
+
+fl=(2)
+fn=(8)
+7 0 0
+
+fl=(5) /p3t/phpappfolder/includes/vendor/myclabs/deep-copy/src/DeepCopy/deep_copy.php
+fn=(14) require::/p3t/phpappfolder/includes/vendor/myclabs/deep-copy/src/DeepCopy/deep_copy.php
+1 18 0
+cfl=(2)
+cfn=(8)
+calls=1 0 0
+7 0 0
+
+fl=(1)
+fn=(15) composerRequire278cf0a2223ad86eeeab6943634f1ad9
+63 36 752
+cfl=(5)
+cfn=(14)
+calls=1 0 0
+66 19 0
+
+fl=(2)
+fn=(8)
+14 3 0
+
+fl=(6) /p3t/phpappfolder/includes/vendor/symfony/polyfill-ctype/bootstrap.php
+fn=(16) require::/p3t/phpappfolder/includes/vendor/symfony/polyfill-ctype/bootstrap.php
+1 13 0
+cfl=(2)
+cfn=(8)
+calls=1 0 0
+14 3 0
+
+fl=(1)
+fn=(15)
+63 28 0
+cfl=(6)
+cfn=(16)
+calls=1 0 0
+66 16 0
+
+fl=(2)
+fn=(8)
+14 3 0
+
+fl=(2)
+fn=(8)
+54 0 0
+
+fl=(2)
+fn=(8)
+60 0 0
+
+fl=(7) /p3t/phpappfolder/includes/vendor/symfony/polyfill-mbstring/bootstrap.php
+fn=(17) require::/p3t/phpappfolder/includes/vendor/symfony/polyfill-mbstring/bootstrap.php
+1 30 0
+cfl=(2)
+cfn=(8)
+calls=1 0 0
+14 3 0
+cfl=(2)
+cfn=(8)
+calls=1 0 0
+54 0 0
+cfl=(2)
+cfn=(8)
+calls=1 0 0
+60 0 0
+
+fl=(1)
+fn=(15)
+63 40 320
+cfl=(7)
+cfn=(17)
+calls=1 0 0
+66 35 0
+
+fl=(8) /p3t/phpappfolder/includes/vendor/symfony/polyfill-php73/bootstrap.php
+fn=(18) require::/p3t/phpappfolder/includes/vendor/symfony/polyfill-php73/bootstrap.php
+1 0 0
+
+fl=(1)
+fn=(15)
+63 25 0
+cfl=(8)
+cfn=(18)
+calls=1 0 0
+66 0 0
+
+fl=(2)
+fn=(8)
+5 1 0
+
+fl=(9) /p3t/phpappfolder/includes/vendor/nikic/fast-route/src/functions.php
+fn=(19) require::/p3t/phpappfolder/includes/vendor/nikic/fast-route/src/functions.php
+1 14 0
+cfl=(2)
+cfn=(8)
+calls=1 0 0
+5 1 0
+
+fl=(1)
+fn=(15)
+63 23 0
+cfl=(9)
+cfn=(19)
+calls=1 0 0
+66 15 0
+
+fl=(1)
+fn=(20) ComposerAutoloaderInit278cf0a2223ad86eeeab6943634f1ad9::getLoader
+16 205 1640
+cfl=(2)
+cfn=(2)
+calls=1 0 0
+22 5 520
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+23 34 2456
+cfl=(2)
+cfn=(6)
+calls=1 0 0
+23 0 0
+cfl=(2)
+cfn=(7)
+calls=1 0 0
+24 1 -144
+cfl=(2)
+cfn=(8)
+calls=1 0 0
+26 0 0
+cfl=(4)
+cfn=(9)
+calls=1 0 0
+28 1 0
+cfl=(4)
+cfn=(11)
+calls=1 0 0
+30 44 824
+cfl=(4)
+cfn=(12)
+calls=1 0 0
+30 8 -824
+cfl=(3)
+cfn=(13)
+calls=1 0 0
+48 22 128
+cfl=(1)
+cfn=(15)
+calls=1 0 0
+56 56 752
+cfl=(1)
+cfn=(15)
+calls=1 0 0
+56 45 0
+cfl=(1)
+cfn=(15)
+calls=1 0 0
+56 75 320
+cfl=(1)
+cfn=(15)
+calls=1 0 0
+56 25 0
+cfl=(1)
+cfn=(15)
+calls=1 0 0
+56 39 0
+
+fl=(10) /p3t/phpappfolder/includes/vendor/autoload.php
+fn=(21) require::/p3t/phpappfolder/includes/vendor/autoload.php
+1 82 680
+cfl=(1)
+cfn=(1)
+calls=1 0 0
+5 0 0
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+7 566 5672
+
+fl=(2)
+fn=(22) php::ini_set
+9 9 376
+
+fl=(2)
+fn=(22)
+10 3 0
+
+fl=(2)
+fn=(22)
+11 4 0
+
+fl=(2)
+fn=(23) php::define
+13 6 24
+
+fl=(2)
+fn=(24) php::explode
+16 5 440
+
+fl=(2)
+fn=(25) php::implode
+16 2 40
+
+fl=(2)
+fn=(23)
+18 1 24
+
+fl=(2)
+fn=(23)
+19 2 24
+
+fl=(2)
+fn=(23)
+20 0 24
+
+fl=(2)
+fn=(23)
+23 0 24
+
+fl=(2)
+fn=(23)
+26 0 24
+
+fl=(11) /p3t/phpappfolder/includes/M2M/app/settings.php
+fn=(26) require::/p3t/phpappfolder/includes/M2M/app/settings.php
+1 273 -392
+cfl=(2)
+cfn=(22)
+calls=1 0 0
+9 9 376
+cfl=(2)
+cfn=(22)
+calls=1 0 0
+10 3 0
+cfl=(2)
+cfn=(22)
+calls=1 0 0
+11 4 0
+cfl=(2)
+cfn=(23)
+calls=1 0 0
+13 6 24
+cfl=(2)
+cfn=(24)
+calls=1 0 0
+16 5 440
+cfl=(2)
+cfn=(25)
+calls=1 0 0
+16 2 40
+cfl=(2)
+cfn=(23)
+calls=1 0 0
+18 1 24
+cfl=(2)
+cfn=(23)
+calls=1 0 0
+19 2 24
+cfl=(2)
+cfn=(23)
+calls=1 0 0
+20 0 24
+cfl=(2)
+cfn=(23)
+calls=1 0 0
+23 0 24
+cfl=(2)
+cfn=(23)
+calls=1 0 0
+26 0 24
+
+fl=(2)
+fn=(8)
+7 4 0
+
+fl=(2)
+fn=(27) php::xdebug_start_trace
+9 313 96
+
+fl=(2)
+fn=(28) php::strtr
+373 1 40
+
+fl=(2)
+fn=(29) php::strrpos
+378 0 0
+
+fl=(2)
+fn=(30) php::substr
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 40
+
+fl=(2)
+fn=(31) php::file_exists
+384 15 0
+
+fl=(3)
+fn=(32) Composer\Autoload\ClassLoader->findFileWithExtension
+370 88 0
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 1 40
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 40
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 15 0
+
+fl=(3)
+fn=(33) Composer\Autoload\ClassLoader->findFile
+335 41 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 107 112
+
+fl=(2)
+fn=(28)
+373 0 48
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(29)
+400 0 0
+
+fl=(2)
+fn=(30)
+402 0 32
+
+fl=(2)
+fn=(30)
+403 0 40
+
+fl=(2)
+fn=(28)
+403 0 0
+
+fl=(2)
+fn=(34) php::strpos
+411 0 0
+
+fl=(2)
+fn=(31)
+413 7 0
+
+fl=(3)
+fn=(32)
+370 136 -40
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 48
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+400 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+402 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+403 0 40
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+403 0 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+411 0 0
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+413 7 0
+
+fl=(3)
+fn=(33)
+335 33 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 149 112
+
+fl=(12) /p3t/phpappfolder/includes/vendor/pimple/pimple/src/Pimple/Container.php
+fn=(35) include::/p3t/phpappfolder/includes/vendor/pimple/pimple/src/Pimple/Container.php
+1 2 8
+
+fl=(3)
+fn=(36) Composer\Autoload\includeFile
+442 16 1056
+cfl=(12)
+cfn=(35)
+calls=1 0 0
+444 2 8
+
+fl=(3)
+fn=(37) Composer\Autoload\ClassLoader->loadClass
+319 32 -112
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 182 112
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+322 19 1064
+
+fl=(2)
+fn=(5)
+35 16 0
+cfl=(3)
+cfn=(37)
+calls=1 0 0
+35 234 1064
+
+fl=(2)
+fn=(28)
+373 0 64
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 48
+
+fl=(2)
+fn=(30)
+382 0 48
+
+fl=(2)
+fn=(31)
+384 5 0
+
+fl=(3)
+fn=(32)
+370 63 0
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 64
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 48
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 48
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 5 0
+
+fl=(3)
+fn=(33)
+335 27 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 68 160
+
+fl=(2)
+fn=(28)
+373 0 64
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 40
+
+fl=(2)
+fn=(30)
+382 0 48
+
+fl=(2)
+fn=(31)
+384 4 0
+
+fl=(3)
+fn=(32)
+370 62 -40
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 64
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 40
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 48
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 4 0
+
+fl=(3)
+fn=(33)
+335 27 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 67 112
+
+fl=(13) /p3t/phpappfolder/includes/vendor/psr/container/src/ContainerInterface.php
+fn=(38) include::/p3t/phpappfolder/includes/vendor/psr/container/src/ContainerInterface.php
+1 1 0
+
+fl=(3)
+fn=(36)
+442 11 696
+cfl=(13)
+cfn=(38)
+calls=1 0 0
+444 1 0
+
+fl=(3)
+fn=(37)
+319 32 -112
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 95 112
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+322 13 696
+
+fl=(2)
+fn=(5)
+13 15 0
+cfl=(3)
+cfn=(37)
+calls=1 0 0
+13 140 696
+
+fl=(14) /p3t/phpappfolder/includes/vendor/container-interop/container-interop/src/Interop/Container/ContainerInterface.php
+fn=(39) include::/p3t/phpappfolder/includes/vendor/container-interop/container-interop/src/Interop/Container/ContainerInterface.php
+1 15 328
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+13 156 696
+
+fl=(3)
+fn=(36)
+442 12 0
+cfl=(14)
+cfn=(39)
+calls=1 0 0
+444 172 1024
+
+fl=(3)
+fn=(37)
+319 37 -160
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 96 160
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+322 185 1024
+
+fl=(2)
+fn=(5)
+35 15 0
+cfl=(3)
+cfn=(37)
+calls=1 0 0
+35 319 1024
+
+fl=(15) /p3t/phpappfolder/includes/vendor/slim/slim/Slim/Container.php
+fn=(40) include::/p3t/phpappfolder/includes/vendor/slim/slim/Slim/Container.php
+1 34 1080
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+35 251 1064
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+35 334 1024
+
+fl=(3)
+fn=(36)
+442 23 656
+cfl=(15)
+cfn=(40)
+calls=1 0 0
+444 620 3168
+
+fl=(3)
+fn=(37)
+319 108 -112
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 148 112
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+322 643 3824
+
+fl=(2)
+fn=(5)
+12 950 0
+cfl=(3)
+cfn=(37)
+calls=1 0 0
+12 900 3824
+
+fl=(2)
+fn=(6)
+57 0 0
+
+fl=(2)
+fn=(6)
+58 0 0
+
+fl=(12)
+fn=(41) Slim\Container->offsetSet
+79 1 752
+
+fl=(12)
+fn=(42) Slim\Container->__construct
+55 37 320
+cfl=(2)
+cfn=(6)
+calls=1 0 0
+57 0 0
+cfl=(2)
+cfn=(6)
+calls=1 0 0
+58 0 0
+cfl=(12)
+cfn=(41)
+calls=1 0 0
+61 1 752
+
+fl=(12)
+fn=(41)
+79 0 0
+
+fl=(2)
+fn=(28)
+373 0 56
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 56
+
+fl=(2)
+fn=(31)
+384 6 0
+
+fl=(3)
+fn=(32)
+370 73 -16
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 56
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 56
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 6 0
+
+fl=(3)
+fn=(33)
+335 29 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 80 128
+
+fl=(16) /p3t/phpappfolder/includes/vendor/slim/slim/Slim/DefaultServicesProvider.php
+fn=(43) include::/p3t/phpappfolder/includes/vendor/slim/slim/Slim/DefaultServicesProvider.php
+1 0 0
+
+fl=(3)
+fn=(36)
+442 16 960
+cfl=(16)
+cfn=(43)
+calls=1 0 0
+444 0 0
+
+fl=(3)
+fn=(37)
+319 31 -128
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 109 128
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+322 16 960
+
+fl=(2)
+fn=(5)
+86 15 0
+cfl=(3)
+cfn=(37)
+calls=1 0 0
+86 158 960
+
+fl=(2)
+fn=(6)
+86 0 0
+
+fl=(12)
+fn=(44) Slim\Container->offsetExists
+133 0 0
+
+fl=(12)
+fn=(41)
+79 1 0
+
+fl=(12)
+fn=(44)
+133 0 0
+
+fl=(12)
+fn=(41)
+79 0 0
+
+fl=(12)
+fn=(44)
+133 0 0
+
+fl=(12)
+fn=(41)
+79 0 0
+
+fl=(12)
+fn=(44)
+133 0 0
+
+fl=(12)
+fn=(41)
+79 0 0
+
+fl=(12)
+fn=(44)
+133 0 0
+
+fl=(12)
+fn=(41)
+79 0 0
+
+fl=(12)
+fn=(44)
+133 0 0
+
+fl=(12)
+fn=(41)
+79 0 0
+
+fl=(12)
+fn=(44)
+133 1 0
+
+fl=(12)
+fn=(41)
+79 0 0
+
+fl=(12)
+fn=(44)
+133 0 0
+
+fl=(12)
+fn=(41)
+79 0 640
+
+fl=(12)
+fn=(44)
+133 0 0
+
+fl=(12)
+fn=(41)
+79 0 0
+
+fl=(12)
+fn=(44)
+133 0 0
+
+fl=(12)
+fn=(41)
+79 0 0
+
+fl=(16)
+fn=(45) Slim\DefaultServicesProvider->register
+32 287 3256
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+34 0 0
+cfl=(12)
+cfn=(41)
+calls=1 0 0
+40 1 0
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+45 0 0
+cfl=(12)
+cfn=(41)
+calls=1 0 0
+53 0 0
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+58 0 0
+cfl=(12)
+cfn=(41)
+calls=1 0 0
+66 0 0
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+74 0 0
+cfl=(12)
+cfn=(41)
+calls=1 0 0
+82 0 0
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+97 0 0
+cfl=(12)
+cfn=(41)
+calls=1 0 0
+103 0 0
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+108 0 0
+cfl=(12)
+cfn=(41)
+calls=1 0 0
+122 0 0
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+127 1 0
+cfl=(12)
+cfn=(41)
+calls=1 0 0
+141 0 0
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+148 0 0
+cfl=(12)
+cfn=(41)
+calls=1 0 0
+159 0 640
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+164 0 0
+cfl=(12)
+cfn=(41)
+calls=1 0 0
+176 0 0
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+181 0 0
+cfl=(12)
+cfn=(41)
+calls=1 0 0
+189 0 0
+
+fl=(15)
+fn=(46) Slim\Container->registerDefaultServices
+73 93 1224
+cfl=(12)
+cfn=(41)
+calls=1 0 0
+82 0 0
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+86 173 960
+cfl=(2)
+cfn=(6)
+calls=1 0 0
+86 0 0
+cfl=(16)
+cfn=(45)
+calls=1 0 0
+87 298 3896
+
+fl=(15)
+fn=(42)
+55 67 0
+cfl=(12)
+cfn=(42)
+calls=1 0 0
+57 39 1072
+cfl=(15)
+cfn=(46)
+calls=1 0 0
+60 565 6080
+
+fl=(12)
+fn=(41)
+79 1 0
+
+fl=(12)
+fn=(41)
+79 0 0
+
+fl=(12)
+fn=(41)
+79 1 0
+
+fl=(12)
+fn=(41)
+79 1 0
+
+fl=(12)
+fn=(41)
+79 0 0
+
+fl=(12)
+fn=(41)
+79 0 1280
+
+fl=(17) /p3t/phpappfolder/includes/M2M/app/dependencies.php
+fn=(47) require::/p3t/phpappfolder/includes/M2M/app/dependencies.php
+1 94 1920
+cfl=(12)
+cfn=(41)
+calls=1 0 0
+4 1 0
+cfl=(12)
+cfn=(41)
+calls=1 0 0
+20 0 0
+cfl=(12)
+cfn=(41)
+calls=1 0 0
+24 1 0
+cfl=(12)
+cfn=(41)
+calls=1 0 0
+29 1 0
+cfl=(12)
+cfn=(41)
+calls=1 0 0
+34 0 0
+cfl=(12)
+cfn=(41)
+calls=1 0 0
+39 0 1280
+
+fl=(2)
+fn=(28)
+373 0 40
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 32
+
+fl=(2)
+fn=(31)
+384 6 0
+
+fl=(3)
+fn=(32)
+370 69 -8
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 40
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 32
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 6 0
+
+fl=(3)
+fn=(33)
+335 26 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 76 96
+
+fl=(2)
+fn=(28)
+373 0 56
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 56
+
+fl=(2)
+fn=(31)
+384 3 0
+
+fl=(3)
+fn=(32)
+370 62 -32
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 56
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 56
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 3 0
+
+fl=(3)
+fn=(33)
+335 28 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 66 112
+
+fl=(18) /p3t/phpappfolder/includes/vendor/slim/slim/Slim/MiddlewareAwareTrait.php
+fn=(48) include::/p3t/phpappfolder/includes/vendor/slim/slim/Slim/MiddlewareAwareTrait.php
+1 0 0
+
+fl=(3)
+fn=(36)
+442 12 672
+cfl=(18)
+cfn=(48)
+calls=1 0 0
+444 0 0
+
+fl=(3)
+fn=(37)
+319 31 -112
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 95 112
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+322 12 672
+
+fl=(2)
+fn=(5)
+37 14 0
+cfl=(3)
+cfn=(37)
+calls=1 0 0
+37 140 672
+
+fl=(19) /p3t/phpappfolder/includes/vendor/slim/slim/Slim/App.php
+fn=(49) include::/p3t/phpappfolder/includes/vendor/slim/slim/Slim/App.php
+1 19 112
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+37 154 672
+
+fl=(3)
+fn=(36)
+442 15 1936
+cfl=(19)
+cfn=(49)
+calls=1 0 0
+444 174 784
+
+fl=(3)
+fn=(37)
+319 31 -96
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 102 96
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+322 190 2720
+
+fl=(2)
+fn=(5)
+16 15 0
+cfl=(3)
+cfn=(37)
+calls=1 0 0
+16 324 2720
+
+fl=(2)
+fn=(50) php::is_array
+58 0 0
+
+fl=(19)
+fn=(51) Slim\App->__construct
+56 38 0
+cfl=(2)
+cfn=(50)
+calls=1 0 0
+58 0 0
+
+fl=(2)
+fn=(52) php::Closure->bindTo
+219 0 792
+
+fl=(12)
+fn=(44)
+133 0 0
+
+fl=(2)
+fn=(53) php::SplObjectStorage->offsetExists
+107 1 0
+
+fl=(2)
+fn=(54) php::method_exists
+108 4 0
+
+fl=(2)
+fn=(53)
+113 2 0
+
+fl=(12)
+fn=(44)
+133 0 0
+
+fl=(2)
+fn=(53)
+107 0 0
+
+fl=(2)
+fn=(54)
+108 0 0
+
+fl=(2)
+fn=(53)
+113 0 0
+
+fl=(2)
+fn=(28)
+373 0 40
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 40
+
+fl=(2)
+fn=(31)
+384 24 0
+
+fl=(3)
+fn=(32)
+370 78 0
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 40
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 40
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 24 0
+
+fl=(3)
+fn=(33)
+335 38 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 103 112
+
+fl=(2)
+fn=(28)
+373 0 64
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 40
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 64
+
+fl=(2)
+fn=(31)
+384 8 0
+
+fl=(3)
+fn=(32)
+370 96 -72
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 64
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 40
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 64
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 8 0
+
+fl=(3)
+fn=(33)
+335 35 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 106 128
+
+fl=(20) /p3t/phpappfolder/includes/vendor/slim/slim/Slim/Interfaces/CollectionInterface.php
+fn=(55) include::/p3t/phpappfolder/includes/vendor/slim/slim/Slim/Interfaces/CollectionInterface.php
+1 6 352
+
+fl=(3)
+fn=(36)
+442 19 320
+cfl=(20)
+cfn=(55)
+calls=1 0 0
+444 6 352
+
+fl=(3)
+fn=(37)
+319 33 -128
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 141 128
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+322 25 672
+
+fl=(2)
+fn=(5)
+20 21 0
+cfl=(3)
+cfn=(37)
+calls=1 0 0
+20 200 672
+
+fl=(21) /p3t/phpappfolder/includes/vendor/slim/slim/Slim/Collection.php
+fn=(56) include::/p3t/phpappfolder/includes/vendor/slim/slim/Slim/Collection.php
+1 22 40
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+20 222 672
+
+fl=(3)
+fn=(36)
+442 28 976
+cfl=(21)
+cfn=(56)
+calls=1 0 0
+444 245 712
+
+fl=(3)
+fn=(37)
+319 37 -112
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 142 112
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+322 273 1688
+
+fl=(2)
+fn=(5)
+83 20 0
+cfl=(3)
+cfn=(37)
+calls=1 0 0
+83 453 1688
+
+fl=(2)
+fn=(57) php::array_merge
+83 2 696
+
+fl=(21)
+fn=(58) Slim\Collection->set
+40 3 376
+
+fl=(21)
+fn=(58)
+40 0 0
+
+fl=(21)
+fn=(58)
+40 0 0
+
+fl=(21)
+fn=(58)
+40 0 0
+
+fl=(21)
+fn=(58)
+40 0 0
+
+fl=(21)
+fn=(58)
+40 1 0
+
+fl=(21)
+fn=(58)
+40 1 0
+
+fl=(21)
+fn=(58)
+40 1 0
+
+fl=(21)
+fn=(58)
+40 1 320
+
+fl=(21)
+fn=(58)
+40 0 0
+
+fl=(21)
+fn=(58)
+40 0 0
+
+fl=(21)
+fn=(59) Slim\Collection->replace
+56 122 0
+cfl=(21)
+cfn=(58)
+calls=1 0 0
+59 3 376
+cfl=(21)
+cfn=(58)
+calls=1 0 0
+59 0 0
+cfl=(21)
+cfn=(58)
+calls=1 0 0
+59 0 0
+cfl=(21)
+cfn=(58)
+calls=1 0 0
+59 0 0
+cfl=(21)
+cfn=(58)
+calls=1 0 0
+59 0 0
+cfl=(21)
+cfn=(58)
+calls=1 0 0
+59 1 0
+cfl=(21)
+cfn=(58)
+calls=1 0 0
+59 1 0
+cfl=(21)
+cfn=(58)
+calls=1 0 0
+59 1 0
+cfl=(21)
+cfn=(58)
+calls=1 0 0
+59 1 320
+cfl=(21)
+cfn=(58)
+calls=1 0 0
+59 0 0
+cfl=(21)
+cfn=(58)
+calls=1 0 0
+59 0 0
+
+fl=(21)
+fn=(60) Slim\Collection->__construct
+32 30 -696
+cfl=(21)
+cfn=(59)
+calls=1 0 0
+34 133 696
+
+fl=(15)
+fn=(61) Slim\Container->Slim\{closure:/p3t/phpappfolder/includes/vendor/slim/slim/Slim/Container.php:82-84}
+82 69 56
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+83 474 1688
+cfl=(2)
+cfn=(57)
+calls=1 0 0
+83 2 696
+cfl=(21)
+cfn=(60)
+calls=1 0 0
+83 163 0
+
+fl=(12)
+fn=(62) Slim\Container->offsetGet
+98 180 1128
+cfl=(2)
+cfn=(53)
+calls=1 0 0
+107 0 0
+cfl=(2)
+cfn=(54)
+calls=1 0 0
+108 0 0
+cfl=(2)
+cfn=(53)
+calls=1 0 0
+113 0 0
+cfl=(15)
+cfn=(61)
+calls=1 0 0
+118 710 2440
+
+fl=(15)
+fn=(63) Slim\Container->get
+102 51 0
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+104 0 0
+cfl=(12)
+cfn=(62)
+calls=1 0 0
+108 892 3568
+
+fl=(2)
+fn=(64) php::array_key_exists
+86 0 0
+
+fl=(21)
+fn=(65) Slim\Collection->has
+84 20 0
+cfl=(2)
+cfn=(64)
+calls=1 0 0
+86 0 0
+
+fl=(21)
+fn=(66) Slim\Collection->offsetExists
+112 30 0
+cfl=(21)
+cfn=(65)
+calls=1 0 0
+114 20 0
+
+fl=(12)
+fn=(44)
+133 0 0
+
+fl=(12)
+fn=(62)
+98 0 0
+
+fl=(15)
+fn=(63)
+102 49 0
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+104 0 0
+cfl=(12)
+cfn=(62)
+calls=1 0 0
+108 0 0
+
+fl=(2)
+fn=(64)
+86 0 0
+
+fl=(21)
+fn=(65)
+84 25 0
+cfl=(2)
+cfn=(64)
+calls=1 0 0
+86 0 0
+
+fl=(21)
+fn=(67) Slim\Collection->get
+48 15 0
+cfl=(21)
+cfn=(65)
+calls=1 0 0
+50 25 0
+
+fl=(21)
+fn=(68) Slim\Collection->offsetGet
+124 15 0
+cfl=(21)
+cfn=(67)
+calls=1 0 0
+126 40 0
+
+fl=(2)
+fn=(28)
+373 0 40
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 40
+
+fl=(2)
+fn=(31)
+384 10 0
+
+fl=(3)
+fn=(32)
+370 66 -16
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 40
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 40
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 10 0
+
+fl=(3)
+fn=(33)
+335 31 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 78 96
+
+fl=(2)
+fn=(28)
+373 1 56
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 40
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 56
+
+fl=(2)
+fn=(31)
+384 3 0
+
+fl=(3)
+fn=(32)
+370 95 -56
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 1 56
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 40
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 56
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 3 0
+
+fl=(3)
+fn=(33)
+335 28 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 100 128
+
+fl=(22) /p3t/phpappfolder/includes/vendor/slim/slim/Slim/Interfaces/RouterInterface.php
+fn=(69) include::/p3t/phpappfolder/includes/vendor/slim/slim/Slim/Interfaces/RouterInterface.php
+1 0 0
+
+fl=(3)
+fn=(36)
+442 17 640
+cfl=(22)
+cfn=(69)
+calls=1 0 0
+444 0 0
+
+fl=(3)
+fn=(37)
+319 33 -128
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 128 128
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+322 18 640
+
+fl=(2)
+fn=(5)
+28 15 0
+cfl=(3)
+cfn=(37)
+calls=1 0 0
+28 181 640
+
+fl=(23) /p3t/phpappfolder/includes/vendor/slim/slim/Slim/Router.php
+fn=(70) include::/p3t/phpappfolder/includes/vendor/slim/slim/Slim/Router.php
+1 20 328
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+28 196 640
+
+fl=(3)
+fn=(36)
+442 20 1728
+cfl=(23)
+cfn=(70)
+calls=1 0 0
+444 217 968
+
+fl=(3)
+fn=(37)
+319 33 -96
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 110 96
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+322 238 2696
+
+fl=(2)
+fn=(5)
+88 16 0
+cfl=(3)
+cfn=(37)
+calls=1 0 0
+88 383 2696
+
+fl=(2)
+fn=(28)
+373 0 56
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 48
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 40
+
+fl=(2)
+fn=(30)
+382 0 48
+
+fl=(2)
+fn=(31)
+384 7 0
+
+fl=(3)
+fn=(32)
+370 110 -80
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 56
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 48
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 40
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 48
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 7 0
+
+fl=(3)
+fn=(33)
+335 141 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 118 112
+
+fl=(2)
+fn=(28)
+373 0 48
+
+fl=(2)
+fn=(29)
+378 1 0
+
+fl=(2)
+fn=(30)
+379 0 40
+
+fl=(2)
+fn=(30)
+382 0 40
+
+fl=(2)
+fn=(31)
+384 11 0
+
+fl=(3)
+fn=(32)
+370 64 -16
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 48
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 1 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 40
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 40
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 11 0
+
+fl=(3)
+fn=(33)
+335 30 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 78 112
+
+fl=(24) /p3t/phpappfolder/includes/vendor/nikic/fast-route/src/RouteParser.php
+fn=(71) include::/p3t/phpappfolder/includes/vendor/nikic/fast-route/src/RouteParser.php
+1 0 0
+
+fl=(3)
+fn=(36)
+442 16 320
+cfl=(24)
+cfn=(71)
+calls=1 0 0
+444 0 0
+
+fl=(3)
+fn=(37)
+319 30 -112
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 109 112
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+322 16 320
+
+fl=(2)
+fn=(5)
+13 17 0
+cfl=(3)
+cfn=(37)
+calls=1 0 0
+13 156 320
+
+fl=(25) /p3t/phpappfolder/includes/vendor/nikic/fast-route/src/RouteParser/Std.php
+fn=(72) include::/p3t/phpappfolder/includes/vendor/nikic/fast-route/src/RouteParser/Std.php
+1 16 8
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+13 174 320
+
+fl=(3)
+fn=(36)
+442 20 640
+cfl=(25)
+cfn=(72)
+calls=1 0 0
+444 190 328
+
+fl=(3)
+fn=(37)
+319 47 -112
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 260 112
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+322 211 968
+
+fl=(2)
+fn=(5)
+88 16 0
+cfl=(3)
+cfn=(37)
+calls=1 0 0
+88 519 968
+
+fl=(2)
+fn=(6)
+88 0 0
+
+fl=(23)
+fn=(73) Slim\Router->__construct
+86 24 40
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+88 535 968
+cfl=(2)
+cfn=(6)
+calls=1 0 0
+88 0 0
+
+fl=(2)
+fn=(74) php::is_string
+132 0 0
+
+fl=(23)
+fn=(75) Slim\Router->setCacheFile
+130 14 0
+cfl=(2)
+cfn=(74)
+calls=1 0 0
+132 0 0
+
+fl=(2)
+fn=(54)
+89 0 0
+
+fl=(23)
+fn=(76) Slim\Router->setContainer
+155 2 0
+
+fl=(16)
+fn=(77) Slim\DefaultServicesProvider->Slim\{closure:/p3t/phpappfolder/includes/vendor/slim/slim/Slim/DefaultServicesProvider.php:82-94}
+82 222 624
+cfl=(15)
+cfn=(63)
+calls=1 0 0
+84 944 3568
+cfl=(21)
+cfn=(66)
+calls=1 0 0
+84 51 0
+cfl=(15)
+cfn=(63)
+calls=1 0 0
+85 51 0
+cfl=(21)
+cfn=(68)
+calls=1 0 0
+85 55 0
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+88 399 2696
+cfl=(23)
+cfn=(73)
+calls=1 0 0
+88 560 1008
+cfl=(23)
+cfn=(75)
+calls=1 0 0
+88 15 0
+cfl=(2)
+cfn=(54)
+calls=1 0 0
+89 0 0
+cfl=(23)
+cfn=(76)
+calls=1 0 0
+90 2 0
+
+fl=(12)
+fn=(62)
+98 695 0
+cfl=(2)
+cfn=(53)
+calls=1 0 0
+107 1 0
+cfl=(2)
+cfn=(54)
+calls=1 0 0
+108 4 0
+cfl=(2)
+cfn=(53)
+calls=1 0 0
+113 2 0
+cfl=(16)
+cfn=(77)
+calls=1 0 0
+118 2303 7896
+
+fl=(15)
+fn=(63)
+102 72 0
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+104 0 0
+cfl=(12)
+cfn=(62)
+calls=1 0 0
+108 3006 7896
+
+fl=(2)
+fn=(74)
+165 0 0
+
+fl=(2)
+fn=(78) php::strtoupper
+175 0 0
+
+fl=(2)
+fn=(79) php::array_map
+175 15 376
+cfl=(2)
+cfn=(78)
+calls=1 0 0
+175 0 0
+
+fl=(2)
+fn=(28)
+373 0 40
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 40
+
+fl=(2)
+fn=(31)
+384 30 0
+
+fl=(3)
+fn=(32)
+370 97 -16
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 40
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 40
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 30 0
+
+fl=(3)
+fn=(33)
+335 30 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 128 96
+
+fl=(2)
+fn=(28)
+373 1 40
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 40
+
+fl=(2)
+fn=(31)
+384 4 0
+
+fl=(3)
+fn=(32)
+370 95 0
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 1 40
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 40
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 4 0
+
+fl=(3)
+fn=(33)
+335 39 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 101 112
+
+fl=(2)
+fn=(28)
+373 0 56
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 56
+
+fl=(2)
+fn=(31)
+384 4 0
+
+fl=(3)
+fn=(32)
+370 81 -16
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 56
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 56
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 4 0
+
+fl=(3)
+fn=(33)
+335 27 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 85 128
+
+fl=(26) /p3t/phpappfolder/includes/vendor/slim/slim/Slim/CallableResolverAwareTrait.php
+fn=(80) include::/p3t/phpappfolder/includes/vendor/slim/slim/Slim/CallableResolverAwareTrait.php
+1 0 0
+
+fl=(3)
+fn=(36)
+442 19 320
+cfl=(26)
+cfn=(80)
+calls=1 0 0
+444 0 0
+
+fl=(3)
+fn=(37)
+319 46 -128
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 113 128
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+322 19 320
+
+fl=(2)
+fn=(5)
+14 19 0
+cfl=(3)
+cfn=(37)
+calls=1 0 0
+14 178 320
+
+fl=(27) /p3t/phpappfolder/includes/vendor/slim/slim/Slim/Routable.php
+fn=(81) include::/p3t/phpappfolder/includes/vendor/slim/slim/Slim/Routable.php
+1 15 8
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+14 198 320
+
+fl=(3)
+fn=(36)
+442 15 704
+cfl=(27)
+cfn=(81)
+calls=1 0 0
+444 214 328
+
+fl=(3)
+fn=(37)
+319 56 -112
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 140 112
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+322 230 1032
+
+fl=(2)
+fn=(5)
+18 20 0
+cfl=(3)
+cfn=(37)
+calls=1 0 0
+18 427 1032
+
+fl=(2)
+fn=(28)
+373 0 56
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 40
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 56
+
+fl=(2)
+fn=(31)
+384 5 0
+
+fl=(3)
+fn=(32)
+370 118 -56
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 56
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 40
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 56
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 5 0
+
+fl=(3)
+fn=(33)
+335 41 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 123 128
+
+fl=(28) /p3t/phpappfolder/includes/vendor/slim/slim/Slim/Interfaces/RouteInterface.php
+fn=(82) include::/p3t/phpappfolder/includes/vendor/slim/slim/Slim/Interfaces/RouteInterface.php
+1 0 0
+
+fl=(3)
+fn=(36)
+442 14 640
+cfl=(28)
+cfn=(82)
+calls=1 0 0
+444 0 0
+
+fl=(3)
+fn=(37)
+319 31 -128
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 165 128
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+322 14 640
+
+fl=(2)
+fn=(5)
+18 15 0
+cfl=(3)
+cfn=(37)
+calls=1 0 0
+18 211 640
+
+fl=(29) /p3t/phpappfolder/includes/vendor/slim/slim/Slim/Route.php
+fn=(83) include::/p3t/phpappfolder/includes/vendor/slim/slim/Slim/Route.php
+1 39 504
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+18 447 1032
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+18 226 640
+
+fl=(3)
+fn=(36)
+442 18 1728
+cfl=(29)
+cfn=(83)
+calls=1 0 0
+444 714 2176
+
+fl=(3)
+fn=(37)
+319 30 -96
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 159 96
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+322 732 3904
+
+fl=(2)
+fn=(5)
+210 17 0
+cfl=(3)
+cfn=(37)
+calls=1 0 0
+210 922 3904
+
+fl=(27)
+fn=(84) Slim\Route->__construct
+48 0 0
+
+fl=(2)
+fn=(74)
+85 0 0
+
+fl=(29)
+fn=(84)
+82 53 32
+cfl=(27)
+cfn=(84)
+calls=1 0 0
+84 0 0
+cfl=(2)
+cfn=(74)
+calls=1 0 0
+85 0 0
+
+fl=(27)
+fn=(85) Slim\Route->setContainer
+81 1 0
+
+fl=(23)
+fn=(86) Slim\Router->createRoute
+208 97 320
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+210 940 3904
+cfl=(29)
+cfn=(84)
+calls=1 0 0
+210 54 32
+cfl=(27)
+cfn=(85)
+calls=1 0 0
+212 1 0
+
+fl=(29)
+fn=(87) Slim\Route->getIdentifier
+163 0 0
+
+fl=(23)
+fn=(88) Slim\Router->map
+163 166 1072
+cfl=(2)
+cfn=(74)
+calls=1 0 0
+165 0 0
+cfl=(2)
+cfn=(79)
+calls=1 0 0
+175 15 376
+cfl=(23)
+cfn=(86)
+calls=1 0 0
+178 1094 4256
+cfl=(29)
+cfn=(87)
+calls=1 0 0
+180 0 0
+
+fl=(2)
+fn=(89) php::is_callable
+223 0 0
+
+fl=(27)
+fn=(85)
+81 0 0
+
+fl=(2)
+fn=(89)
+227 0 0
+
+fl=(12)
+fn=(44)
+133 0 0
+
+fl=(12)
+fn=(62)
+98 1 0
+
+fl=(15)
+fn=(63)
+102 36 0
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+104 0 0
+cfl=(12)
+cfn=(62)
+calls=1 0 0
+108 1 0
+
+fl=(2)
+fn=(64)
+86 0 0
+
+fl=(21)
+fn=(65)
+84 15 0
+cfl=(2)
+cfn=(64)
+calls=1 0 0
+86 0 0
+
+fl=(21)
+fn=(67)
+48 12 0
+cfl=(21)
+cfn=(65)
+calls=1 0 0
+50 16 0
+
+fl=(21)
+fn=(68)
+124 15 0
+cfl=(21)
+cfn=(67)
+calls=1 0 0
+126 29 0
+
+fl=(2)
+fn=(90) php::in_array
+183 0 0
+
+fl=(29)
+fn=(91) Slim\Route->setOutputBuffering
+181 13 0
+cfl=(2)
+cfn=(90)
+calls=1 0 0
+183 0 0
+
+fl=(19)
+fn=(92) Slim\App->map
+216 314 0
+cfl=(2)
+cfn=(52)
+calls=1 0 0
+219 0 792
+cfl=(15)
+cfn=(63)
+calls=1 0 0
+222 3078 7896
+cfl=(23)
+cfn=(88)
+calls=1 0 0
+222 1276 5704
+cfl=(2)
+cfn=(89)
+calls=1 0 0
+223 0 0
+cfl=(27)
+cfn=(85)
+calls=1 0 0
+224 0 0
+cfl=(2)
+cfn=(89)
+calls=1 0 0
+227 0 0
+cfl=(15)
+cfn=(63)
+calls=1 0 0
+228 38 0
+cfl=(21)
+cfn=(68)
+calls=1 0 0
+228 44 0
+cfl=(29)
+cfn=(91)
+calls=1 0 0
+228 14 0
+
+fl=(19)
+fn=(93) Slim\App->get
+124 60 -696
+cfl=(19)
+cfn=(92)
+calls=1 0 0
+126 4770 14392
+
+fl=(2)
+fn=(74)
+195 0 0
+
+fl=(29)
+fn=(94) Slim\Route->setName
+193 13 0
+cfl=(2)
+cfn=(74)
+calls=1 0 0
+195 0 0
+
+fl=(30) /p3t/phpappfolder/includes/M2M/app/routes/homepage.php
+fn=(95) require::/p3t/phpappfolder/includes/M2M/app/routes/homepage.php
+1 65 1072
+cfl=(19)
+cfn=(93)
+calls=1 0 0
+42 4830 13696
+cfl=(29)
+cfn=(94)
+calls=1 0 0
+42 13 0
+
+fl=(2)
+fn=(52)
+219 0 824
+
+fl=(12)
+fn=(44)
+133 0 0
+
+fl=(12)
+fn=(62)
+98 0 0
+
+fl=(15)
+fn=(63)
+102 56 0
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+104 0 0
+cfl=(12)
+cfn=(62)
+calls=1 0 0
+108 0 0
+
+fl=(2)
+fn=(74)
+165 0 0
+
+fl=(2)
+fn=(78)
+175 0 0
+
+fl=(2)
+fn=(79)
+175 11 376
+cfl=(2)
+cfn=(78)
+calls=1 0 0
+175 0 0
+
+fl=(27)
+fn=(84)
+48 1 0
+
+fl=(2)
+fn=(74)
+85 0 0
+
+fl=(29)
+fn=(84)
+82 45 32
+cfl=(27)
+cfn=(84)
+calls=1 0 0
+84 1 0
+cfl=(2)
+cfn=(74)
+calls=1 0 0
+85 0 0
+
+fl=(27)
+fn=(85)
+81 0 0
+
+fl=(23)
+fn=(86)
+208 75 320
+cfl=(29)
+cfn=(84)
+calls=1 0 0
+210 46 32
+cfl=(27)
+cfn=(85)
+calls=1 0 0
+212 0 0
+
+fl=(29)
+fn=(87)
+163 0 0
+
+fl=(23)
+fn=(88)
+163 106 696
+cfl=(2)
+cfn=(74)
+calls=1 0 0
+165 0 0
+cfl=(2)
+cfn=(79)
+calls=1 0 0
+175 11 376
+cfl=(23)
+cfn=(86)
+calls=1 0 0
+178 123 352
+cfl=(29)
+cfn=(87)
+calls=1 0 0
+180 0 0
+
+fl=(2)
+fn=(89)
+223 0 0
+
+fl=(27)
+fn=(85)
+81 0 0
+
+fl=(2)
+fn=(89)
+227 0 0
+
+fl=(12)
+fn=(44)
+133 0 0
+
+fl=(12)
+fn=(62)
+98 0 0
+
+fl=(15)
+fn=(63)
+102 31 0
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+104 0 0
+cfl=(12)
+cfn=(62)
+calls=1 0 0
+108 0 0
+
+fl=(2)
+fn=(64)
+86 0 0
+
+fl=(21)
+fn=(65)
+84 16 0
+cfl=(2)
+cfn=(64)
+calls=1 0 0
+86 0 0
+
+fl=(21)
+fn=(67)
+48 12 0
+cfl=(21)
+cfn=(65)
+calls=1 0 0
+50 16 0
+
+fl=(21)
+fn=(68)
+124 15 0
+cfl=(21)
+cfn=(67)
+calls=1 0 0
+126 29 0
+
+fl=(2)
+fn=(90)
+183 0 0
+
+fl=(29)
+fn=(91)
+181 13 0
+cfl=(2)
+cfn=(90)
+calls=1 0 0
+183 0 0
+
+fl=(19)
+fn=(92)
+216 296 0
+cfl=(2)
+cfn=(52)
+calls=1 0 0
+219 0 824
+cfl=(15)
+cfn=(63)
+calls=1 0 0
+222 57 0
+cfl=(23)
+cfn=(88)
+calls=1 0 0
+222 241 1424
+cfl=(2)
+cfn=(89)
+calls=1 0 0
+223 0 0
+cfl=(27)
+cfn=(85)
+calls=1 0 0
+224 0 0
+cfl=(2)
+cfn=(89)
+calls=1 0 0
+227 0 0
+cfl=(15)
+cfn=(63)
+calls=1 0 0
+228 32 0
+cfl=(21)
+cfn=(68)
+calls=1 0 0
+228 44 0
+cfl=(29)
+cfn=(91)
+calls=1 0 0
+228 13 0
+
+fl=(19)
+fn=(96) Slim\App->post
+137 53 -696
+cfl=(19)
+cfn=(92)
+calls=1 0 0
+139 688 2248
+
+fl=(31) /p3t/phpappfolder/includes/M2M/app/routes/processcountrydetails.php
+fn=(97) require::/p3t/phpappfolder/includes/M2M/app/routes/processcountrydetails.php
+1 18 696
+cfl=(19)
+cfn=(96)
+calls=1 0 0
+44 741 1552
+
+fl=(32) /p3t/phpappfolder/includes/M2M/app/routes.php
+fn=(98) require::/p3t/phpappfolder/includes/M2M/app/routes.php
+1 34 1280
+cfl=(30)
+cfn=(95)
+calls=1 0 0
+13 4909 14768
+cfl=(31)
+cfn=(97)
+calls=1 0 0
+14 760 2248
+
+fl=(12)
+fn=(44)
+133 0 0
+
+fl=(2)
+fn=(53)
+107 0 0
+
+fl=(2)
+fn=(54)
+108 0 0
+
+fl=(2)
+fn=(53)
+113 0 0
+
+fl=(2)
+fn=(28)
+373 0 48
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 40
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 48
+
+fl=(2)
+fn=(31)
+384 5 0
+
+fl=(3)
+fn=(32)
+370 82 -56
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 48
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 40
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 48
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 5 0
+
+fl=(3)
+fn=(33)
+335 28 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 88 112
+
+fl=(2)
+fn=(28)
+373 0 64
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 48
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 40
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 64
+
+fl=(2)
+fn=(31)
+384 4 0
+
+fl=(3)
+fn=(32)
+370 109 -120
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 64
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 48
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 40
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 64
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 4 0
+
+fl=(3)
+fn=(33)
+335 28 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 113 128
+
+fl=(33) /p3t/phpappfolder/includes/vendor/slim/slim/Slim/Interfaces/Http/HeadersInterface.php
+fn=(99) include::/p3t/phpappfolder/includes/vendor/slim/slim/Slim/Interfaces/Http/HeadersInterface.php
+1 2 360
+
+fl=(3)
+fn=(36)
+442 11 320
+cfl=(33)
+cfn=(99)
+calls=1 0 0
+444 2 360
+
+fl=(3)
+fn=(37)
+319 31 -128
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 142 128
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+322 14 680
+
+fl=(2)
+fn=(5)
+24 14 0
+cfl=(3)
+cfn=(37)
+calls=1 0 0
+24 188 680
+
+fl=(34) /p3t/phpappfolder/includes/vendor/slim/slim/Slim/Http/Headers.php
+fn=(100) include::/p3t/phpappfolder/includes/vendor/slim/slim/Slim/Http/Headers.php
+1 18 752
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+24 202 680
+
+fl=(3)
+fn=(36)
+442 14 976
+cfl=(34)
+cfn=(100)
+calls=1 0 0
+444 221 1432
+
+fl=(3)
+fn=(37)
+319 34 -112
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 117 112
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+322 235 2408
+
+fl=(2)
+fn=(5)
+67 15 0
+cfl=(3)
+cfn=(37)
+calls=1 0 0
+67 386 2408
+
+fl=(2)
+fn=(50)
+119 0 0
+
+fl=(2)
+fn=(101) php::strtolower
+199 0 40
+
+fl=(2)
+fn=(28)
+199 0 0
+
+fl=(2)
+fn=(34)
+200 0 0
+
+fl=(34)
+fn=(102) Slim\Http\Headers->normalizeKey
+197 34 0
+cfl=(2)
+cfn=(101)
+calls=1 0 0
+199 0 40
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+199 0 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+200 0 0
+
+fl=(21)
+fn=(103) Slim\Http\Headers->set
+40 2 376
+
+fl=(34)
+fn=(103)
+117 44 752
+cfl=(2)
+cfn=(50)
+calls=1 0 0
+119 0 0
+cfl=(34)
+cfn=(102)
+calls=1 0 0
+122 35 40
+cfl=(21)
+cfn=(103)
+calls=1 0 0
+124 2 376
+
+fl=(21)
+fn=(104) Slim\Http\Headers->replace
+56 15 0
+cfl=(34)
+cfn=(103)
+calls=1 0 0
+59 82 1168
+
+fl=(21)
+fn=(105) Slim\Http\Headers->__construct
+32 12 0
+cfl=(21)
+cfn=(104)
+calls=1 0 0
+34 97 1168
+
+fl=(2)
+fn=(28)
+373 1 48
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 40
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 48
+
+fl=(2)
+fn=(31)
+384 3 0
+
+fl=(3)
+fn=(32)
+370 87 -56
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 1 48
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 40
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 48
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 3 0
+
+fl=(3)
+fn=(33)
+335 55 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 92 112
+
+fl=(2)
+fn=(28)
+373 0 48
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 40
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 48
+
+fl=(2)
+fn=(31)
+384 3 0
+
+fl=(3)
+fn=(32)
+370 92 -56
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 48
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 40
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 48
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 3 0
+
+fl=(3)
+fn=(33)
+335 26 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 95 112
+
+fl=(2)
+fn=(28)
+373 0 64
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 48
+
+fl=(2)
+fn=(30)
+382 0 48
+
+fl=(2)
+fn=(31)
+384 4 0
+
+fl=(3)
+fn=(32)
+370 64 -48
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 64
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 48
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 48
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 4 0
+
+fl=(3)
+fn=(33)
+335 25 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 68 112
+
+fl=(35) /p3t/phpappfolder/includes/vendor/psr/http-message/src/MessageInterface.php
+fn=(106) include::/p3t/phpappfolder/includes/vendor/psr/http-message/src/MessageInterface.php
+1 0 0
+
+fl=(3)
+fn=(36)
+442 11 640
+cfl=(35)
+cfn=(106)
+calls=1 0 0
+444 0 0
+
+fl=(3)
+fn=(37)
+319 29 -112
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 93 112
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+322 12 640
+
+fl=(2)
+fn=(5)
+25 14 0
+cfl=(3)
+cfn=(37)
+calls=1 0 0
+25 136 640
+
+fl=(36) /p3t/phpappfolder/includes/vendor/slim/slim/Slim/Http/Message.php
+fn=(107) include::/p3t/phpappfolder/includes/vendor/slim/slim/Slim/Http/Message.php
+1 15 8
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+25 150 640
+
+fl=(3)
+fn=(36)
+442 13 1024
+cfl=(36)
+cfn=(107)
+calls=1 0 0
+444 166 648
+
+fl=(3)
+fn=(37)
+319 30 -112
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 121 112
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+322 180 1672
+
+fl=(2)
+fn=(5)
+27 14 0
+cfl=(3)
+cfn=(37)
+calls=1 0 0
+27 332 1672
+
+fl=(2)
+fn=(28)
+373 0 64
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 48
+
+fl=(2)
+fn=(30)
+382 0 48
+
+fl=(2)
+fn=(31)
+384 2 0
+
+fl=(3)
+fn=(32)
+370 59 -32
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 64
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 48
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 48
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 2 0
+
+fl=(3)
+fn=(33)
+335 28 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 62 128
+
+fl=(37) /p3t/phpappfolder/includes/vendor/psr/http-message/src/ResponseInterface.php
+fn=(108) include::/p3t/phpappfolder/includes/vendor/psr/http-message/src/ResponseInterface.php
+1 1 328
+
+fl=(3)
+fn=(36)
+442 12 320
+cfl=(37)
+cfn=(108)
+calls=1 0 0
+444 1 328
+
+fl=(3)
+fn=(37)
+319 29 -128
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 91 128
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+322 14 648
+
+fl=(2)
+fn=(5)
+27 15 0
+cfl=(3)
+cfn=(37)
+calls=1 0 0
+27 134 648
+
+fl=(38) /p3t/phpappfolder/includes/vendor/slim/slim/Slim/Http/Response.php
+fn=(109) include::/p3t/phpappfolder/includes/vendor/slim/slim/Slim/Http/Response.php
+1 29 1368
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+27 346 1672
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+27 149 648
+
+fl=(3)
+fn=(36)
+442 20 67504
+cfl=(38)
+cfn=(109)
+calls=1 0 0
+444 525 3688
+
+fl=(3)
+fn=(37)
+319 29 -112
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 147 112
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+322 545 71192
+
+fl=(2)
+fn=(5)
+68 18 0
+cfl=(3)
+cfn=(37)
+calls=1 0 0
+68 722 71192
+
+fl=(2)
+fn=(28)
+373 0 48
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 40
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 48
+
+fl=(2)
+fn=(31)
+384 3 0
+
+fl=(3)
+fn=(32)
+370 80 -56
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 48
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 40
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 48
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 3 0
+
+fl=(3)
+fn=(33)
+335 28 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 84 112
+
+fl=(39) /p3t/phpappfolder/includes/vendor/slim/slim/Slim/Http/StatusCode.php
+fn=(110) include::/p3t/phpappfolder/includes/vendor/slim/slim/Slim/Http/StatusCode.php
+1 0 0
+
+fl=(3)
+fn=(36)
+442 12 2560
+cfl=(39)
+cfn=(110)
+calls=1 0 0
+444 0 0
+
+fl=(3)
+fn=(37)
+319 30 -112
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 113 112
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+322 12 2560
+
+fl=(2)
+fn=(5)
+68 14 0
+cfl=(3)
+cfn=(37)
+calls=1 0 0
+68 156 2560
+
+fl=(2)
+fn=(111) php::is_integer
+223 0 0
+
+fl=(38)
+fn=(112) Slim\Http\Response->filterStatus
+221 13 0
+cfl=(2)
+cfn=(111)
+calls=1 0 0
+223 0 0
+
+fl=(2)
+fn=(28)
+373 0 40
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 40
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 40
+
+fl=(2)
+fn=(31)
+384 3 0
+
+fl=(3)
+fn=(32)
+370 82 -40
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 40
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 40
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 40
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 3 0
+
+fl=(3)
+fn=(33)
+335 27 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 86 112
+
+fl=(2)
+fn=(28)
+373 0 48
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 40
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 40
+
+fl=(2)
+fn=(31)
+384 1 0
+
+fl=(3)
+fn=(32)
+370 86 -48
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 48
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 40
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 40
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 1 0
+
+fl=(3)
+fn=(33)
+335 26 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 87 112
+
+fl=(2)
+fn=(28)
+373 0 64
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 48
+
+fl=(2)
+fn=(30)
+382 0 48
+
+fl=(2)
+fn=(31)
+384 2 0
+
+fl=(3)
+fn=(32)
+370 59 -48
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 64
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 48
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 48
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 2 0
+
+fl=(3)
+fn=(33)
+335 26 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 63 112
+
+fl=(40) /p3t/phpappfolder/includes/vendor/psr/http-message/src/StreamInterface.php
+fn=(113) include::/p3t/phpappfolder/includes/vendor/psr/http-message/src/StreamInterface.php
+1 0 0
+
+fl=(3)
+fn=(36)
+442 13 640
+cfl=(40)
+cfn=(113)
+calls=1 0 0
+444 0 0
+
+fl=(3)
+fn=(37)
+319 34 -112
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 89 112
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+322 13 640
+
+fl=(2)
+fn=(5)
+19 15 0
+cfl=(3)
+cfn=(37)
+calls=1 0 0
+19 137 640
+
+fl=(41) /p3t/phpappfolder/includes/vendor/slim/slim/Slim/Http/Stream.php
+fn=(114) include::/p3t/phpappfolder/includes/vendor/slim/slim/Slim/Http/Stream.php
+1 15 8
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+19 152 640
+
+fl=(3)
+fn=(36)
+442 13 2048
+cfl=(41)
+cfn=(114)
+calls=1 0 0
+444 168 648
+
+fl=(3)
+fn=(37)
+319 29 -112
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 114 112
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+322 181 2696
+
+fl=(2)
+fn=(5)
+10 15 0
+cfl=(3)
+cfn=(37)
+calls=1 0 0
+10 325 2696
+
+fl=(42) /p3t/phpappfolder/includes/vendor/slim/slim/Slim/Http/Body.php
+fn=(115) include::/p3t/phpappfolder/includes/vendor/slim/slim/Slim/Http/Body.php
+1 14 2056
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+10 340 2696
+
+fl=(3)
+fn=(36)
+442 13 0
+cfl=(42)
+cfn=(115)
+calls=1 0 0
+444 355 4752
+
+fl=(3)
+fn=(37)
+319 32 -112
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 113 112
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+322 368 4752
+
+fl=(2)
+fn=(5)
+139 17 0
+cfl=(3)
+cfn=(37)
+calls=1 0 0
+139 514 4752
+
+fl=(2)
+fn=(116) php::fopen
+139 5 1032
+
+fl=(2)
+fn=(117) php::is_resource
+144 0 0
+
+fl=(2)
+fn=(117)
+130 0 0
+
+fl=(41)
+fn=(118) Slim\Http\Body->isAttached
+128 10 0
+cfl=(2)
+cfn=(117)
+calls=1 0 0
+130 0 0
+
+fl=(41)
+fn=(119) Slim\Http\Body->attach
+142 25 0
+cfl=(2)
+cfn=(117)
+calls=1 0 0
+144 0 0
+cfl=(41)
+cfn=(118)
+calls=1 0 0
+148 10 0
+
+fl=(41)
+fn=(120) Slim\Http\Body->__construct
+93 12 0
+cfl=(41)
+cfn=(119)
+calls=1 0 0
+95 36 0
+
+fl=(38)
+fn=(121) Slim\Http\Response->__construct
+132 56 160
+cfl=(38)
+cfn=(112)
+calls=1 0 0
+137 13 0
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+139 532 4752
+cfl=(2)
+cfn=(116)
+calls=1 0 0
+139 5 1032
+cfl=(41)
+cfn=(120)
+calls=1 0 0
+139 48 0
+
+fl=(12)
+fn=(44)
+133 0 0
+
+fl=(12)
+fn=(62)
+98 0 0
+
+fl=(15)
+fn=(63)
+102 36 0
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+104 0 0
+cfl=(12)
+cfn=(62)
+calls=1 0 0
+108 0 0
+
+fl=(2)
+fn=(64)
+86 0 0
+
+fl=(21)
+fn=(65)
+84 18 0
+cfl=(2)
+cfn=(64)
+calls=1 0 0
+86 0 0
+
+fl=(21)
+fn=(67)
+48 14 0
+cfl=(21)
+cfn=(65)
+calls=1 0 0
+50 18 0
+
+fl=(21)
+fn=(68)
+124 12 0
+cfl=(21)
+cfn=(67)
+calls=1 0 0
+126 33 0
+
+fl=(38)
+fn=(122) Slim\Http\Response->__clone
+148 1 432
+
+fl=(36)
+fn=(123) Slim\Http\Response->withProtocolVersion
+88 12 160
+cfl=(38)
+cfn=(122)
+calls=1 0 0
+96 1 432
+
+fl=(16)
+fn=(124) Slim\DefaultServicesProvider->Slim\{closure:/p3t/phpappfolder/includes/vendor/slim/slim/Slim/DefaultServicesProvider.php:66-71}
+66 146 3368
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+67 402 2408
+cfl=(21)
+cfn=(105)
+calls=1 0 0
+67 109 1168
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+68 741 71192
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+68 170 2560
+cfl=(38)
+cfn=(121)
+calls=1 0 0
+68 655 5944
+cfl=(15)
+cfn=(63)
+calls=1 0 0
+70 36 0
+cfl=(21)
+cfn=(68)
+calls=1 0 0
+70 46 0
+cfl=(36)
+cfn=(123)
+calls=1 0 0
+70 14 592
+
+fl=(12)
+fn=(62)
+98 100 0
+cfl=(2)
+cfn=(53)
+calls=1 0 0
+107 0 0
+cfl=(2)
+cfn=(54)
+calls=1 0 0
+108 0 0
+cfl=(2)
+cfn=(53)
+calls=1 0 0
+113 0 0
+cfl=(16)
+cfn=(124)
+calls=1 0 0
+118 2322 87232
+
+fl=(15)
+fn=(63)
+102 36 0
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+104 0 0
+cfl=(12)
+cfn=(62)
+calls=1 0 0
+108 2424 87232
+
+fl=(2)
+fn=(125) php::ob_start
+296 1 16512
+
+fl=(12)
+fn=(44)
+133 0 0
+
+fl=(2)
+fn=(53)
+107 0 0
+
+fl=(2)
+fn=(54)
+108 0 0
+
+fl=(2)
+fn=(53)
+113 0 0
+
+fl=(2)
+fn=(28)
+373 0 48
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 40
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 48
+
+fl=(2)
+fn=(31)
+384 5 0
+
+fl=(3)
+fn=(32)
+370 85 -56
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 48
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 40
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 48
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 5 0
+
+fl=(3)
+fn=(33)
+335 28 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 90 112
+
+fl=(2)
+fn=(28)
+373 0 64
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 48
+
+fl=(2)
+fn=(30)
+382 0 56
+
+fl=(2)
+fn=(31)
+384 3 0
+
+fl=(3)
+fn=(32)
+370 66 -40
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 64
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 48
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 56
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 3 0
+
+fl=(3)
+fn=(33)
+335 26 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 69 128
+
+fl=(2)
+fn=(28)
+373 0 64
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 48
+
+fl=(2)
+fn=(30)
+382 0 48
+
+fl=(2)
+fn=(31)
+384 2 0
+
+fl=(3)
+fn=(32)
+370 61 -48
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 64
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 48
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 48
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 2 0
+
+fl=(3)
+fn=(33)
+335 26 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 63 112
+
+fl=(43) /p3t/phpappfolder/includes/vendor/psr/http-message/src/RequestInterface.php
+fn=(126) include::/p3t/phpappfolder/includes/vendor/psr/http-message/src/RequestInterface.php
+1 0 968
+
+fl=(3)
+fn=(36)
+442 13 320
+cfl=(43)
+cfn=(126)
+calls=1 0 0
+444 0 968
+
+fl=(3)
+fn=(37)
+319 31 -112
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 90 112
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+322 14 1288
+
+fl=(2)
+fn=(5)
+43 15 0
+cfl=(3)
+cfn=(37)
+calls=1 0 0
+43 135 1288
+
+fl=(44) /p3t/phpappfolder/includes/vendor/psr/http-message/src/ServerRequestInterface.php
+fn=(127) include::/p3t/phpappfolder/includes/vendor/psr/http-message/src/ServerRequestInterface.php
+1 14 656
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+43 150 1288
+
+fl=(3)
+fn=(36)
+442 15 640
+cfl=(44)
+cfn=(127)
+calls=1 0 0
+444 164 1944
+
+fl=(3)
+fn=(37)
+319 30 -128
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 96 128
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+322 180 2584
+
+fl=(2)
+fn=(5)
+29 15 0
+cfl=(3)
+cfn=(37)
+calls=1 0 0
+29 307 2584
+
+fl=(45) /p3t/phpappfolder/includes/vendor/slim/slim/Slim/Http/Request.php
+fn=(128) include::/p3t/phpappfolder/includes/vendor/slim/slim/Slim/Http/Request.php
+1 18 112
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+29 322 2584
+
+fl=(3)
+fn=(36)
+442 16 3392
+cfl=(45)
+cfn=(128)
+calls=1 0 0
+444 341 2696
+
+fl=(3)
+fn=(37)
+319 31 -112
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 118 112
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+322 358 6088
+
+fl=(2)
+fn=(5)
+54 15 0
+cfl=(3)
+cfn=(37)
+calls=1 0 0
+54 509 6088
+
+fl=(12)
+fn=(44)
+133 0 0
+
+fl=(2)
+fn=(53)
+107 1 0
+
+fl=(2)
+fn=(54)
+108 0 0
+
+fl=(2)
+fn=(53)
+113 0 0
+
+fl=(2)
+fn=(28)
+373 0 48
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 40
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 48
+
+fl=(2)
+fn=(31)
+384 3 0
+
+fl=(3)
+fn=(32)
+370 89 -56
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 48
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 40
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 48
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 3 0
+
+fl=(3)
+fn=(33)
+335 27 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 92 112
+
+fl=(2)
+fn=(28)
+373 0 80
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 48
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 40
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 80
+
+fl=(2)
+fn=(31)
+384 3 0
+
+fl=(3)
+fn=(32)
+370 108 -152
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 80
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 48
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 40
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 80
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 3 0
+
+fl=(3)
+fn=(33)
+335 27 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 111 128
+
+fl=(46) /p3t/phpappfolder/includes/vendor/slim/slim/Slim/Interfaces/Http/EnvironmentInterface.php
+fn=(129) include::/p3t/phpappfolder/includes/vendor/slim/slim/Slim/Interfaces/Http/EnvironmentInterface.php
+1 0 0
+
+fl=(3)
+fn=(36)
+442 12 320
+cfl=(46)
+cfn=(129)
+calls=1 0 0
+444 0 0
+
+fl=(3)
+fn=(37)
+319 31 -128
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 138 128
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+322 12 320
+
+fl=(2)
+fn=(5)
+18 14 0
+cfl=(3)
+cfn=(37)
+calls=1 0 0
+18 183 320
+
+fl=(47) /p3t/phpappfolder/includes/vendor/slim/slim/Slim/Http/Environment.php
+fn=(130) include::/p3t/phpappfolder/includes/vendor/slim/slim/Slim/Http/Environment.php
+1 17 704
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+18 197 320
+
+fl=(3)
+fn=(36)
+442 14 320
+cfl=(47)
+cfn=(130)
+calls=1 0 0
+444 215 1024
+
+fl=(3)
+fn=(37)
+319 28 -112
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 120 112
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+322 229 1344
+
+fl=(2)
+fn=(5)
+41 15 0
+cfl=(3)
+cfn=(37)
+calls=1 0 0
+41 378 1344
+
+fl=(21)
+fn=(131) Slim\Http\Environment->set
+40 0 376
+
+fl=(21)
+fn=(131)
+40 0 0
+
+fl=(21)
+fn=(131)
+40 0 0
+
+fl=(21)
+fn=(131)
+40 0 0
+
+fl=(21)
+fn=(131)
+40 0 0
+
+fl=(21)
+fn=(131)
+40 0 0
+
+fl=(21)
+fn=(131)
+40 0 0
+
+fl=(21)
+fn=(131)
+40 0 0
+
+fl=(21)
+fn=(131)
+40 0 320
+
+fl=(21)
+fn=(131)
+40 0 0
+
+fl=(21)
+fn=(131)
+40 0 0
+
+fl=(21)
+fn=(131)
+40 0 0
+
+fl=(21)
+fn=(131)
+40 0 0
+
+fl=(21)
+fn=(131)
+40 0 0
+
+fl=(21)
+fn=(131)
+40 0 0
+
+fl=(21)
+fn=(131)
+40 0 0
+
+fl=(21)
+fn=(131)
+40 0 640
+
+fl=(21)
+fn=(131)
+40 0 0
+
+fl=(21)
+fn=(131)
+40 0 0
+
+fl=(21)
+fn=(131)
+40 0 0
+
+fl=(21)
+fn=(131)
+40 0 0
+
+fl=(21)
+fn=(131)
+40 0 0
+
+fl=(21)
+fn=(131)
+40 0 0
+
+fl=(21)
+fn=(131)
+40 0 0
+
+fl=(21)
+fn=(131)
+40 0 0
+
+fl=(21)
+fn=(131)
+40 0 0
+
+fl=(21)
+fn=(131)
+40 0 0
+
+fl=(21)
+fn=(131)
+40 0 0
+
+fl=(21)
+fn=(131)
+40 0 0
+
+fl=(21)
+fn=(131)
+40 0 0
+
+fl=(21)
+fn=(131)
+40 0 0
+
+fl=(21)
+fn=(131)
+40 0 0
+
+fl=(21)
+fn=(132) Slim\Http\Environment->replace
+56 327 0
+cfl=(21)
+cfn=(131)
+calls=1 0 0
+59 0 376
+cfl=(21)
+cfn=(131)
+calls=1 0 0
+59 0 0
+cfl=(21)
+cfn=(131)
+calls=1 0 0
+59 0 0
+cfl=(21)
+cfn=(131)
+calls=1 0 0
+59 0 0
+cfl=(21)
+cfn=(131)
+calls=1 0 0
+59 0 0
+cfl=(21)
+cfn=(131)
+calls=1 0 0
+59 0 0
+cfl=(21)
+cfn=(131)
+calls=1 0 0
+59 0 0
+cfl=(21)
+cfn=(131)
+calls=1 0 0
+59 0 0
+cfl=(21)
+cfn=(131)
+calls=1 0 0
+59 0 320
+cfl=(21)
+cfn=(131)
+calls=1 0 0
+59 0 0
+cfl=(21)
+cfn=(131)
+calls=1 0 0
+59 0 0
+cfl=(21)
+cfn=(131)
+calls=1 0 0
+59 0 0
+cfl=(21)
+cfn=(131)
+calls=1 0 0
+59 0 0
+cfl=(21)
+cfn=(131)
+calls=1 0 0
+59 0 0
+cfl=(21)
+cfn=(131)
+calls=1 0 0
+59 0 0
+cfl=(21)
+cfn=(131)
+calls=1 0 0
+59 0 0
+cfl=(21)
+cfn=(131)
+calls=1 0 0
+59 0 640
+cfl=(21)
+cfn=(131)
+calls=1 0 0
+59 0 0
+cfl=(21)
+cfn=(131)
+calls=1 0 0
+59 0 0
+cfl=(21)
+cfn=(131)
+calls=1 0 0
+59 0 0
+cfl=(21)
+cfn=(131)
+calls=1 0 0
+59 0 0
+cfl=(21)
+cfn=(131)
+calls=1 0 0
+59 0 0
+cfl=(21)
+cfn=(131)
+calls=1 0 0
+59 0 0
+cfl=(21)
+cfn=(131)
+calls=1 0 0
+59 0 0
+cfl=(21)
+cfn=(131)
+calls=1 0 0
+59 0 0
+cfl=(21)
+cfn=(131)
+calls=1 0 0
+59 0 0
+cfl=(21)
+cfn=(131)
+calls=1 0 0
+59 0 0
+cfl=(21)
+cfn=(131)
+calls=1 0 0
+59 0 0
+cfl=(21)
+cfn=(131)
+calls=1 0 0
+59 0 0
+cfl=(21)
+cfn=(131)
+calls=1 0 0
+59 0 0
+cfl=(21)
+cfn=(131)
+calls=1 0 0
+59 0 0
+cfl=(21)
+cfn=(131)
+calls=1 0 0
+59 0 0
+
+fl=(21)
+fn=(133) Slim\Http\Environment->__construct
+32 48 0
+cfl=(21)
+cfn=(132)
+calls=1 0 0
+34 333 1336
+
+fl=(16)
+fn=(134) Slim\DefaultServicesProvider->Slim\{closure:/p3t/phpappfolder/includes/vendor/slim/slim/Slim/DefaultServicesProvider.php:40-42}
+40 42 56
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+41 394 1344
+cfl=(21)
+cfn=(133)
+calls=1 0 0
+41 381 1336
+
+fl=(12)
+fn=(62)
+98 107 376
+cfl=(2)
+cfn=(53)
+calls=1 0 0
+107 1 0
+cfl=(2)
+cfn=(54)
+calls=1 0 0
+108 0 0
+cfl=(2)
+cfn=(53)
+calls=1 0 0
+113 0 0
+cfl=(16)
+cfn=(134)
+calls=1 0 0
+118 818 2736
+
+fl=(15)
+fn=(63)
+102 56 0
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+104 0 0
+cfl=(12)
+cfn=(62)
+calls=1 0 0
+108 927 3112
+
+fl=(2)
+fn=(64)
+86 0 0
+
+fl=(21)
+fn=(135) Slim\Http\Environment->has
+84 25 0
+cfl=(2)
+cfn=(64)
+calls=1 0 0
+86 0 0
+
+fl=(21)
+fn=(136) Slim\Http\Environment->get
+48 13 0
+cfl=(21)
+cfn=(135)
+calls=1 0 0
+50 25 0
+
+fl=(21)
+fn=(137) Slim\Http\Environment->offsetGet
+124 15 0
+cfl=(21)
+cfn=(136)
+calls=1 0 0
+126 39 0
+
+fl=(2)
+fn=(28)
+373 0 40
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 40
+
+fl=(2)
+fn=(29)
+378 1 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 40
+
+fl=(2)
+fn=(31)
+384 2 0
+
+fl=(3)
+fn=(32)
+370 87 -40
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 40
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 40
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 1 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 40
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 2 0
+
+fl=(3)
+fn=(33)
+335 27 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 92 112
+
+fl=(2)
+fn=(28)
+373 0 56
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 48
+
+fl=(2)
+fn=(30)
+382 0 48
+
+fl=(2)
+fn=(31)
+384 3 0
+
+fl=(3)
+fn=(32)
+370 123 -40
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 56
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 48
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 48
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 3 0
+
+fl=(3)
+fn=(33)
+335 27 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 128 112
+
+fl=(48) /p3t/phpappfolder/includes/vendor/psr/http-message/src/UriInterface.php
+fn=(138) include::/p3t/phpappfolder/includes/vendor/psr/http-message/src/UriInterface.php
+1 0 0
+
+fl=(3)
+fn=(36)
+442 13 640
+cfl=(48)
+cfn=(138)
+calls=1 0 0
+444 0 0
+
+fl=(3)
+fn=(37)
+319 29 -112
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 156 112
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+322 14 640
+
+fl=(2)
+fn=(5)
+33 15 0
+cfl=(3)
+cfn=(37)
+calls=1 0 0
+33 200 640
+
+fl=(49) /p3t/phpappfolder/includes/vendor/slim/slim/Slim/Http/Uri.php
+fn=(139) include::/p3t/phpappfolder/includes/vendor/slim/slim/Slim/Http/Uri.php
+1 16 8
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+33 216 640
+
+fl=(3)
+fn=(36)
+442 14 2080
+cfl=(49)
+cfn=(139)
+calls=1 0 0
+444 232 648
+
+fl=(3)
+fn=(37)
+319 30 -112
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 119 112
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+322 247 2728
+
+fl=(2)
+fn=(5)
+137 15 0
+cfl=(3)
+cfn=(37)
+calls=1 0 0
+137 397 2728
+
+fl=(2)
+fn=(64)
+86 0 0
+
+fl=(21)
+fn=(135)
+84 25 0
+cfl=(2)
+cfn=(64)
+calls=1 0 0
+86 0 0
+
+fl=(21)
+fn=(136)
+48 12 0
+cfl=(21)
+cfn=(135)
+calls=1 0 0
+50 25 0
+
+fl=(2)
+fn=(64)
+86 0 0
+
+fl=(21)
+fn=(135)
+84 27 0
+cfl=(2)
+cfn=(64)
+calls=1 0 0
+86 0 0
+
+fl=(21)
+fn=(136)
+48 15 0
+cfl=(21)
+cfn=(135)
+calls=1 0 0
+50 27 0
+
+fl=(2)
+fn=(64)
+86 0 0
+
+fl=(21)
+fn=(135)
+84 23 0
+cfl=(2)
+cfn=(64)
+calls=1 0 0
+86 0 0
+
+fl=(21)
+fn=(136)
+48 13 0
+cfl=(21)
+cfn=(135)
+calls=1 0 0
+50 23 0
+
+fl=(2)
+fn=(64)
+86 0 0
+
+fl=(21)
+fn=(135)
+84 25 0
+cfl=(2)
+cfn=(64)
+calls=1 0 0
+86 0 0
+
+fl=(2)
+fn=(64)
+86 0 0
+
+fl=(21)
+fn=(135)
+84 23 0
+cfl=(2)
+cfn=(64)
+calls=1 0 0
+86 0 0
+
+fl=(21)
+fn=(136)
+48 12 0
+cfl=(21)
+cfn=(135)
+calls=1 0 0
+50 23 0
+
+fl=(2)
+fn=(140) php::preg_match
+182 2 56
+
+fl=(2)
+fn=(34)
+189 0 0
+
+fl=(2)
+fn=(30)
+191 0 32
+
+fl=(2)
+fn=(141) php::strstr
+192 0 40
+
+fl=(2)
+fn=(64)
+86 0 0
+
+fl=(21)
+fn=(135)
+84 23 0
+cfl=(2)
+cfn=(64)
+calls=1 0 0
+86 0 0
+
+fl=(21)
+fn=(136)
+48 15 0
+cfl=(21)
+cfn=(135)
+calls=1 0 0
+50 23 0
+
+fl=(2)
+fn=(142) php::parse_url
+197 0 40
+
+fl=(2)
+fn=(143) php::dirname
+198 0 40
+
+fl=(2)
+fn=(64)
+86 0 0
+
+fl=(21)
+fn=(135)
+84 25 0
+cfl=(2)
+cfn=(64)
+calls=1 0 0
+86 0 0
+
+fl=(21)
+fn=(136)
+48 15 0
+cfl=(21)
+cfn=(135)
+calls=1 0 0
+50 25 0
+
+fl=(2)
+fn=(142)
+202 0 32
+
+fl=(2)
+fn=(144) php::stripos
+206 0 0
+
+fl=(2)
+fn=(144)
+208 0 0
+
+fl=(2)
+fn=(145) php::strlen
+213 0 0
+
+fl=(2)
+fn=(30)
+213 0 0
+
+fl=(2)
+fn=(146) php::ltrim
+213 0 0
+
+fl=(2)
+fn=(64)
+86 0 0
+
+fl=(21)
+fn=(135)
+84 24 0
+cfl=(2)
+cfn=(64)
+calls=1 0 0
+86 0 0
+
+fl=(21)
+fn=(136)
+48 12 0
+cfl=(21)
+cfn=(135)
+calls=1 0 0
+50 24 0
+
+fl=(2)
+fn=(64)
+86 0 0
+
+fl=(21)
+fn=(135)
+84 29 0
+cfl=(2)
+cfn=(64)
+calls=1 0 0
+86 0 0
+
+fl=(21)
+fn=(136)
+48 12 0
+cfl=(21)
+cfn=(135)
+calls=1 0 0
+50 29 0
+
+fl=(2)
+fn=(142)
+219 0 0
+
+fl=(2)
+fn=(74)
+297 0 0
+
+fl=(2)
+fn=(101)
+301 0 0
+
+fl=(2)
+fn=(147) php::str_replace
+301 0 0
+
+fl=(49)
+fn=(148) Slim\Http\Uri->filterScheme
+289 36 400
+cfl=(2)
+cfn=(74)
+calls=1 0 0
+297 0 0
+cfl=(2)
+cfn=(101)
+calls=1 0 0
+301 0 0
+cfl=(2)
+cfn=(147)
+calls=1 0 0
+301 0 0
+
+fl=(2)
+fn=(149) php::is_null
+506 0 0
+
+fl=(2)
+fn=(111)
+506 0 0
+
+fl=(49)
+fn=(150) Slim\Http\Uri->filterPort
+504 25 0
+cfl=(2)
+cfn=(149)
+calls=1 0 0
+506 0 0
+cfl=(2)
+cfn=(111)
+calls=1 0 0
+506 0 0
+
+fl=(2)
+fn=(145)
+121 0 0
+
+fl=(2)
+fn=(151) php::preg_replace_callback
+717 1 0
+
+fl=(49)
+fn=(152) Slim\Http\Uri->filterQuery
+714 22 696
+cfl=(2)
+cfn=(151)
+calls=1 0 0
+717 1 0
+
+fl=(2)
+fn=(151)
+717 0 0
+
+fl=(49)
+fn=(152)
+714 110 0
+cfl=(2)
+cfn=(151)
+calls=1 0 0
+717 0 0
+
+fl=(49)
+fn=(153) Slim\Http\Uri->__construct
+108 75 0
+cfl=(49)
+cfn=(148)
+calls=1 0 0
+118 38 400
+cfl=(49)
+cfn=(150)
+calls=1 0 0
+120 25 0
+cfl=(2)
+cfn=(145)
+calls=1 0 0
+121 0 0
+cfl=(49)
+cfn=(152)
+calls=1 0 0
+122 24 696
+cfl=(49)
+cfn=(152)
+calls=1 0 0
+123 111 0
+
+fl=(2)
+fn=(74)
+610 0 0
+
+fl=(2)
+fn=(154) php::trim
+614 0 32
+
+fl=(2)
+fn=(151)
+644 2 0
+
+fl=(49)
+fn=(155) Slim\Http\Uri->filterPath
+641 20 0
+cfl=(2)
+cfn=(151)
+calls=1 0 0
+644 2 0
+
+fl=(49)
+fn=(156) Slim\Http\Uri->withBasePath
+608 39 888
+cfl=(2)
+cfn=(74)
+calls=1 0 0
+610 0 0
+cfl=(2)
+cfn=(154)
+calls=1 0 0
+614 0 32
+cfl=(49)
+cfn=(155)
+calls=1 0 0
+619 22 0
+
+fl=(49)
+fn=(157) Slim\Http\Uri::createFromEnvironment
+161 336 -896
+cfl=(21)
+cfn=(136)
+calls=1 0 0
+164 38 0
+cfl=(21)
+cfn=(136)
+calls=1 0 0
+168 42 0
+cfl=(21)
+cfn=(136)
+calls=1 0 0
+169 36 0
+cfl=(21)
+cfn=(135)
+calls=1 0 0
+172 25 0
+cfl=(21)
+cfn=(136)
+calls=1 0 0
+173 36 0
+cfl=(2)
+cfn=(140)
+calls=1 0 0
+182 2 56
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+189 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+191 0 32
+cfl=(2)
+cfn=(141)
+calls=1 0 0
+192 0 40
+cfl=(21)
+cfn=(136)
+calls=1 0 0
+197 39 0
+cfl=(2)
+cfn=(142)
+calls=1 0 0
+197 0 40
+cfl=(2)
+cfn=(143)
+calls=1 0 0
+198 0 40
+cfl=(21)
+cfn=(136)
+calls=1 0 0
+202 41 0
+cfl=(2)
+cfn=(142)
+calls=1 0 0
+202 0 32
+cfl=(2)
+cfn=(144)
+calls=1 0 0
+206 0 0
+cfl=(2)
+cfn=(144)
+calls=1 0 0
+208 0 0
+cfl=(2)
+cfn=(145)
+calls=1 0 0
+213 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+213 0 0
+cfl=(2)
+cfn=(146)
+calls=1 0 0
+213 0 0
+cfl=(21)
+cfn=(136)
+calls=1 0 0
+217 36 0
+cfl=(21)
+cfn=(136)
+calls=1 0 0
+219 41 0
+cfl=(2)
+cfn=(142)
+calls=1 0 0
+219 0 0
+cfl=(49)
+cfn=(153)
+calls=1 0 0
+226 273 1096
+cfl=(49)
+cfn=(156)
+calls=1 0 0
+228 62 920
+
+fl=(2)
+fn=(64)
+86 0 0
+
+fl=(21)
+fn=(135)
+84 25 0
+cfl=(2)
+cfn=(64)
+calls=1 0 0
+86 0 0
+
+fl=(21)
+fn=(136)
+48 13 0
+cfl=(21)
+cfn=(135)
+calls=1 0 0
+50 25 0
+
+fl=(2)
+fn=(89)
+74 0 0
+
+fl=(2)
+fn=(158) php::getallheaders
+78 2 1520
+
+fl=(2)
+fn=(50)
+79 0 0
+
+fl=(2)
+fn=(159) php::array_change_key_case
+83 0 1048
+
+fl=(34)
+fn=(160) Slim\Http\Headers::determineAuthorization
+71 83 -2568
+cfl=(21)
+cfn=(136)
+calls=1 0 0
+73 39 0
+cfl=(2)
+cfn=(89)
+calls=1 0 0
+74 0 0
+cfl=(2)
+cfn=(158)
+calls=1 0 0
+78 2 1520
+cfl=(2)
+cfn=(50)
+calls=1 0 0
+79 0 0
+cfl=(2)
+cfn=(159)
+calls=1 0 0
+83 0 1048
+
+fl=(2)
+fn=(161) php::ArrayIterator->__construct
+167 1 1280
+
+fl=(21)
+fn=(162) Slim\Http\Environment->getIterator
+165 30 184
+cfl=(2)
+cfn=(161)
+calls=1 0 0
+167 1 1280
+
+fl=(2)
+fn=(78)
+52 0 0
+
+fl=(2)
+fn=(34)
+53 0 0
+
+fl=(2)
+fn=(78)
+52 0 0
+
+fl=(2)
+fn=(34)
+53 0 0
+
+fl=(2)
+fn=(78)
+52 0 0
+
+fl=(2)
+fn=(34)
+53 0 0
+
+fl=(2)
+fn=(78)
+52 0 0
+
+fl=(2)
+fn=(34)
+53 0 0
+
+fl=(2)
+fn=(78)
+52 0 0
+
+fl=(2)
+fn=(34)
+53 0 0
+
+fl=(2)
+fn=(78)
+52 0 0
+
+fl=(2)
+fn=(34)
+53 0 0
+
+fl=(2)
+fn=(78)
+52 0 0
+
+fl=(2)
+fn=(34)
+53 0 0
+
+fl=(2)
+fn=(78)
+52 0 0
+
+fl=(2)
+fn=(34)
+53 0 0
+
+fl=(2)
+fn=(78)
+52 0 0
+
+fl=(2)
+fn=(34)
+53 0 0
+
+fl=(2)
+fn=(78)
+52 0 0
+
+fl=(2)
+fn=(34)
+53 0 0
+
+fl=(2)
+fn=(78)
+52 0 0
+
+fl=(2)
+fn=(34)
+53 0 0
+
+fl=(2)
+fn=(78)
+52 0 0
+
+fl=(2)
+fn=(34)
+53 0 0
+
+fl=(2)
+fn=(78)
+52 0 0
+
+fl=(2)
+fn=(34)
+53 0 0
+
+fl=(2)
+fn=(78)
+52 0 0
+
+fl=(2)
+fn=(34)
+53 0 0
+
+fl=(2)
+fn=(78)
+52 0 0
+
+fl=(2)
+fn=(34)
+53 0 0
+
+fl=(2)
+fn=(78)
+52 0 0
+
+fl=(2)
+fn=(34)
+53 0 0
+
+fl=(2)
+fn=(78)
+52 0 0
+
+fl=(2)
+fn=(34)
+53 0 0
+
+fl=(2)
+fn=(78)
+52 0 0
+
+fl=(2)
+fn=(34)
+53 0 0
+
+fl=(2)
+fn=(78)
+52 0 0
+
+fl=(2)
+fn=(34)
+53 0 0
+
+fl=(2)
+fn=(78)
+52 0 0
+
+fl=(2)
+fn=(34)
+53 0 0
+
+fl=(2)
+fn=(78)
+52 0 0
+
+fl=(2)
+fn=(34)
+53 0 0
+
+fl=(2)
+fn=(78)
+52 0 0
+
+fl=(2)
+fn=(34)
+53 0 0
+
+fl=(2)
+fn=(78)
+52 0 0
+
+fl=(2)
+fn=(34)
+53 0 0
+
+fl=(2)
+fn=(78)
+52 0 0
+
+fl=(2)
+fn=(34)
+53 0 0
+
+fl=(2)
+fn=(78)
+52 0 0
+
+fl=(2)
+fn=(34)
+53 0 0
+
+fl=(2)
+fn=(78)
+52 0 0
+
+fl=(2)
+fn=(34)
+53 0 0
+
+fl=(2)
+fn=(78)
+52 0 0
+
+fl=(2)
+fn=(34)
+53 0 0
+
+fl=(2)
+fn=(78)
+52 0 0
+
+fl=(2)
+fn=(34)
+53 0 0
+
+fl=(2)
+fn=(78)
+52 0 0
+
+fl=(2)
+fn=(34)
+53 0 0
+
+fl=(2)
+fn=(78)
+52 0 0
+
+fl=(2)
+fn=(34)
+53 0 0
+
+fl=(2)
+fn=(78)
+52 0 0
+
+fl=(2)
+fn=(34)
+53 0 0
+
+fl=(2)
+fn=(78)
+52 0 0
+
+fl=(2)
+fn=(34)
+53 0 0
+
+fl=(2)
+fn=(50)
+119 0 0
+
+fl=(2)
+fn=(101)
+199 0 40
+
+fl=(2)
+fn=(28)
+199 0 40
+
+fl=(2)
+fn=(34)
+200 0 0
+
+fl=(2)
+fn=(30)
+201 0 32
+
+fl=(34)
+fn=(102)
+197 64 -80
+cfl=(2)
+cfn=(101)
+calls=1 0 0
+199 0 40
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+199 0 40
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+200 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+201 0 32
+
+fl=(21)
+fn=(103)
+40 4 376
+
+fl=(34)
+fn=(103)
+117 65 752
+cfl=(2)
+cfn=(50)
+calls=1 0 0
+119 0 0
+cfl=(34)
+cfn=(102)
+calls=1 0 0
+122 66 32
+cfl=(21)
+cfn=(103)
+calls=1 0 0
+124 4 376
+
+fl=(2)
+fn=(50)
+119 0 0
+
+fl=(2)
+fn=(101)
+199 0 40
+
+fl=(2)
+fn=(28)
+199 0 40
+
+fl=(2)
+fn=(34)
+200 0 0
+
+fl=(2)
+fn=(30)
+201 0 40
+
+fl=(34)
+fn=(102)
+197 71 -80
+cfl=(2)
+cfn=(101)
+calls=1 0 0
+199 0 40
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+199 0 40
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+200 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+201 0 40
+
+fl=(21)
+fn=(103)
+40 3 0
+
+fl=(34)
+fn=(103)
+117 79 752
+cfl=(2)
+cfn=(50)
+calls=1 0 0
+119 0 0
+cfl=(34)
+cfn=(102)
+calls=1 0 0
+122 72 40
+cfl=(21)
+cfn=(103)
+calls=1 0 0
+124 3 0
+
+fl=(2)
+fn=(50)
+119 0 0
+
+fl=(2)
+fn=(101)
+199 0 40
+
+fl=(2)
+fn=(28)
+199 0 40
+
+fl=(2)
+fn=(34)
+200 0 0
+
+fl=(2)
+fn=(30)
+201 0 32
+
+fl=(34)
+fn=(102)
+197 137 -80
+cfl=(2)
+cfn=(101)
+calls=1 0 0
+199 0 40
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+199 0 40
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+200 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+201 0 32
+
+fl=(21)
+fn=(103)
+40 2 0
+
+fl=(34)
+fn=(103)
+117 129 752
+cfl=(2)
+cfn=(50)
+calls=1 0 0
+119 0 0
+cfl=(34)
+cfn=(102)
+calls=1 0 0
+122 139 32
+cfl=(21)
+cfn=(103)
+calls=1 0 0
+124 2 0
+
+fl=(2)
+fn=(50)
+119 0 0
+
+fl=(2)
+fn=(101)
+199 1 48
+
+fl=(2)
+fn=(28)
+199 0 48
+
+fl=(2)
+fn=(34)
+200 1 0
+
+fl=(2)
+fn=(30)
+201 0 40
+
+fl=(34)
+fn=(102)
+197 147 -96
+cfl=(2)
+cfn=(101)
+calls=1 0 0
+199 1 48
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+199 0 48
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+200 1 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+201 0 40
+
+fl=(21)
+fn=(103)
+40 3 0
+
+fl=(34)
+fn=(103)
+117 101 752
+cfl=(2)
+cfn=(50)
+calls=1 0 0
+119 0 0
+cfl=(34)
+cfn=(102)
+calls=1 0 0
+122 151 40
+cfl=(21)
+cfn=(103)
+calls=1 0 0
+124 3 0
+
+fl=(2)
+fn=(50)
+119 1 0
+
+fl=(2)
+fn=(101)
+199 0 48
+
+fl=(2)
+fn=(28)
+199 0 48
+
+fl=(2)
+fn=(34)
+200 0 0
+
+fl=(2)
+fn=(30)
+201 1 40
+
+fl=(34)
+fn=(102)
+197 121 -96
+cfl=(2)
+cfn=(101)
+calls=1 0 0
+199 0 48
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+199 0 48
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+200 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+201 1 40
+
+fl=(21)
+fn=(103)
+40 4 0
+
+fl=(34)
+fn=(103)
+117 2049 752
+cfl=(2)
+cfn=(50)
+calls=1 0 0
+119 1 0
+cfl=(34)
+cfn=(102)
+calls=1 0 0
+122 123 40
+cfl=(21)
+cfn=(103)
+calls=1 0 0
+124 4 0
+
+fl=(2)
+fn=(50)
+119 0 0
+
+fl=(2)
+fn=(101)
+199 0 40
+
+fl=(2)
+fn=(28)
+199 0 40
+
+fl=(2)
+fn=(34)
+200 0 0
+
+fl=(2)
+fn=(30)
+201 0 32
+
+fl=(34)
+fn=(102)
+197 54 -80
+cfl=(2)
+cfn=(101)
+calls=1 0 0
+199 0 40
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+199 0 40
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+200 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+201 0 32
+
+fl=(21)
+fn=(103)
+40 1 0
+
+fl=(34)
+fn=(103)
+117 43 752
+cfl=(2)
+cfn=(50)
+calls=1 0 0
+119 0 0
+cfl=(34)
+cfn=(102)
+calls=1 0 0
+122 56 32
+cfl=(21)
+cfn=(103)
+calls=1 0 0
+124 1 0
+
+fl=(2)
+fn=(50)
+119 0 0
+
+fl=(2)
+fn=(101)
+199 0 40
+
+fl=(2)
+fn=(28)
+199 1 40
+
+fl=(2)
+fn=(34)
+200 0 0
+
+fl=(2)
+fn=(30)
+201 0 40
+
+fl=(34)
+fn=(102)
+197 49 -80
+cfl=(2)
+cfn=(101)
+calls=1 0 0
+199 0 40
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+199 1 40
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+200 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+201 0 40
+
+fl=(21)
+fn=(103)
+40 0 0
+
+fl=(34)
+fn=(103)
+117 45 752
+cfl=(2)
+cfn=(50)
+calls=1 0 0
+119 0 0
+cfl=(34)
+cfn=(102)
+calls=1 0 0
+122 51 40
+cfl=(21)
+cfn=(103)
+calls=1 0 0
+124 0 0
+
+fl=(2)
+fn=(50)
+119 0 0
+
+fl=(2)
+fn=(101)
+199 0 56
+
+fl=(2)
+fn=(28)
+199 0 56
+
+fl=(2)
+fn=(34)
+200 0 0
+
+fl=(2)
+fn=(30)
+201 0 56
+
+fl=(34)
+fn=(102)
+197 46 -112
+cfl=(2)
+cfn=(101)
+calls=1 0 0
+199 0 56
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+199 0 56
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+200 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+201 0 56
+
+fl=(21)
+fn=(103)
+40 0 0
+
+fl=(34)
+fn=(103)
+117 41 752
+cfl=(2)
+cfn=(50)
+calls=1 0 0
+119 0 0
+cfl=(34)
+cfn=(102)
+calls=1 0 0
+122 46 56
+cfl=(21)
+cfn=(103)
+calls=1 0 0
+124 0 0
+
+fl=(2)
+fn=(50)
+119 0 0
+
+fl=(2)
+fn=(101)
+199 0 48
+
+fl=(2)
+fn=(28)
+199 0 48
+
+fl=(2)
+fn=(34)
+200 0 0
+
+fl=(2)
+fn=(30)
+201 0 40
+
+fl=(34)
+fn=(102)
+197 46 -96
+cfl=(2)
+cfn=(101)
+calls=1 0 0
+199 0 48
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+199 0 48
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+200 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+201 0 40
+
+fl=(21)
+fn=(103)
+40 1 320
+
+fl=(34)
+fn=(103)
+117 37 752
+cfl=(2)
+cfn=(50)
+calls=1 0 0
+119 0 0
+cfl=(34)
+cfn=(102)
+calls=1 0 0
+122 46 40
+cfl=(21)
+cfn=(103)
+calls=1 0 0
+124 1 320
+
+fl=(21)
+fn=(104)
+56 255 0
+cfl=(34)
+cfn=(103)
+calls=1 0 0
+59 137 1160
+cfl=(34)
+cfn=(103)
+calls=1 0 0
+59 155 792
+cfl=(34)
+cfn=(103)
+calls=1 0 0
+59 272 784
+cfl=(34)
+cfn=(103)
+calls=1 0 0
+59 257 792
+cfl=(34)
+cfn=(103)
+calls=1 0 0
+59 2178 792
+cfl=(34)
+cfn=(103)
+calls=1 0 0
+59 102 784
+cfl=(34)
+cfn=(103)
+calls=1 0 0
+59 98 792
+cfl=(34)
+cfn=(103)
+calls=1 0 0
+59 87 808
+cfl=(34)
+cfn=(103)
+calls=1 0 0
+59 87 1112
+
+fl=(21)
+fn=(105)
+32 26 0
+cfl=(21)
+cfn=(104)
+calls=1 0 0
+34 3631 7816
+
+fl=(34)
+fn=(163) Slim\Http\Headers::createFromEnvironment
+47 936 -1408
+cfl=(34)
+cfn=(160)
+calls=1 0 0
+50 126 0
+cfl=(21)
+cfn=(162)
+calls=1 0 0
+51 31 1464
+cfl=(2)
+cfn=(78)
+calls=1 0 0
+52 0 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+53 0 0
+cfl=(2)
+cfn=(78)
+calls=1 0 0
+52 0 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+53 0 0
+cfl=(2)
+cfn=(78)
+calls=1 0 0
+52 0 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+53 0 0
+cfl=(2)
+cfn=(78)
+calls=1 0 0
+52 0 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+53 0 0
+cfl=(2)
+cfn=(78)
+calls=1 0 0
+52 0 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+53 0 0
+cfl=(2)
+cfn=(78)
+calls=1 0 0
+52 0 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+53 0 0
+cfl=(2)
+cfn=(78)
+calls=1 0 0
+52 0 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+53 0 0
+cfl=(2)
+cfn=(78)
+calls=1 0 0
+52 0 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+53 0 0
+cfl=(2)
+cfn=(78)
+calls=1 0 0
+52 0 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+53 0 0
+cfl=(2)
+cfn=(78)
+calls=1 0 0
+52 0 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+53 0 0
+cfl=(2)
+cfn=(78)
+calls=1 0 0
+52 0 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+53 0 0
+cfl=(2)
+cfn=(78)
+calls=1 0 0
+52 0 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+53 0 0
+cfl=(2)
+cfn=(78)
+calls=1 0 0
+52 0 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+53 0 0
+cfl=(2)
+cfn=(78)
+calls=1 0 0
+52 0 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+53 0 0
+cfl=(2)
+cfn=(78)
+calls=1 0 0
+52 0 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+53 0 0
+cfl=(2)
+cfn=(78)
+calls=1 0 0
+52 0 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+53 0 0
+cfl=(2)
+cfn=(78)
+calls=1 0 0
+52 0 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+53 0 0
+cfl=(2)
+cfn=(78)
+calls=1 0 0
+52 0 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+53 0 0
+cfl=(2)
+cfn=(78)
+calls=1 0 0
+52 0 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+53 0 0
+cfl=(2)
+cfn=(78)
+calls=1 0 0
+52 0 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+53 0 0
+cfl=(2)
+cfn=(78)
+calls=1 0 0
+52 0 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+53 0 0
+cfl=(2)
+cfn=(78)
+calls=1 0 0
+52 0 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+53 0 0
+cfl=(2)
+cfn=(78)
+calls=1 0 0
+52 0 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+53 0 0
+cfl=(2)
+cfn=(78)
+calls=1 0 0
+52 0 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+53 0 0
+cfl=(2)
+cfn=(78)
+calls=1 0 0
+52 0 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+53 0 0
+cfl=(2)
+cfn=(78)
+calls=1 0 0
+52 0 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+53 0 0
+cfl=(2)
+cfn=(78)
+calls=1 0 0
+52 0 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+53 0 0
+cfl=(2)
+cfn=(78)
+calls=1 0 0
+52 0 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+53 0 0
+cfl=(2)
+cfn=(78)
+calls=1 0 0
+52 0 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+53 0 0
+cfl=(2)
+cfn=(78)
+calls=1 0 0
+52 0 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+53 0 0
+cfl=(2)
+cfn=(78)
+calls=1 0 0
+52 0 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+53 0 0
+cfl=(2)
+cfn=(78)
+calls=1 0 0
+52 0 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+53 0 0
+cfl=(21)
+cfn=(105)
+calls=1 0 0
+60 3658 7816
+
+fl=(2)
+fn=(28)
+373 0 48
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 40
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 48
+
+fl=(2)
+fn=(31)
+384 14 0
+
+fl=(3)
+fn=(32)
+370 86 -56
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 48
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 40
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 48
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 14 0
+
+fl=(3)
+fn=(33)
+335 30 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 101 112
+
+fl=(2)
+fn=(28)
+373 0 64
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 48
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 40
+
+fl=(2)
+fn=(29)
+378 1 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 64
+
+fl=(2)
+fn=(31)
+384 4 0
+
+fl=(3)
+fn=(32)
+370 105 -120
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 64
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 48
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 40
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 1 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 64
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 4 0
+
+fl=(3)
+fn=(33)
+335 30 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 113 128
+
+fl=(50) /p3t/phpappfolder/includes/vendor/slim/slim/Slim/Interfaces/Http/CookiesInterface.php
+fn=(164) include::/p3t/phpappfolder/includes/vendor/slim/slim/Slim/Interfaces/Http/CookiesInterface.php
+1 0 0
+
+fl=(3)
+fn=(36)
+442 15 320
+cfl=(50)
+cfn=(164)
+calls=1 0 0
+444 0 0
+
+fl=(3)
+fn=(37)
+319 30 -128
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 143 128
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+322 15 320
+
+fl=(2)
+fn=(5)
+13 23 0
+cfl=(3)
+cfn=(37)
+calls=1 0 0
+13 189 320
+
+fl=(51) /p3t/phpappfolder/includes/vendor/slim/slim/Slim/Http/Cookies.php
+fn=(165) include::/p3t/phpappfolder/includes/vendor/slim/slim/Slim/Http/Cookies.php
+1 22 8
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+13 212 320
+
+fl=(3)
+fn=(36)
+442 18 688
+cfl=(51)
+cfn=(165)
+calls=1 0 0
+444 235 328
+
+fl=(3)
+fn=(37)
+319 32 -112
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 132 112
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+322 253 1016
+
+fl=(2)
+fn=(5)
+139 17 0
+cfl=(3)
+cfn=(37)
+calls=1 0 0
+139 418 1016
+
+fl=(2)
+fn=(101)
+199 0 32
+
+fl=(2)
+fn=(28)
+199 0 0
+
+fl=(2)
+fn=(34)
+200 0 0
+
+fl=(34)
+fn=(102)
+197 34 0
+cfl=(2)
+cfn=(101)
+calls=1 0 0
+199 0 32
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+199 0 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+200 0 0
+
+fl=(2)
+fn=(64)
+86 0 0
+
+fl=(21)
+fn=(166) Slim\Http\Headers->has
+84 25 -32
+cfl=(2)
+cfn=(64)
+calls=1 0 0
+86 0 0
+
+fl=(34)
+fn=(166)
+179 33 0
+cfl=(34)
+cfn=(102)
+calls=1 0 0
+181 34 32
+cfl=(21)
+cfn=(166)
+calls=1 0 0
+181 25 -32
+
+fl=(34)
+fn=(167) Slim\Http\Headers->get
+136 14 0
+cfl=(34)
+cfn=(166)
+calls=1 0 0
+138 92 0
+
+fl=(2)
+fn=(50)
+151 0 0
+
+fl=(2)
+fn=(74)
+155 0 0
+
+fl=(2)
+fn=(168) php::rtrim
+159 0 0
+
+fl=(2)
+fn=(169) php::preg_split
+160 2 376
+
+fl=(2)
+fn=(24)
+164 0 376
+
+fl=(2)
+fn=(170) php::count
+166 0 0
+
+fl=(51)
+fn=(171) Slim\Http\Cookies::parseHeader
+149 73 -752
+cfl=(2)
+cfn=(50)
+calls=1 0 0
+151 0 0
+cfl=(2)
+cfn=(74)
+calls=1 0 0
+155 0 0
+cfl=(2)
+cfn=(168)
+calls=1 0 0
+159 0 0
+cfl=(2)
+cfn=(169)
+calls=1 0 0
+160 2 376
+cfl=(2)
+cfn=(24)
+calls=1 0 0
+164 0 376
+cfl=(2)
+cfn=(170)
+calls=1 0 0
+166 0 0
+
+fl=(21)
+fn=(172) Slim\Http\Environment->all
+66 0 0
+
+fl=(2)
+fn=(28)
+373 0 48
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 40
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 48
+
+fl=(2)
+fn=(31)
+384 2 0
+
+fl=(3)
+fn=(32)
+370 81 -56
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 48
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 40
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 48
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 2 0
+
+fl=(3)
+fn=(33)
+335 27 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 86 112
+
+fl=(52) /p3t/phpappfolder/includes/vendor/slim/slim/Slim/Http/RequestBody.php
+fn=(173) include::/p3t/phpappfolder/includes/vendor/slim/slim/Slim/Http/RequestBody.php
+1 0 0
+
+fl=(3)
+fn=(36)
+442 16 2056
+cfl=(52)
+cfn=(173)
+calls=1 0 0
+444 0 0
+
+fl=(3)
+fn=(37)
+319 30 -112
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 113 112
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+322 17 2056
+
+fl=(2)
+fn=(5)
+141 18 0
+cfl=(3)
+cfn=(37)
+calls=1 0 0
+141 161 2056
+
+fl=(2)
+fn=(116)
+17 5 600
+
+fl=(2)
+fn=(116)
+18 2 1184
+
+fl=(2)
+fn=(174) php::stream_copy_to_stream
+18 8 8192
+
+fl=(2)
+fn=(175) php::rewind
+19 0 0
+
+fl=(2)
+fn=(117)
+144 0 0
+
+fl=(2)
+fn=(117)
+130 0 0
+
+fl=(41)
+fn=(176) Slim\Http\RequestBody->isAttached
+128 11 0
+cfl=(2)
+cfn=(117)
+calls=1 0 0
+130 0 0
+
+fl=(41)
+fn=(177) Slim\Http\RequestBody->attach
+142 24 0
+cfl=(2)
+cfn=(117)
+calls=1 0 0
+144 0 0
+cfl=(41)
+cfn=(176)
+calls=1 0 0
+148 11 0
+
+fl=(41)
+fn=(178) Slim\Http\RequestBody->__construct
+93 14 0
+cfl=(41)
+cfn=(177)
+calls=1 0 0
+95 36 0
+
+fl=(52)
+fn=(178)
+15 62 -8472
+cfl=(2)
+cfn=(116)
+calls=1 0 0
+17 5 600
+cfl=(2)
+cfn=(116)
+calls=1 0 0
+18 2 1184
+cfl=(2)
+cfn=(174)
+calls=1 0 0
+18 8 8192
+cfl=(2)
+cfn=(175)
+calls=1 0 0
+19 0 0
+cfl=(41)
+cfn=(178)
+calls=1 0 0
+21 50 0
+
+fl=(2)
+fn=(28)
+373 0 48
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 40
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 1 48
+
+fl=(2)
+fn=(31)
+384 2 0
+
+fl=(3)
+fn=(32)
+370 87 -56
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 48
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 40
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 1 48
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 2 0
+
+fl=(3)
+fn=(33)
+335 28 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 92 112
+
+fl=(2)
+fn=(28)
+373 1 64
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 48
+
+fl=(2)
+fn=(30)
+382 0 56
+
+fl=(2)
+fn=(31)
+384 4 0
+
+fl=(3)
+fn=(32)
+370 59 -40
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 1 64
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 48
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 56
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 4 0
+
+fl=(3)
+fn=(33)
+335 26 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 65 128
+
+fl=(53) /p3t/phpappfolder/includes/vendor/psr/http-message/src/UploadedFileInterface.php
+fn=(179) include::/p3t/phpappfolder/includes/vendor/psr/http-message/src/UploadedFileInterface.php
+1 0 0
+
+fl=(3)
+fn=(36)
+442 10 320
+cfl=(53)
+cfn=(179)
+calls=1 0 0
+444 0 0
+
+fl=(3)
+fn=(37)
+319 31 -128
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 92 128
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+322 11 320
+
+fl=(2)
+fn=(5)
+21 13 0
+cfl=(3)
+cfn=(37)
+calls=1 0 0
+21 135 320
+
+fl=(54) /p3t/phpappfolder/includes/vendor/slim/slim/Slim/Http/UploadedFile.php
+fn=(180) include::/p3t/phpappfolder/includes/vendor/slim/slim/Slim/Http/UploadedFile.php
+1 15 8
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+21 149 320
+
+fl=(3)
+fn=(36)
+442 12 1088
+cfl=(54)
+cfn=(180)
+calls=1 0 0
+444 164 328
+
+fl=(3)
+fn=(37)
+319 29 -112
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 121 112
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+322 176 1416
+
+fl=(2)
+fn=(5)
+142 18 0
+cfl=(3)
+cfn=(37)
+calls=1 0 0
+142 327 1416
+
+fl=(2)
+fn=(64)
+86 0 0
+
+fl=(21)
+fn=(135)
+84 28 0
+cfl=(2)
+cfn=(64)
+calls=1 0 0
+86 0 0
+
+fl=(21)
+fn=(136)
+48 33 0
+cfl=(21)
+cfn=(135)
+calls=1 0 0
+50 29 0
+
+fl=(21)
+fn=(137)
+124 14 0
+cfl=(21)
+cfn=(136)
+calls=1 0 0
+126 62 0
+
+fl=(2)
+fn=(50)
+92 0 0
+
+fl=(54)
+fn=(181) Slim\Http\UploadedFile::createFromEnvironment
+90 30 0
+cfl=(21)
+cfn=(137)
+calls=1 0 0
+92 77 0
+cfl=(2)
+cfn=(50)
+calls=1 0 0
+92 0 0
+
+fl=(2)
+fn=(74)
+337 0 0
+
+fl=(2)
+fn=(78)
+344 0 0
+
+fl=(2)
+fn=(140)
+345 1 0
+
+fl=(45)
+fn=(182) Slim\Http\Request->filterMethod
+331 36 0
+cfl=(2)
+cfn=(74)
+calls=1 0 0
+337 0 0
+cfl=(2)
+cfn=(78)
+calls=1 0 0
+344 0 0
+cfl=(2)
+cfn=(140)
+calls=1 0 0
+345 1 0
+
+fl=(21)
+fn=(59)
+56 1 0
+
+fl=(21)
+fn=(60)
+32 10 0
+cfl=(21)
+cfn=(59)
+calls=1 0 0
+34 1 0
+
+fl=(2)
+fn=(147)
+190 1 32
+
+fl=(2)
+fn=(101)
+199 0 32
+
+fl=(2)
+fn=(28)
+199 0 0
+
+fl=(2)
+fn=(34)
+200 0 0
+
+fl=(34)
+fn=(102)
+197 34 0
+cfl=(2)
+cfn=(101)
+calls=1 0 0
+199 0 32
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+199 0 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+200 0 0
+
+fl=(2)
+fn=(64)
+86 0 0
+
+fl=(21)
+fn=(166)
+84 22 -32
+cfl=(2)
+cfn=(64)
+calls=1 0 0
+86 0 0
+
+fl=(34)
+fn=(166)
+179 29 0
+cfl=(34)
+cfn=(102)
+calls=1 0 0
+181 34 32
+cfl=(21)
+cfn=(166)
+calls=1 0 0
+181 22 -32
+
+fl=(2)
+fn=(52)
+1107 0 320
+
+fl=(45)
+fn=(183) Slim\Http\Request->registerMediaTypeParser
+1104 71 56
+cfl=(2)
+cfn=(52)
+calls=1 0 0
+1107 0 320
+
+fl=(2)
+fn=(52)
+1107 0 320
+
+fl=(45)
+fn=(183)
+1104 66 -320
+cfl=(2)
+cfn=(52)
+calls=1 0 0
+1107 0 320
+
+fl=(2)
+fn=(52)
+1107 1 320
+
+fl=(45)
+fn=(183)
+1104 70 -320
+cfl=(2)
+cfn=(52)
+calls=1 0 0
+1107 1 320
+
+fl=(2)
+fn=(52)
+1107 0 320
+
+fl=(45)
+fn=(183)
+1104 67 -320
+cfl=(2)
+cfn=(52)
+calls=1 0 0
+1107 0 320
+
+fl=(45)
+fn=(184) Slim\Http\Request->__construct
+166 238 67944
+cfl=(45)
+cfn=(182)
+calls=1 0 0
+176 37 0
+cfl=(21)
+cfn=(60)
+calls=1 0 0
+185 12 0
+cfl=(2)
+cfn=(147)
+calls=1 0 0
+190 1 32
+cfl=(34)
+cfn=(166)
+calls=1 0 0
+193 86 0
+cfl=(45)
+cfn=(183)
+calls=1 0 0
+205 72 376
+cfl=(45)
+cfn=(183)
+calls=1 0 0
+218 66 0
+cfl=(45)
+cfn=(183)
+calls=1 0 0
+231 72 0
+cfl=(45)
+cfn=(183)
+calls=1 0 0
+236 68 0
+
+fl=(45)
+fn=(185) Slim\Http\Request::createFromEnvironment
+134 413 1232
+cfl=(21)
+cfn=(137)
+calls=1 0 0
+136 54 0
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+137 412 2728
+cfl=(49)
+cfn=(157)
+calls=1 0 0
+137 1021 1360
+cfl=(34)
+cfn=(163)
+calls=1 0 0
+138 4760 7872
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+139 436 1016
+cfl=(34)
+cfn=(167)
+calls=1 0 0
+139 107 0
+cfl=(51)
+cfn=(171)
+calls=1 0 0
+139 77 0
+cfl=(21)
+cfn=(172)
+calls=1 0 0
+140 0 0
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+141 180 2056
+cfl=(52)
+cfn=(178)
+calls=1 0 0
+141 128 1504
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+142 346 1416
+cfl=(54)
+cfn=(181)
+calls=1 0 0
+142 107 0
+cfl=(45)
+cfn=(184)
+calls=1 0 0
+144 654 68352
+
+fl=(16)
+fn=(186) Slim\DefaultServicesProvider->Slim\{closure:/p3t/phpappfolder/includes/vendor/slim/slim/Slim/DefaultServicesProvider.php:53-55}
+53 118 0
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+54 524 6088
+cfl=(15)
+cfn=(63)
+calls=1 0 0
+54 984 3112
+cfl=(45)
+cfn=(185)
+calls=1 0 0
+54 8698 87536
+
+fl=(12)
+fn=(62)
+98 150 0
+cfl=(2)
+cfn=(53)
+calls=1 0 0
+107 0 0
+cfl=(2)
+cfn=(54)
+calls=1 0 0
+108 0 0
+cfl=(2)
+cfn=(53)
+calls=1 0 0
+113 0 0
+cfl=(16)
+cfn=(186)
+calls=1 0 0
+118 10326 96736
+
+fl=(15)
+fn=(63)
+102 61 0
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+104 0 0
+cfl=(12)
+cfn=(62)
+calls=1 0 0
+108 10477 96736
+
+fl=(12)
+fn=(44)
+133 0 0
+
+fl=(12)
+fn=(62)
+98 0 0
+
+fl=(15)
+fn=(63)
+102 69 0
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+104 0 0
+cfl=(12)
+cfn=(62)
+calls=1 0 0
+108 0 0
+
+fl=(45)
+fn=(187) Slim\Http\Request->getUri
+548 0 0
+
+fl=(2)
+fn=(89)
+380 0 0
+
+fl=(2)
+fn=(89)
+380 0 0
+
+fl=(45)
+fn=(187)
+548 0 0
+
+fl=(49)
+fn=(188) Slim\Http\Uri->getBasePath
+594 1 0
+
+fl=(2)
+fn=(74)
+101 0 0
+
+fl=(23)
+fn=(189) Slim\Router->setBasePath
+99 11 0
+cfl=(2)
+cfn=(74)
+calls=1 0 0
+101 0 0
+
+fl=(12)
+fn=(44)
+133 0 0
+
+fl=(12)
+fn=(62)
+98 0 0
+
+fl=(15)
+fn=(63)
+102 32 0
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+104 0 0
+cfl=(12)
+cfn=(62)
+calls=1 0 0
+108 0 0
+
+fl=(2)
+fn=(64)
+86 0 0
+
+fl=(21)
+fn=(65)
+84 19 0
+cfl=(2)
+cfn=(64)
+calls=1 0 0
+86 0 0
+
+fl=(21)
+fn=(67)
+48 12 0
+cfl=(21)
+cfn=(65)
+calls=1 0 0
+50 19 0
+
+fl=(21)
+fn=(68)
+124 14 0
+cfl=(21)
+cfn=(67)
+calls=1 0 0
+126 31 0
+
+fl=(2)
+fn=(149)
+111 0 0
+
+fl=(2)
+fn=(149)
+92 0 0
+
+fl=(18)
+fn=(190) Slim\App->seedMiddlewareStack
+90 11 0
+cfl=(2)
+cfn=(149)
+calls=1 0 0
+92 0 0
+
+fl=(2)
+fn=(64)
+86 0 0
+
+fl=(21)
+fn=(65)
+84 12 0
+cfl=(2)
+cfn=(64)
+calls=1 0 0
+86 0 0
+
+fl=(21)
+fn=(67)
+48 13 0
+cfl=(21)
+cfn=(65)
+calls=1 0 0
+50 12 0
+
+fl=(45)
+fn=(191) Slim\Http\Request->getAttribute
+910 12 0
+cfl=(21)
+cfn=(67)
+calls=1 0 0
+912 25 0
+
+fl=(12)
+fn=(44)
+133 0 0
+
+fl=(12)
+fn=(62)
+98 0 0
+
+fl=(15)
+fn=(63)
+102 61 0
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+104 0 0
+cfl=(12)
+cfn=(62)
+calls=1 0 0
+108 0 0
+
+fl=(45)
+fn=(187)
+548 0 0
+
+fl=(49)
+fn=(192) Slim\Http\Uri->getPath
+539 0 0
+
+fl=(2)
+fn=(146)
+191 0 0
+
+fl=(2)
+fn=(28)
+373 0 56
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 40
+
+fl=(2)
+fn=(30)
+382 0 48
+
+fl=(2)
+fn=(31)
+384 8 0
+
+fl=(3)
+fn=(32)
+370 924 -32
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 56
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 40
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 48
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 8 0
+
+fl=(3)
+fn=(33)
+335 30 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 932 112
+
+fl=(55) /p3t/phpappfolder/includes/vendor/nikic/fast-route/src/RouteCollector.php
+fn=(193) include::/p3t/phpappfolder/includes/vendor/nikic/fast-route/src/RouteCollector.php
+1 0 0
+
+fl=(3)
+fn=(36)
+442 18 1008
+cfl=(55)
+cfn=(193)
+calls=1 0 0
+444 0 0
+
+fl=(3)
+fn=(37)
+319 38 -112
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 963 112
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+322 19 1008
+
+fl=(2)
+fn=(5)
+22 15 0
+cfl=(3)
+cfn=(37)
+calls=1 0 0
+22 1020 1008
+
+fl=(2)
+fn=(6)
+23 0 0
+
+fl=(2)
+fn=(28)
+373 0 64
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 48
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 40
+
+fl=(2)
+fn=(30)
+382 0 64
+
+fl=(2)
+fn=(31)
+384 4 0
+
+fl=(3)
+fn=(32)
+370 92 -88
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 64
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 48
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 40
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 64
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 4 0
+
+fl=(3)
+fn=(33)
+335 30 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 96 128
+
+fl=(2)
+fn=(28)
+373 0 80
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 48
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 40
+
+fl=(2)
+fn=(30)
+382 0 64
+
+fl=(2)
+fn=(31)
+384 3 0
+
+fl=(3)
+fn=(32)
+370 90 -104
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 80
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 48
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 40
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 64
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 3 0
+
+fl=(3)
+fn=(33)
+335 28 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 95 128
+
+fl=(2)
+fn=(28)
+373 1 48
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 40
+
+fl=(2)
+fn=(30)
+382 0 48
+
+fl=(2)
+fn=(31)
+384 3 0
+
+fl=(3)
+fn=(32)
+370 62 -24
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 1 48
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 40
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 48
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 3 0
+
+fl=(3)
+fn=(33)
+335 35 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 68 112
+
+fl=(56) /p3t/phpappfolder/includes/vendor/nikic/fast-route/src/DataGenerator.php
+fn=(194) include::/p3t/phpappfolder/includes/vendor/nikic/fast-route/src/DataGenerator.php
+1 0 0
+
+fl=(3)
+fn=(36)
+442 13 320
+cfl=(56)
+cfn=(194)
+calls=1 0 0
+444 0 0
+
+fl=(3)
+fn=(37)
+319 32 -112
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 103 112
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+322 13 320
+
+fl=(2)
+fn=(5)
+9 16 0
+cfl=(3)
+cfn=(37)
+calls=1 0 0
+9 150 320
+
+fl=(57) /p3t/phpappfolder/includes/vendor/nikic/fast-route/src/DataGenerator/RegexBasedAbstract.php
+fn=(195) include::/p3t/phpappfolder/includes/vendor/nikic/fast-route/src/DataGenerator/RegexBasedAbstract.php
+1 15 8
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+9 166 320
+
+fl=(3)
+fn=(36)
+442 16 992
+cfl=(57)
+cfn=(195)
+calls=1 0 0
+444 182 328
+
+fl=(3)
+fn=(37)
+319 30 -128
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 123 128
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+322 199 1320
+
+fl=(2)
+fn=(5)
+5 20 0
+cfl=(3)
+cfn=(37)
+calls=1 0 0
+5 354 1320
+
+fl=(58) /p3t/phpappfolder/includes/vendor/nikic/fast-route/src/DataGenerator/GroupCountBased.php
+fn=(196) include::/p3t/phpappfolder/includes/vendor/nikic/fast-route/src/DataGenerator/GroupCountBased.php
+1 15 680
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+5 374 1320
+
+fl=(3)
+fn=(36)
+442 15 320
+cfl=(58)
+cfn=(196)
+calls=1 0 0
+444 390 2000
+
+fl=(3)
+fn=(37)
+319 33 -128
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 126 128
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+322 405 2320
+
+fl=(2)
+fn=(5)
+23 16 0
+cfl=(3)
+cfn=(37)
+calls=1 0 0
+23 565 2320
+
+fl=(2)
+fn=(6)
+23 0 0
+
+fl=(55)
+fn=(197) FastRoute\RouteCollector->__construct
+22 2 0
+
+fl=(23)
+fn=(198) Slim\Router->getRoutes
+260 0 0
+
+fl=(29)
+fn=(199) Slim\Route->getMethods
+135 0 0
+
+fl=(27)
+fn=(200) Slim\Route->getPattern
+69 0 0
+
+fl=(29)
+fn=(87)
+163 0 0
+
+fl=(2)
+fn=(168)
+27 0 0
+
+fl=(2)
+fn=(145)
+28 1 0
+
+fl=(2)
+fn=(145)
+28 0 0
+
+fl=(2)
+fn=(169)
+31 2 376
+
+fl=(2)
+fn=(170)
+32 0 0
+
+fl=(2)
+fn=(201) php::preg_match_all
+63 0 56
+
+fl=(25)
+fn=(202) FastRoute\RouteParser\Std->parsePlaceholders
+59 23 320
+cfl=(2)
+cfn=(201)
+calls=1 0 0
+63 0 56
+
+fl=(25)
+fn=(203) FastRoute\RouteParser\Std->parse
+25 84 0
+cfl=(2)
+cfn=(168)
+calls=1 0 0
+27 0 0
+cfl=(2)
+cfn=(145)
+calls=1 0 0
+28 1 0
+cfl=(2)
+cfn=(145)
+calls=1 0 0
+28 0 0
+cfl=(2)
+cfn=(169)
+calls=1 0 0
+31 2 376
+cfl=(2)
+cfn=(170)
+calls=1 0 0
+32 0 0
+cfl=(25)
+cfn=(202)
+calls=1 0 0
+48 24 376
+
+fl=(2)
+fn=(170)
+78 0 0
+
+fl=(2)
+fn=(74)
+78 0 0
+
+fl=(57)
+fn=(204) FastRoute\DataGenerator\GroupCountBased->isStaticRoute
+76 78 0
+cfl=(2)
+cfn=(170)
+calls=1 0 0
+78 0 0
+cfl=(2)
+cfn=(74)
+calls=1 0 0
+78 0 0
+
+fl=(57)
+fn=(205) FastRoute\DataGenerator\GroupCountBased->addStaticRoute
+81 2 752
+
+fl=(57)
+fn=(206) FastRoute\DataGenerator\GroupCountBased->addRoute
+27 33 0
+cfl=(57)
+cfn=(204)
+calls=1 0 0
+29 79 0
+cfl=(57)
+cfn=(205)
+calls=1 0 0
+30 2 752
+
+fl=(55)
+fn=(207) FastRoute\RouteCollector->addRoute
+38 44 -752
+cfl=(25)
+cfn=(203)
+calls=1 0 0
+41 113 752
+cfl=(57)
+cfn=(206)
+calls=1 0 0
+44 115 752
+
+fl=(29)
+fn=(199)
+135 0 0
+
+fl=(27)
+fn=(200)
+69 0 0
+
+fl=(29)
+fn=(87)
+163 0 0
+
+fl=(2)
+fn=(168)
+27 0 0
+
+fl=(2)
+fn=(145)
+28 0 0
+
+fl=(2)
+fn=(145)
+28 0 0
+
+fl=(2)
+fn=(169)
+31 0 376
+
+fl=(2)
+fn=(170)
+32 0 0
+
+fl=(2)
+fn=(201)
+63 0 56
+
+fl=(25)
+fn=(202)
+59 16 320
+cfl=(2)
+cfn=(201)
+calls=1 0 0
+63 0 56
+
+fl=(25)
+fn=(203)
+25 81 0
+cfl=(2)
+cfn=(168)
+calls=1 0 0
+27 0 0
+cfl=(2)
+cfn=(145)
+calls=1 0 0
+28 0 0
+cfl=(2)
+cfn=(145)
+calls=1 0 0
+28 0 0
+cfl=(2)
+cfn=(169)
+calls=1 0 0
+31 0 376
+cfl=(2)
+cfn=(170)
+calls=1 0 0
+32 0 0
+cfl=(25)
+cfn=(202)
+calls=1 0 0
+48 16 376
+
+fl=(2)
+fn=(170)
+78 0 0
+
+fl=(2)
+fn=(74)
+78 0 0
+
+fl=(57)
+fn=(204)
+76 23 0
+cfl=(2)
+cfn=(170)
+calls=1 0 0
+78 0 0
+cfl=(2)
+cfn=(74)
+calls=1 0 0
+78 0 0
+
+fl=(57)
+fn=(205)
+81 0 376
+
+fl=(57)
+fn=(206)
+27 29 0
+cfl=(57)
+cfn=(204)
+calls=1 0 0
+29 23 0
+cfl=(57)
+cfn=(205)
+calls=1 0 0
+30 0 376
+
+fl=(55)
+fn=(207)
+38 39 -752
+cfl=(25)
+cfn=(203)
+calls=1 0 0
+41 100 752
+cfl=(57)
+cfn=(206)
+calls=1 0 0
+44 53 376
+
+fl=(23)
+fn=(208) Slim\Router->Slim\{closure:/p3t/phpappfolder/includes/vendor/slim/slim/Slim/Router.php:227-231}
+227 159 0
+cfl=(23)
+cfn=(198)
+calls=1 0 0
+228 0 0
+cfl=(29)
+cfn=(199)
+calls=1 0 0
+229 0 0
+cfl=(27)
+cfn=(200)
+calls=1 0 0
+229 0 0
+cfl=(29)
+cfn=(87)
+calls=1 0 0
+229 0 0
+cfl=(55)
+cfn=(207)
+calls=1 0 0
+229 272 752
+cfl=(29)
+cfn=(199)
+calls=1 0 0
+229 0 0
+cfl=(27)
+cfn=(200)
+calls=1 0 0
+229 0 0
+cfl=(29)
+cfn=(87)
+calls=1 0 0
+229 0 0
+cfl=(55)
+cfn=(207)
+calls=1 0 0
+229 193 376
+
+fl=(2)
+fn=(28)
+373 0 64
+
+fl=(2)
+fn=(29)
+378 1 0
+
+fl=(2)
+fn=(30)
+379 0 48
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 40
+
+fl=(2)
+fn=(30)
+382 0 56
+
+fl=(2)
+fn=(31)
+384 5 0
+
+fl=(3)
+fn=(32)
+370 87 -80
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 64
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 1 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 48
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 40
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 56
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 5 0
+
+fl=(3)
+fn=(33)
+335 28 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 94 128
+
+fl=(2)
+fn=(28)
+373 1 64
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 48
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 40
+
+fl=(2)
+fn=(30)
+382 0 64
+
+fl=(2)
+fn=(31)
+384 3 0
+
+fl=(3)
+fn=(32)
+370 85 -88
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 1 64
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 48
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 40
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 64
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 3 0
+
+fl=(3)
+fn=(33)
+335 28 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 90 128
+
+fl=(2)
+fn=(28)
+373 0 48
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 40
+
+fl=(2)
+fn=(30)
+382 0 40
+
+fl=(2)
+fn=(31)
+384 2 0
+
+fl=(3)
+fn=(32)
+370 58 -16
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 48
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 40
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 40
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 2 0
+
+fl=(3)
+fn=(33)
+335 24 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 61 112
+
+fl=(59) /p3t/phpappfolder/includes/vendor/nikic/fast-route/src/Dispatcher.php
+fn=(209) include::/p3t/phpappfolder/includes/vendor/nikic/fast-route/src/Dispatcher.php
+1 0 0
+
+fl=(3)
+fn=(36)
+442 74 640
+cfl=(59)
+cfn=(209)
+calls=1 0 0
+444 0 0
+
+fl=(3)
+fn=(37)
+319 37 -112
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 85 112
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+322 75 640
+
+fl=(2)
+fn=(5)
+7 15 0
+cfl=(3)
+cfn=(37)
+calls=1 0 0
+7 199 640
+
+fl=(60) /p3t/phpappfolder/includes/vendor/nikic/fast-route/src/Dispatcher/RegexBasedAbstract.php
+fn=(210) include::/p3t/phpappfolder/includes/vendor/nikic/fast-route/src/Dispatcher/RegexBasedAbstract.php
+1 17 328
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+7 215 640
+
+fl=(3)
+fn=(36)
+442 14 672
+cfl=(60)
+cfn=(210)
+calls=1 0 0
+444 232 968
+
+fl=(3)
+fn=(37)
+319 30 -128
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 118 128
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+322 247 1640
+
+fl=(2)
+fn=(5)
+5 15 0
+cfl=(3)
+cfn=(37)
+calls=1 0 0
+5 396 1640
+
+fl=(61) /p3t/phpappfolder/includes/vendor/nikic/fast-route/src/Dispatcher/GroupCountBased.php
+fn=(211) include::/p3t/phpappfolder/includes/vendor/nikic/fast-route/src/Dispatcher/GroupCountBased.php
+1 14 680
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+5 411 1640
+
+fl=(3)
+fn=(36)
+442 15 320
+cfl=(61)
+cfn=(211)
+calls=1 0 0
+444 426 2320
+
+fl=(3)
+fn=(37)
+319 30 -128
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 123 128
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+322 441 2640
+
+fl=(2)
+fn=(5)
+27 16 0
+cfl=(3)
+cfn=(37)
+calls=1 0 0
+27 594 2640
+
+fl=(57)
+fn=(212) FastRoute\DataGenerator\GroupCountBased->getData
+39 1 376
+
+fl=(55)
+fn=(213) FastRoute\RouteCollector->getData
+148 16 0
+cfl=(57)
+cfn=(212)
+calls=1 0 0
+150 1 376
+
+fl=(61)
+fn=(214) FastRoute\Dispatcher\GroupCountBased->__construct
+7 1 -376
+
+fl=(9)
+fn=(215) FastRoute\simpleDispatcher
+12 132 -296
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+22 1036 1008
+cfl=(2)
+cfn=(6)
+calls=1 0 0
+23 0 0
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+23 581 2320
+cfl=(2)
+cfn=(6)
+calls=1 0 0
+23 0 0
+cfl=(55)
+cfn=(197)
+calls=1 0 0
+23 2 0
+cfl=(23)
+cfn=(208)
+calls=1 0 0
+25 627 1128
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+27 611 2640
+cfl=(55)
+cfn=(213)
+calls=1 0 0
+27 18 376
+cfl=(61)
+cfn=(214)
+calls=1 0 0
+27 1 -376
+
+fl=(23)
+fn=(216) Slim\Router->createDispatcher
+221 39 752
+cfl=(9)
+cfn=(215)
+calls=1 0 0
+240 3011 6800
+
+fl=(2)
+fn=(101)
+199 0 48
+
+fl=(2)
+fn=(28)
+199 0 0
+
+fl=(2)
+fn=(34)
+200 0 0
+
+fl=(34)
+fn=(102)
+197 39 0
+cfl=(2)
+cfn=(101)
+calls=1 0 0
+199 0 48
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+199 0 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+200 0 0
+
+fl=(2)
+fn=(64)
+86 0 0
+
+fl=(21)
+fn=(166)
+84 27 -48
+cfl=(2)
+cfn=(64)
+calls=1 0 0
+86 0 0
+
+fl=(34)
+fn=(166)
+179 30 0
+cfl=(34)
+cfn=(102)
+calls=1 0 0
+181 41 48
+cfl=(21)
+cfn=(166)
+calls=1 0 0
+181 27 -48
+
+fl=(34)
+fn=(167)
+136 14 0
+cfl=(34)
+cfn=(166)
+calls=1 0 0
+138 99 0
+
+fl=(2)
+fn=(25)
+186 0 0
+
+fl=(36)
+fn=(217) Slim\Http\Request->getHeaderLine
+184 29 0
+cfl=(34)
+cfn=(167)
+calls=1 0 0
+186 113 0
+cfl=(2)
+cfn=(25)
+calls=1 0 0
+186 0 0
+
+fl=(45)
+fn=(218) Slim\Http\Request->getMethod
+260 16 0
+cfl=(36)
+cfn=(217)
+calls=1 0 0
+264 144 0
+
+fl=(60)
+fn=(219) FastRoute\Dispatcher\GroupCountBased->dispatch
+20 1 376
+
+fl=(23)
+fn=(220) Slim\Router->dispatch
+189 102 0
+cfl=(45)
+cfn=(187)
+calls=1 0 0
+191 0 0
+cfl=(49)
+cfn=(192)
+calls=1 0 0
+191 0 0
+cfl=(2)
+cfn=(146)
+calls=1 0 0
+191 0 0
+cfl=(23)
+cfn=(216)
+calls=1 0 0
+193 3051 7552
+cfl=(45)
+cfn=(218)
+calls=1 0 0
+194 160 0
+cfl=(60)
+cfn=(219)
+calls=1 0 0
+194 1 376
+
+fl=(23)
+fn=(221) Slim\Router->lookupRoute
+329 0 0
+
+fl=(29)
+fn=(222) Slim\Route->setArguments
+217 1 0
+
+fl=(29)
+fn=(223) Slim\Route->prepare
+248 13 0
+cfl=(29)
+cfn=(222)
+calls=1 0 0
+251 1 0
+
+fl=(45)
+fn=(224) Slim\Http\Request->__clone
+248 2 1400
+
+fl=(21)
+fn=(58)
+40 1 376
+
+fl=(45)
+fn=(225) Slim\Http\Request->withAttribute
+932 56 1016
+cfl=(45)
+cfn=(224)
+calls=1 0 0
+934 2 1400
+cfl=(21)
+cfn=(58)
+calls=1 0 0
+935 1 376
+
+fl=(45)
+fn=(218)
+260 0 0
+
+fl=(45)
+fn=(187)
+548 0 0
+
+fl=(49)
+fn=(226) Slim\Http\Uri->getScheme
+249 0 0
+
+fl=(49)
+fn=(227) Slim\Http\Uri->getUserInfo
+352 0 0
+
+fl=(49)
+fn=(228) Slim\Http\Uri->getHost
+415 0 0
+
+fl=(49)
+fn=(229) Slim\Http\Uri->hasStandardPort
+491 0 0
+
+fl=(49)
+fn=(230) Slim\Http\Uri->getPort
+455 12 0
+cfl=(49)
+cfn=(229)
+calls=1 0 0
+457 0 0
+
+fl=(49)
+fn=(231) Slim\Http\Uri->getAuthority
+328 39 40
+cfl=(49)
+cfn=(227)
+calls=1 0 0
+330 0 0
+cfl=(49)
+cfn=(228)
+calls=1 0 0
+331 0 0
+cfl=(49)
+cfn=(230)
+calls=1 0 0
+332 13 0
+
+fl=(49)
+fn=(188)
+594 0 0
+
+fl=(49)
+fn=(192)
+539 0 0
+
+fl=(49)
+fn=(232) Slim\Http\Uri->getQuery
+673 0 0
+
+fl=(49)
+fn=(233) Slim\Http\Uri->getFragment
+742 0 0
+
+fl=(2)
+fn=(146)
+807 0 0
+
+fl=(49)
+fn=(234) Slim\Http\Uri->__toString
+798 95 16
+cfl=(49)
+cfn=(226)
+calls=1 0 0
+800 0 0
+cfl=(49)
+cfn=(231)
+calls=1 0 0
+801 52 40
+cfl=(49)
+cfn=(188)
+calls=1 0 0
+802 0 0
+cfl=(49)
+cfn=(192)
+calls=1 0 0
+803 0 0
+cfl=(49)
+cfn=(232)
+calls=1 0 0
+804 0 0
+cfl=(49)
+cfn=(233)
+calls=1 0 0
+805 0 0
+cfl=(2)
+cfn=(146)
+calls=1 0 0
+807 0 0
+
+fl=(45)
+fn=(224)
+248 0 1400
+
+fl=(21)
+fn=(58)
+40 0 376
+
+fl=(45)
+fn=(225)
+932 25 1016
+cfl=(45)
+cfn=(224)
+calls=1 0 0
+934 0 1400
+cfl=(21)
+cfn=(58)
+calls=1 0 0
+935 0 376
+
+fl=(19)
+fn=(235) Slim\App->dispatchRouterAndPrepareRoute
+576 342 -2416
+cfl=(23)
+cfn=(220)
+calls=1 0 0
+578 3316 7928
+cfl=(23)
+cfn=(221)
+calls=1 0 0
+586 0 0
+cfl=(29)
+cfn=(223)
+calls=1 0 0
+587 15 0
+cfl=(45)
+cfn=(225)
+calls=1 0 0
+590 60 2792
+cfl=(45)
+cfn=(218)
+calls=1 0 0
+593 0 0
+cfl=(45)
+cfn=(187)
+calls=1 0 0
+593 0 0
+cfl=(49)
+cfn=(234)
+calls=1 0 0
+593 148 56
+cfl=(45)
+cfn=(225)
+calls=1 0 0
+595 27 2792
+
+fl=(2)
+fn=(64)
+86 0 0
+
+fl=(21)
+fn=(65)
+84 27 0
+cfl=(2)
+cfn=(64)
+calls=1 0 0
+86 0 0
+
+fl=(21)
+fn=(67)
+48 28 0
+cfl=(21)
+cfn=(65)
+calls=1 0 0
+50 27 0
+
+fl=(45)
+fn=(191)
+910 16 0
+cfl=(21)
+cfn=(67)
+calls=1 0 0
+912 56 0
+
+fl=(23)
+fn=(221)
+329 1 0
+
+fl=(29)
+fn=(236) Slim\Route->getGroups
+145 0 0
+
+fl=(2)
+fn=(57)
+101 0 376
+
+fl=(27)
+fn=(237) Slim\Route->getMiddleware
+59 0 0
+
+fl=(29)
+fn=(238) Slim\Route->finalize
+90 37 0
+cfl=(29)
+cfn=(236)
+calls=1 0 0
+97 0 0
+cfl=(2)
+cfn=(57)
+calls=1 0 0
+101 0 376
+cfl=(27)
+cfn=(237)
+calls=1 0 0
+103 0 0
+
+fl=(2)
+fn=(149)
+111 0 0
+
+fl=(2)
+fn=(149)
+92 0 0
+
+fl=(18)
+fn=(239) Slim\Route->seedMiddlewareStack
+90 11 0
+cfl=(2)
+cfn=(149)
+calls=1 0 0
+92 0 0
+
+fl=(12)
+fn=(44)
+133 0 0
+
+fl=(2)
+fn=(53)
+107 0 0
+
+fl=(2)
+fn=(54)
+108 0 0
+
+fl=(2)
+fn=(53)
+113 0 0
+
+fl=(2)
+fn=(28)
+373 0 48
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 48
+
+fl=(2)
+fn=(31)
+384 6 0
+
+fl=(3)
+fn=(32)
+370 64 -16
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 48
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 48
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 6 0
+
+fl=(3)
+fn=(33)
+335 26 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 72 112
+
+fl=(2)
+fn=(28)
+373 0 80
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 40
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 80
+
+fl=(2)
+fn=(31)
+384 6 0
+
+fl=(3)
+fn=(32)
+370 91 -104
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 80
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 40
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 80
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 6 0
+
+fl=(3)
+fn=(33)
+335 27 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 100 128
+
+fl=(62) /p3t/phpappfolder/includes/vendor/slim/slim/Slim/Interfaces/CallableResolverInterface.php
+fn=(240) include::/p3t/phpappfolder/includes/vendor/slim/slim/Slim/Interfaces/CallableResolverInterface.php
+1 0 0
+
+fl=(3)
+fn=(36)
+442 11 320
+cfl=(62)
+cfn=(240)
+calls=1 0 0
+444 0 0
+
+fl=(3)
+fn=(37)
+319 30 -128
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 128 128
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+322 12 320
+
+fl=(2)
+fn=(5)
+18 15 0
+cfl=(3)
+cfn=(37)
+calls=1 0 0
+18 171 320
+
+fl=(63) /p3t/phpappfolder/includes/vendor/slim/slim/Slim/CallableResolver.php
+fn=(241) include::/p3t/phpappfolder/includes/vendor/slim/slim/Slim/CallableResolver.php
+1 14 8
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+18 186 320
+
+fl=(3)
+fn=(36)
+442 13 976
+cfl=(63)
+cfn=(241)
+calls=1 0 0
+444 200 328
+
+fl=(3)
+fn=(37)
+319 30 -112
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 98 112
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+322 214 1304
+
+fl=(2)
+fn=(5)
+190 16 0
+cfl=(3)
+cfn=(37)
+calls=1 0 0
+190 343 1304
+
+fl=(63)
+fn=(242) Slim\CallableResolver->__construct
+30 0 0
+
+fl=(16)
+fn=(243) Slim\DefaultServicesProvider->Slim\{closure:/p3t/phpappfolder/includes/vendor/slim/slim/Slim/DefaultServicesProvider.php:189-191}
+189 67 56
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+190 360 1304
+cfl=(63)
+cfn=(242)
+calls=1 0 0
+190 0 0
+
+fl=(12)
+fn=(62)
+98 124 376
+cfl=(2)
+cfn=(53)
+calls=1 0 0
+107 0 0
+cfl=(2)
+cfn=(54)
+calls=1 0 0
+108 0 0
+cfl=(2)
+cfn=(53)
+calls=1 0 0
+113 0 0
+cfl=(16)
+cfn=(243)
+calls=1 0 0
+118 428 1360
+
+fl=(15)
+fn=(63)
+102 56 0
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+104 0 0
+cfl=(12)
+cfn=(62)
+calls=1 0 0
+108 554 1736
+
+fl=(2)
+fn=(89)
+50 0 0
+
+fl=(63)
+fn=(244) Slim\CallableResolver->resolve
+48 37 0
+cfl=(2)
+cfn=(89)
+calls=1 0 0
+50 0 0
+
+fl=(26)
+fn=(245) Slim\Route->resolveCallable
+32 104 0
+cfl=(15)
+cfn=(63)
+calls=1 0 0
+39 612 1736
+cfl=(63)
+cfn=(244)
+calls=1 0 0
+41 37 0
+
+fl=(12)
+fn=(44)
+133 0 0
+
+fl=(2)
+fn=(53)
+107 0 0
+
+fl=(2)
+fn=(54)
+108 0 0
+
+fl=(2)
+fn=(53)
+113 0 0
+
+fl=(2)
+fn=(28)
+373 0 80
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 56
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 40
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 64
+
+fl=(2)
+fn=(31)
+384 5 0
+
+fl=(3)
+fn=(32)
+370 109 -144
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 80
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 56
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 40
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 64
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 5 0
+
+fl=(3)
+fn=(33)
+335 29 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 115 128
+
+fl=(2)
+fn=(28)
+373 0 80
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 40
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 80
+
+fl=(2)
+fn=(31)
+384 4 0
+
+fl=(3)
+fn=(32)
+370 82 -104
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 80
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 40
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 80
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 4 0
+
+fl=(3)
+fn=(33)
+335 26 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 87 128
+
+fl=(64) /p3t/phpappfolder/includes/vendor/slim/slim/Slim/Interfaces/InvocationStrategyInterface.php
+fn=(246) include::/p3t/phpappfolder/includes/vendor/slim/slim/Slim/Interfaces/InvocationStrategyInterface.php
+1 0 0
+
+fl=(3)
+fn=(36)
+442 11 320
+cfl=(64)
+cfn=(246)
+calls=1 0 0
+444 0 0
+
+fl=(3)
+fn=(37)
+319 30 -128
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 113 128
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+322 11 320
+
+fl=(2)
+fn=(5)
+17 15 0
+cfl=(3)
+cfn=(37)
+calls=1 0 0
+17 156 320
+
+fl=(65) /p3t/phpappfolder/includes/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php
+fn=(247) include::/p3t/phpappfolder/includes/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php
+1 17 8
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+17 172 320
+
+fl=(3)
+fn=(36)
+442 13 5952
+cfl=(65)
+cfn=(247)
+calls=1 0 0
+444 190 328
+
+fl=(3)
+fn=(37)
+319 31 -128
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 144 128
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+322 203 6280
+
+fl=(2)
+fn=(5)
+104 15 0
+cfl=(3)
+cfn=(37)
+calls=1 0 0
+104 380 6280
+
+fl=(2)
+fn=(6)
+104 0 0
+
+fl=(16)
+fn=(248) Slim\DefaultServicesProvider->Slim\{closure:/p3t/phpappfolder/includes/vendor/slim/slim/Slim/DefaultServicesProvider.php:103-105}
+103 19 40
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+104 396 6280
+cfl=(2)
+cfn=(6)
+calls=1 0 0
+104 0 0
+
+fl=(12)
+fn=(62)
+98 99 56
+cfl=(2)
+cfn=(53)
+calls=1 0 0
+107 0 0
+cfl=(2)
+cfn=(54)
+calls=1 0 0
+108 0 0
+cfl=(2)
+cfn=(53)
+calls=1 0 0
+113 0 0
+cfl=(16)
+cfn=(248)
+calls=1 0 0
+118 415 6320
+
+fl=(15)
+fn=(63)
+102 38 0
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+104 0 0
+cfl=(12)
+cfn=(62)
+calls=1 0 0
+108 515 6376
+
+fl=(19)
+fn=(249) Slim\App->getContainer
+74 0 0
+
+fl=(12)
+fn=(44)
+133 0 0
+
+fl=(2)
+fn=(53)
+107 0 0
+
+fl=(2)
+fn=(54)
+108 0 0
+
+fl=(2)
+fn=(53)
+113 0 0
+
+fl=(2)
+fn=(28)
+373 0 40
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 40
+
+fl=(2)
+fn=(31)
+384 5 0
+
+fl=(3)
+fn=(32)
+370 62 0
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 40
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 40
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 5 0
+
+fl=(3)
+fn=(33)
+335 25 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 69 112
+
+fl=(66) /p3t/phpappfolder/includes/M2M/app/src/SoapWrapper.php
+fn=(250) include::/p3t/phpappfolder/includes/M2M/app/src/SoapWrapper.php
+1 0 0
+
+fl=(3)
+fn=(36)
+442 15 320
+cfl=(66)
+cfn=(250)
+calls=1 0 0
+444 0 0
+
+fl=(3)
+fn=(37)
+319 33 -112
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 94 112
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+322 15 320
+
+fl=(2)
+fn=(5)
+25 15 0
+cfl=(3)
+cfn=(37)
+calls=1 0 0
+25 143 320
+
+fl=(17)
+fn=(251) {closure:/p3t/phpappfolder/includes/M2M/app/dependencies.php:24-27}
+24 1081 122912
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+25 158 320
+
+fl=(12)
+fn=(62)
+98 108 0
+cfl=(2)
+cfn=(53)
+calls=1 0 0
+107 0 0
+cfl=(2)
+cfn=(54)
+calls=1 0 0
+108 0 0
+cfl=(2)
+cfn=(53)
+calls=1 0 0
+113 0 0
+cfl=(17)
+cfn=(251)
+calls=1 0 0
+118 1240 123232
+
+fl=(15)
+fn=(63)
+102 36 0
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+104 0 0
+cfl=(12)
+cfn=(62)
+calls=1 0 0
+108 1348 123232
+
+fl=(30)
+fn=(252) getCountryNamesAndIsoCodes
+51 77 0
+cfl=(19)
+cfn=(249)
+calls=1 0 0
+54 0 0
+cfl=(15)
+cfn=(63)
+calls=1 0 0
+54 1384 123232
+
+fl=(30)
+fn=(253) Slim\Container->{closure:/p3t/phpappfolder/includes/M2M/app/routes/homepage.php:18-42}
+18 41 0
+cfl=(30)
+cfn=(252)
+calls=1 0 0
+21 1461 123232
+
+fl=(2)
+fn=(254) php::call_user_func:{/p3t/phpappfolder/includes/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:40}
+40 56 0
+cfl=(30)
+cfn=(253)
+calls=1 0 0
+40 1503 123232
+
+fl=(65)
+fn=(255) Slim\Handlers\Strategies\RequestResponse->__invoke
+30 159 0
+cfl=(2)
+cfn=(254)
+calls=1 0 0
+40 1560 123232
+
+fl=(29)
+fn=(256) Slim\Route->__invoke
+274 173 0
+cfl=(26)
+cfn=(245)
+calls=1 0 0
+276 754 1736
+cfl=(15)
+cfn=(63)
+calls=1 0 0
+279 555 6376
+cfl=(65)
+cfn=(255)
+calls=1 0 0
+281 1720 123232
+
+fl=(18)
+fn=(257) Slim\Route->callMiddlewareStack
+109 80 0
+cfl=(2)
+cfn=(149)
+calls=1 0 0
+111 0 0
+cfl=(18)
+cfn=(239)
+calls=1 0 0
+112 11 0
+cfl=(29)
+cfn=(256)
+calls=1 0 0
+117 3203 131344
+
+fl=(29)
+fn=(258) Slim\Route->run
+262 81 0
+cfl=(29)
+cfn=(238)
+calls=1 0 0
+265 38 376
+cfl=(18)
+cfn=(257)
+calls=1 0 0
+268 3296 131344
+
+fl=(19)
+fn=(259) Slim\App->__invoke
+487 345 0
+cfl=(45)
+cfn=(191)
+calls=1 0 0
+490 38 0
+cfl=(15)
+cfn=(63)
+calls=1 0 0
+493 61 0
+cfl=(19)
+cfn=(235)
+calls=1 0 0
+497 3911 11152
+cfl=(45)
+cfn=(191)
+calls=1 0 0
+498 72 0
+cfl=(23)
+cfn=(221)
+calls=1 0 0
+502 1 0
+cfl=(29)
+cfn=(258)
+calls=1 0 0
+503 3416 131720
+
+fl=(18)
+fn=(260) Slim\App->callMiddlewareStack
+109 89 0
+cfl=(2)
+cfn=(149)
+calls=1 0 0
+111 0 0
+cfl=(18)
+cfn=(190)
+calls=1 0 0
+112 11 0
+cfl=(19)
+cfn=(259)
+calls=1 0 0
+117 7848 142872
+
+fl=(12)
+fn=(44)
+133 0 0
+
+fl=(15)
+fn=(261) Slim\Container->has
+145 17 0
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+147 0 0
+
+fl=(12)
+fn=(44)
+133 0 0
+
+fl=(2)
+fn=(53)
+107 0 0
+
+fl=(2)
+fn=(54)
+108 0 0
+
+fl=(2)
+fn=(53)
+113 0 0
+
+fl=(2)
+fn=(28)
+373 0 48
+
+fl=(2)
+fn=(29)
+378 1 0
+
+fl=(2)
+fn=(30)
+379 0 40
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 48
+
+fl=(2)
+fn=(31)
+384 5 0
+
+fl=(3)
+fn=(32)
+370 154 -56
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 48
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 1 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 40
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 48
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 5 0
+
+fl=(3)
+fn=(33)
+335 32 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 162 112
+
+fl=(2)
+fn=(28)
+373 0 56
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 40
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 56
+
+fl=(2)
+fn=(31)
+384 5 0
+
+fl=(3)
+fn=(32)
+370 89 -72
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 56
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 40
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 56
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 5 0
+
+fl=(3)
+fn=(33)
+335 28 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 94 112
+
+fl=(2)
+fn=(28)
+373 0 56
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 40
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 56
+
+fl=(2)
+fn=(31)
+384 7 0
+
+fl=(3)
+fn=(32)
+370 247 -56
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 56
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 40
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 56
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 7 0
+
+fl=(3)
+fn=(33)
+335 35 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 257 128
+
+fl=(67) /p3t/phpappfolder/includes/vendor/slim/slim/Slim/Handlers/AbstractHandler.php
+fn=(262) include::/p3t/phpappfolder/includes/vendor/slim/slim/Slim/Handlers/AbstractHandler.php
+1 3 0
+
+fl=(3)
+fn=(36)
+442 1847 656
+cfl=(67)
+cfn=(262)
+calls=1 0 0
+444 3 0
+
+fl=(3)
+fn=(37)
+319 104 -128
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 293 128
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+322 1851 656
+
+fl=(2)
+fn=(5)
+13 68 0
+cfl=(3)
+cfn=(37)
+calls=1 0 0
+13 2249 656
+
+fl=(68) /p3t/phpappfolder/includes/vendor/slim/slim/Slim/Handlers/AbstractError.php
+fn=(263) include::/p3t/phpappfolder/includes/vendor/slim/slim/Slim/Handlers/AbstractError.php
+1 21 16
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+13 2317 656
+
+fl=(3)
+fn=(36)
+442 35 656
+cfl=(68)
+cfn=(263)
+calls=1 0 0
+444 2338 672
+
+fl=(3)
+fn=(37)
+319 144 -112
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 123 112
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+322 2374 1328
+
+fl=(2)
+fn=(5)
+16 17 0
+cfl=(3)
+cfn=(37)
+calls=1 0 0
+16 2641 1328
+
+fl=(69) /p3t/phpappfolder/includes/vendor/slim/slim/Slim/Handlers/PhpError.php
+fn=(264) include::/p3t/phpappfolder/includes/vendor/slim/slim/Slim/Handlers/PhpError.php
+1 19 672
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+16 2659 1328
+
+fl=(3)
+fn=(36)
+442 16 320
+cfl=(69)
+cfn=(264)
+calls=1 0 0
+444 2678 2000
+
+fl=(3)
+fn=(37)
+319 36 -112
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 195 112
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+322 2694 2320
+
+fl=(2)
+fn=(5)
+123 16 0
+cfl=(3)
+cfn=(37)
+calls=1 0 0
+123 2925 2320
+
+fl=(12)
+fn=(44)
+133 1 0
+
+fl=(12)
+fn=(62)
+98 0 0
+
+fl=(15)
+fn=(63)
+102 41 0
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+104 1 0
+cfl=(12)
+cfn=(62)
+calls=1 0 0
+108 0 0
+
+fl=(2)
+fn=(64)
+86 0 0
+
+fl=(21)
+fn=(65)
+84 18 0
+cfl=(2)
+cfn=(64)
+calls=1 0 0
+86 0 0
+
+fl=(21)
+fn=(67)
+48 14 0
+cfl=(21)
+cfn=(65)
+calls=1 0 0
+50 19 0
+
+fl=(21)
+fn=(68)
+124 14 0
+cfl=(21)
+cfn=(67)
+calls=1 0 0
+126 33 0
+
+fl=(68)
+fn=(265) Slim\Handlers\PhpError->__construct
+23 1 0
+
+fl=(16)
+fn=(266) Slim\DefaultServicesProvider->Slim\{closure:/p3t/phpappfolder/includes/vendor/slim/slim/Slim/DefaultServicesProvider.php:122-124}
+122 75 80
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+123 2942 2320
+cfl=(15)
+cfn=(63)
+calls=1 0 0
+123 43 0
+cfl=(21)
+cfn=(68)
+calls=1 0 0
+123 48 0
+cfl=(68)
+cfn=(265)
+calls=1 0 0
+123 1 0
+
+fl=(12)
+fn=(62)
+98 118 376
+cfl=(2)
+cfn=(53)
+calls=1 0 0
+107 0 0
+cfl=(2)
+cfn=(54)
+calls=1 0 0
+108 0 0
+cfl=(2)
+cfn=(53)
+calls=1 0 0
+113 0 0
+cfl=(16)
+cfn=(266)
+calls=1 0 0
+118 3112 2400
+
+fl=(15)
+fn=(63)
+102 36 0
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+104 0 0
+cfl=(12)
+cfn=(62)
+calls=1 0 0
+108 3231 2776
+
+fl=(2)
+fn=(101)
+199 0 32
+
+fl=(2)
+fn=(28)
+199 0 0
+
+fl=(2)
+fn=(34)
+200 0 0
+
+fl=(34)
+fn=(102)
+197 41 0
+cfl=(2)
+cfn=(101)
+calls=1 0 0
+199 0 32
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+199 0 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+200 0 0
+
+fl=(2)
+fn=(64)
+86 0 0
+
+fl=(21)
+fn=(166)
+84 25 -32
+cfl=(2)
+cfn=(64)
+calls=1 0 0
+86 0 0
+
+fl=(34)
+fn=(166)
+179 30 0
+cfl=(34)
+cfn=(102)
+calls=1 0 0
+181 42 32
+cfl=(21)
+cfn=(166)
+calls=1 0 0
+181 25 -32
+
+fl=(2)
+fn=(101)
+199 0 32
+
+fl=(2)
+fn=(28)
+199 0 0
+
+fl=(2)
+fn=(34)
+200 0 0
+
+fl=(34)
+fn=(102)
+197 36 0
+cfl=(2)
+cfn=(101)
+calls=1 0 0
+199 0 32
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+199 0 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+200 0 0
+
+fl=(2)
+fn=(101)
+199 0 0
+
+fl=(2)
+fn=(28)
+199 0 0
+
+fl=(2)
+fn=(34)
+200 0 0
+
+fl=(34)
+fn=(102)
+197 37 0
+cfl=(2)
+cfn=(101)
+calls=1 0 0
+199 0 0
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+199 0 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+200 0 0
+
+fl=(2)
+fn=(64)
+86 0 0
+
+fl=(21)
+fn=(166)
+84 21 0
+cfl=(2)
+cfn=(64)
+calls=1 0 0
+86 0 0
+
+fl=(34)
+fn=(166)
+179 29 0
+cfl=(34)
+cfn=(102)
+calls=1 0 0
+181 37 0
+cfl=(21)
+cfn=(166)
+calls=1 0 0
+181 21 0
+
+fl=(21)
+fn=(167)
+48 16 -32
+cfl=(34)
+cfn=(166)
+calls=1 0 0
+50 88 0
+
+fl=(34)
+fn=(167)
+136 48 0
+cfl=(34)
+cfn=(166)
+calls=1 0 0
+138 98 0
+cfl=(34)
+cfn=(102)
+calls=1 0 0
+139 36 32
+cfl=(21)
+cfn=(167)
+calls=1 0 0
+139 105 -32
+
+fl=(2)
+fn=(25)
+186 0 0
+
+fl=(36)
+fn=(217)
+184 34 0
+cfl=(34)
+cfn=(167)
+calls=1 0 0
+186 289 0
+cfl=(2)
+cfn=(25)
+calls=1 0 0
+186 0 0
+
+fl=(2)
+fn=(24)
+40 1 552
+
+fl=(2)
+fn=(267) php::array_intersect
+40 2 376
+
+fl=(2)
+fn=(170)
+42 0 0
+
+fl=(2)
+fn=(268) php::current
+43 0 0
+
+fl=(67)
+fn=(269) Slim\Handlers\PhpError->determineContentType
+37 72 -888
+cfl=(36)
+cfn=(217)
+calls=1 0 0
+39 324 0
+cfl=(2)
+cfn=(24)
+calls=1 0 0
+40 1 552
+cfl=(2)
+cfn=(267)
+calls=1 0 0
+40 2 376
+cfl=(2)
+cfn=(170)
+calls=1 0 0
+42 0 0
+cfl=(2)
+cfn=(268)
+calls=1 0 0
+43 0 0
+
+fl=(2)
+fn=(270) php::get_class
+104 0 0
+
+fl=(2)
+fn=(271) php::sprintf
+104 0 320
+
+fl=(2)
+fn=(272) php::Error->getCode
+106 0 0
+
+fl=(2)
+fn=(273) php::Error->getMessage
+110 0 0
+
+fl=(2)
+fn=(274) php::htmlentities
+111 3 160
+
+fl=(2)
+fn=(271)
+111 0 320
+
+fl=(2)
+fn=(275) php::Error->getFile
+114 1 0
+
+fl=(2)
+fn=(271)
+115 0 320
+
+fl=(2)
+fn=(276) php::Error->getLine
+118 0 0
+
+fl=(2)
+fn=(271)
+119 0 320
+
+fl=(2)
+fn=(277) php::Error->getTraceAsString
+122 5 4096
+
+fl=(2)
+fn=(274)
+124 9 4096
+
+fl=(2)
+fn=(271)
+124 0 4096
+
+fl=(69)
+fn=(278) Slim\Handlers\PhpError->renderHtmlError
+102 543 -11168
+cfl=(2)
+cfn=(270)
+calls=1 0 0
+104 0 0
+cfl=(2)
+cfn=(271)
+calls=1 0 0
+104 0 320
+cfl=(2)
+cfn=(272)
+calls=1 0 0
+106 0 0
+cfl=(2)
+cfn=(273)
+calls=1 0 0
+110 0 0
+cfl=(2)
+cfn=(274)
+calls=1 0 0
+111 3 160
+cfl=(2)
+cfn=(271)
+calls=1 0 0
+111 0 320
+cfl=(2)
+cfn=(275)
+calls=1 0 0
+114 1 0
+cfl=(2)
+cfn=(271)
+calls=1 0 0
+115 0 320
+cfl=(2)
+cfn=(276)
+calls=1 0 0
+118 0 0
+cfl=(2)
+cfn=(271)
+calls=1 0 0
+119 0 320
+cfl=(2)
+cfn=(277)
+calls=1 0 0
+122 5 4096
+cfl=(2)
+cfn=(274)
+calls=1 0 0
+124 9 4096
+cfl=(2)
+cfn=(271)
+calls=1 0 0
+124 0 4096
+
+fl=(2)
+fn=(279) php::Error->getPrevious
+74 0 0
+
+fl=(2)
+fn=(271)
+83 0 4096
+
+fl=(69)
+fn=(280) Slim\Handlers\PhpError->renderHtmlErrorMessage
+65 391 -2560
+cfl=(69)
+cfn=(278)
+calls=1 0 0
+72 566 2560
+cfl=(2)
+cfn=(279)
+calls=1 0 0
+74 0 0
+cfl=(2)
+cfn=(271)
+calls=1 0 0
+83 0 4096
+
+fl=(68)
+fn=(281) Slim\Handlers\PhpError->writeToErrorLog
+35 0 0
+
+fl=(2)
+fn=(116)
+49 5 600
+
+fl=(2)
+fn=(117)
+144 0 0
+
+fl=(2)
+fn=(117)
+130 0 0
+
+fl=(41)
+fn=(118)
+128 10 0
+cfl=(2)
+cfn=(117)
+calls=1 0 0
+130 0 0
+
+fl=(41)
+fn=(119)
+142 25 0
+cfl=(2)
+cfn=(117)
+calls=1 0 0
+144 0 0
+cfl=(41)
+cfn=(118)
+calls=1 0 0
+148 11 0
+
+fl=(41)
+fn=(120)
+93 16 0
+cfl=(41)
+cfn=(119)
+calls=1 0 0
+95 37 0
+
+fl=(2)
+fn=(117)
+130 0 0
+
+fl=(41)
+fn=(118)
+128 12 0
+cfl=(2)
+cfn=(117)
+calls=1 0 0
+130 0 0
+
+fl=(2)
+fn=(282) php::stream_get_meta_data
+113 1 736
+
+fl=(2)
+fn=(149)
+114 0 0
+
+fl=(41)
+fn=(283) Slim\Http\Body->getMetadata
+111 28 0
+cfl=(2)
+cfn=(282)
+calls=1 0 0
+113 1 736
+cfl=(2)
+cfn=(149)
+calls=1 0 0
+114 0 0
+
+fl=(2)
+fn=(34)
+301 0 0
+
+fl=(2)
+fn=(34)
+301 0 0
+
+fl=(41)
+fn=(284) Slim\Http\Body->isWritable
+294 55 0
+cfl=(41)
+cfn=(118)
+calls=1 0 0
+298 12 0
+cfl=(41)
+cfn=(283)
+calls=1 0 0
+299 30 736
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+301 0 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+301 0 0
+
+fl=(2)
+fn=(285) php::fwrite
+402 0 3072
+
+fl=(41)
+fn=(286) Slim\Http\Body->write
+400 39 0
+cfl=(41)
+cfn=(284)
+calls=1 0 0
+402 98 736
+cfl=(2)
+cfn=(285)
+calls=1 0 0
+402 0 3072
+
+fl=(2)
+fn=(111)
+223 0 0
+
+fl=(38)
+fn=(112)
+221 11 0
+cfl=(2)
+cfn=(111)
+calls=1 0 0
+223 0 0
+
+fl=(2)
+fn=(74)
+193 0 0
+
+fl=(38)
+fn=(122)
+148 0 432
+
+fl=(38)
+fn=(287) Slim\Http\Response->withStatus
+189 43 536
+cfl=(38)
+cfn=(112)
+calls=1 0 0
+191 11 0
+cfl=(2)
+cfn=(74)
+calls=1 0 0
+193 0 0
+cfl=(38)
+cfn=(122)
+calls=1 0 0
+197 0 432
+
+fl=(38)
+fn=(122)
+148 0 432
+
+fl=(2)
+fn=(50)
+119 1 0
+
+fl=(2)
+fn=(101)
+199 0 40
+
+fl=(2)
+fn=(28)
+199 0 0
+
+fl=(2)
+fn=(34)
+200 0 0
+
+fl=(34)
+fn=(102)
+197 35 0
+cfl=(2)
+cfn=(101)
+calls=1 0 0
+199 0 40
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+199 0 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+200 0 0
+
+fl=(21)
+fn=(103)
+40 1 336
+
+fl=(34)
+fn=(103)
+117 43 752
+cfl=(2)
+cfn=(50)
+calls=1 0 0
+119 1 0
+cfl=(34)
+cfn=(102)
+calls=1 0 0
+122 36 40
+cfl=(21)
+cfn=(103)
+calls=1 0 0
+124 1 336
+
+fl=(38)
+fn=(288) Slim\Http\Response->getStatusCode
+161 0 0
+
+fl=(38)
+fn=(289) Slim\Http\Response->withHeader
+271 44 536
+cfl=(38)
+cfn=(122)
+calls=1 0 0
+273 0 432
+cfl=(34)
+cfn=(103)
+calls=1 0 0
+274 81 1128
+cfl=(38)
+cfn=(288)
+calls=1 0 0
+280 0 0
+
+fl=(38)
+fn=(122)
+148 1 432
+
+fl=(36)
+fn=(290) Slim\Http\Response->withBody
+288 12 536
+cfl=(38)
+cfn=(122)
+calls=1 0 0
+290 1 432
+
+fl=(69)
+fn=(291) Slim\Handlers\PhpError->__invoke
+27 864 -5496
+cfl=(67)
+cfn=(269)
+calls=1 0 0
+29 401 40
+cfl=(69)
+cfn=(280)
+calls=1 0 0
+41 959 4096
+cfl=(68)
+cfn=(281)
+calls=1 0 0
+47 0 0
+cfl=(2)
+cfn=(116)
+calls=1 0 0
+49 5 600
+cfl=(41)
+cfn=(120)
+calls=1 0 0
+49 54 0
+cfl=(41)
+cfn=(286)
+calls=1 0 0
+50 138 3808
+cfl=(38)
+cfn=(287)
+calls=1 0 0
+53 55 968
+cfl=(38)
+cfn=(289)
+calls=1 0 0
+54 126 2096
+cfl=(36)
+cfn=(290)
+calls=1 0 0
+55 14 968
+
+fl=(2)
+fn=(292) php::call_user_func_array:{/p3t/phpappfolder/includes/vendor/slim/slim/Slim/App.php:728}
+728 396 0
+cfl=(69)
+cfn=(291)
+calls=1 0 0
+728 2620 7080
+
+fl=(19)
+fn=(293) Slim\App->handlePhpError
+720 459 0
+cfl=(15)
+cfn=(261)
+calls=1 0 0
+725 18 0
+cfl=(15)
+cfn=(63)
+calls=1 0 0
+726 3268 2776
+cfl=(2)
+cfn=(292)
+calls=1 0 0
+728 3016 7080
+
+fl=(19)
+fn=(294) Slim\App->process
+376 711 -126512
+cfl=(15)
+cfn=(63)
+calls=1 0 0
+379 70 0
+cfl=(45)
+cfn=(187)
+calls=1 0 0
+380 0 0
+cfl=(2)
+cfn=(89)
+calls=1 0 0
+380 0 0
+cfl=(2)
+cfn=(89)
+calls=1 0 0
+380 0 0
+cfl=(45)
+cfn=(187)
+calls=1 0 0
+381 0 0
+cfl=(49)
+cfn=(188)
+calls=1 0 0
+381 1 0
+cfl=(23)
+cfn=(189)
+calls=1 0 0
+381 11 0
+cfl=(15)
+cfn=(63)
+calls=1 0 0
+385 33 0
+cfl=(21)
+cfn=(68)
+calls=1 0 0
+385 46 0
+cfl=(18)
+cfn=(260)
+calls=1 0 0
+392 7950 142872
+cfl=(19)
+cfn=(293)
+calls=1 0 0
+396 6762 9856
+
+fl=(2)
+fn=(295) php::ob_get_clean
+301 0 -16480
+
+fl=(2)
+fn=(22)
+610 1 0
+
+fl=(12)
+fn=(44)
+133 0 0
+
+fl=(12)
+fn=(62)
+98 0 0
+
+fl=(15)
+fn=(63)
+102 66 0
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+104 0 0
+cfl=(12)
+cfn=(62)
+calls=1 0 0
+108 0 0
+
+fl=(2)
+fn=(54)
+650 0 0
+
+fl=(38)
+fn=(288)
+161 0 0
+
+fl=(2)
+fn=(90)
+377 0 0
+
+fl=(38)
+fn=(296) Slim\Http\Response->isEmpty
+373 25 0
+cfl=(38)
+cfn=(288)
+calls=1 0 0
+376 0 0
+cfl=(2)
+cfn=(90)
+calls=1 0 0
+377 0 0
+
+fl=(19)
+fn=(297) Slim\App->isEmptyResponse
+648 34 0
+cfl=(2)
+cfn=(54)
+calls=1 0 0
+650 0 0
+cfl=(38)
+cfn=(296)
+calls=1 0 0
+651 26 0
+
+fl=(12)
+fn=(44)
+133 0 0
+
+fl=(12)
+fn=(62)
+98 0 0
+
+fl=(15)
+fn=(63)
+102 36 0
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+104 0 0
+cfl=(12)
+cfn=(62)
+calls=1 0 0
+108 0 0
+
+fl=(2)
+fn=(64)
+86 0 0
+
+fl=(21)
+fn=(65)
+84 17 0
+cfl=(2)
+cfn=(64)
+calls=1 0 0
+86 0 0
+
+fl=(21)
+fn=(66)
+112 12 0
+cfl=(21)
+cfn=(65)
+calls=1 0 0
+114 17 0
+
+fl=(12)
+fn=(44)
+133 0 0
+
+fl=(12)
+fn=(62)
+98 0 0
+
+fl=(15)
+fn=(63)
+102 36 0
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+104 0 0
+cfl=(12)
+cfn=(62)
+calls=1 0 0
+108 0 0
+
+fl=(2)
+fn=(64)
+86 0 0
+
+fl=(21)
+fn=(65)
+84 18 0
+cfl=(2)
+cfn=(64)
+calls=1 0 0
+86 0 0
+
+fl=(21)
+fn=(67)
+48 12 0
+cfl=(21)
+cfn=(65)
+calls=1 0 0
+50 18 0
+
+fl=(21)
+fn=(68)
+124 14 0
+cfl=(21)
+cfn=(67)
+calls=1 0 0
+126 30 0
+
+fl=(45)
+fn=(218)
+260 1 0
+
+fl=(2)
+fn=(78)
+666 0 0
+
+fl=(19)
+fn=(298) Slim\App->isHeadRequest
+664 31 0
+cfl=(45)
+cfn=(218)
+calls=1 0 0
+666 1 0
+cfl=(2)
+cfn=(78)
+calls=1 0 0
+666 0 0
+
+fl=(19)
+fn=(299) Slim\App->finalize
+607 238 0
+cfl=(2)
+cfn=(22)
+calls=1 0 0
+610 1 0
+cfl=(15)
+cfn=(63)
+calls=1 0 0
+612 67 0
+cfl=(19)
+cfn=(297)
+calls=1 0 0
+613 61 0
+cfl=(15)
+cfn=(63)
+calls=1 0 0
+618 37 0
+cfl=(21)
+cfn=(66)
+calls=1 0 0
+618 30 0
+cfl=(15)
+cfn=(63)
+calls=1 0 0
+619 36 0
+cfl=(21)
+cfn=(68)
+calls=1 0 0
+619 45 0
+cfl=(19)
+cfn=(298)
+calls=1 0 0
+631 32 0
+
+fl=(2)
+fn=(300) php::headers_sent
+410 1 0
+
+fl=(21)
+fn=(301) Slim\Http\Headers->all
+66 0 0
+
+fl=(34)
+fn=(301)
+97 16 376
+cfl=(21)
+cfn=(301)
+calls=1 0 0
+99 0 0
+
+fl=(36)
+fn=(302) Slim\Http\Response->getHeaders
+128 14 0
+cfl=(34)
+cfn=(301)
+calls=1 0 0
+130 17 376
+
+fl=(2)
+fn=(144)
+413 0 0
+
+fl=(2)
+fn=(271)
+415 0 320
+
+fl=(2)
+fn=(303) php::header
+415 3 128
+
+fl=(36)
+fn=(304) Slim\Http\Response->getProtocolVersion
+67 0 0
+
+fl=(38)
+fn=(288)
+161 0 0
+
+fl=(38)
+fn=(305) Slim\Http\Response->getReasonPhrase
+247 0 0
+
+fl=(2)
+fn=(271)
+428 0 320
+
+fl=(38)
+fn=(288)
+161 0 0
+
+fl=(2)
+fn=(303)
+429 0 40
+
+fl=(12)
+fn=(44)
+133 0 0
+
+fl=(12)
+fn=(62)
+98 0 0
+
+fl=(15)
+fn=(63)
+102 65 0
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+104 0 0
+cfl=(12)
+cfn=(62)
+calls=1 0 0
+108 0 0
+
+fl=(2)
+fn=(54)
+650 0 0
+
+fl=(38)
+fn=(288)
+161 0 0
+
+fl=(2)
+fn=(90)
+377 0 0
+
+fl=(38)
+fn=(296)
+373 24 0
+cfl=(38)
+cfn=(288)
+calls=1 0 0
+376 0 0
+cfl=(2)
+cfn=(90)
+calls=1 0 0
+377 0 0
+
+fl=(19)
+fn=(297)
+648 31 0
+cfl=(2)
+cfn=(54)
+calls=1 0 0
+650 0 0
+cfl=(38)
+cfn=(296)
+calls=1 0 0
+651 25 0
+
+fl=(45)
+fn=(218)
+260 0 0
+
+fl=(2)
+fn=(78)
+666 0 0
+
+fl=(19)
+fn=(298)
+664 25 0
+cfl=(45)
+cfn=(218)
+calls=1 0 0
+666 0 0
+cfl=(2)
+cfn=(78)
+calls=1 0 0
+666 0 0
+
+fl=(36)
+fn=(306) Slim\Http\Response->getBody
+270 0 0
+
+fl=(2)
+fn=(117)
+130 0 0
+
+fl=(41)
+fn=(118)
+128 10 0
+cfl=(2)
+cfn=(117)
+calls=1 0 0
+130 0 0
+
+fl=(2)
+fn=(282)
+113 0 736
+
+fl=(2)
+fn=(149)
+114 0 0
+
+fl=(41)
+fn=(283)
+111 26 -736
+cfl=(2)
+cfn=(282)
+calls=1 0 0
+113 0 736
+cfl=(2)
+cfn=(149)
+calls=1 0 0
+114 0 0
+
+fl=(2)
+fn=(117)
+130 0 0
+
+fl=(41)
+fn=(118)
+128 12 0
+cfl=(2)
+cfn=(117)
+calls=1 0 0
+130 0 0
+
+fl=(2)
+fn=(307) php::fstat
+438 1 1752
+
+fl=(41)
+fn=(308) Slim\Http\Body->isPipe
+433 31 -1752
+cfl=(41)
+cfn=(118)
+calls=1 0 0
+437 12 0
+cfl=(2)
+cfn=(307)
+calls=1 0 0
+438 1 1752
+
+fl=(41)
+fn=(309) Slim\Http\Body->isSeekable
+317 50 0
+cfl=(41)
+cfn=(118)
+calls=1 0 0
+321 11 0
+cfl=(41)
+cfn=(283)
+calls=1 0 0
+322 27 0
+cfl=(41)
+cfn=(308)
+calls=1 0 0
+323 46 0
+
+fl=(41)
+fn=(309)
+317 0 0
+
+fl=(2)
+fn=(175)
+366 0 0
+
+fl=(41)
+fn=(310) Slim\Http\Body->rewind
+364 25 0
+cfl=(41)
+cfn=(309)
+calls=1 0 0
+366 0 0
+cfl=(2)
+cfn=(175)
+calls=1 0 0
+366 0 0
+
+fl=(12)
+fn=(44)
+133 0 0
+
+fl=(12)
+fn=(62)
+98 0 0
+
+fl=(15)
+fn=(63)
+102 35 0
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+104 0 0
+cfl=(12)
+cfn=(62)
+calls=1 0 0
+108 0 0
+
+fl=(2)
+fn=(64)
+86 0 0
+
+fl=(21)
+fn=(65)
+84 20 0
+cfl=(2)
+cfn=(64)
+calls=1 0 0
+86 0 0
+
+fl=(21)
+fn=(67)
+48 15 0
+cfl=(21)
+cfn=(65)
+calls=1 0 0
+50 20 0
+
+fl=(21)
+fn=(68)
+124 13 0
+cfl=(21)
+cfn=(67)
+calls=1 0 0
+126 35 0
+
+fl=(2)
+fn=(101)
+199 0 40
+
+fl=(2)
+fn=(28)
+199 0 0
+
+fl=(2)
+fn=(34)
+200 0 0
+
+fl=(34)
+fn=(102)
+197 37 0
+cfl=(2)
+cfn=(101)
+calls=1 0 0
+199 0 40
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+199 0 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+200 0 0
+
+fl=(2)
+fn=(64)
+86 1 0
+
+fl=(21)
+fn=(166)
+84 12 -40
+cfl=(2)
+cfn=(64)
+calls=1 0 0
+86 1 0
+
+fl=(34)
+fn=(166)
+179 31 0
+cfl=(34)
+cfn=(102)
+calls=1 0 0
+181 37 40
+cfl=(21)
+cfn=(166)
+calls=1 0 0
+181 14 -40
+
+fl=(34)
+fn=(167)
+136 13 0
+cfl=(34)
+cfn=(166)
+calls=1 0 0
+138 83 0
+
+fl=(2)
+fn=(25)
+186 0 0
+
+fl=(36)
+fn=(311) Slim\Http\Response->getHeaderLine
+184 25 0
+cfl=(34)
+cfn=(167)
+calls=1 0 0
+186 97 0
+cfl=(2)
+cfn=(25)
+calls=1 0 0
+186 0 0
+
+fl=(2)
+fn=(117)
+130 0 0
+
+fl=(41)
+fn=(118)
+128 11 0
+cfl=(2)
+cfn=(117)
+calls=1 0 0
+130 0 0
+
+fl=(2)
+fn=(307)
+229 0 1752
+
+fl=(41)
+fn=(308)
+433 1 0
+
+fl=(41)
+fn=(312) Slim\Http\Body->getSize
+226 42 -1752
+cfl=(41)
+cfn=(118)
+calls=1 0 0
+228 11 0
+cfl=(2)
+cfn=(307)
+calls=1 0 0
+229 0 1752
+cfl=(41)
+cfn=(308)
+calls=1 0 0
+230 1 0
+
+fl=(2)
+fn=(117)
+130 0 0
+
+fl=(41)
+fn=(118)
+128 10 0
+cfl=(2)
+cfn=(117)
+calls=1 0 0
+130 0 0
+
+fl=(2)
+fn=(313) php::feof
+259 0 0
+
+fl=(41)
+fn=(314) Slim\Http\Body->eof
+257 29 0
+cfl=(41)
+cfn=(118)
+calls=1 0 0
+259 10 0
+cfl=(2)
+cfn=(313)
+calls=1 0 0
+259 0 0
+
+fl=(2)
+fn=(315) php::min
+451 0 0
+
+fl=(41)
+fn=(308)
+433 0 0
+
+fl=(2)
+fn=(117)
+130 0 0
+
+fl=(41)
+fn=(118)
+128 10 0
+cfl=(2)
+cfn=(117)
+calls=1 0 0
+130 0 0
+
+fl=(2)
+fn=(282)
+113 0 736
+
+fl=(2)
+fn=(149)
+114 0 0
+
+fl=(41)
+fn=(283)
+111 27 -736
+cfl=(2)
+cfn=(282)
+calls=1 0 0
+113 0 736
+cfl=(2)
+cfn=(149)
+calls=1 0 0
+114 0 0
+
+fl=(2)
+fn=(34)
+277 0 0
+
+fl=(2)
+fn=(34)
+277 0 0
+
+fl=(2)
+fn=(34)
+277 0 0
+
+fl=(41)
+fn=(316) Slim\Http\Body->isReadable
+267 77 0
+cfl=(41)
+cfn=(308)
+calls=1 0 0
+270 0 0
+cfl=(41)
+cfn=(118)
+calls=1 0 0
+274 10 0
+cfl=(41)
+cfn=(283)
+calls=1 0 0
+275 28 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+277 0 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+277 0 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+277 0 0
+
+fl=(2)
+fn=(317) php::fread
+384 0 3072
+
+fl=(41)
+fn=(318) Slim\Http\Body->read
+382 39 0
+cfl=(41)
+cfn=(316)
+calls=1 0 0
+384 116 0
+cfl=(2)
+cfn=(317)
+calls=1 0 0
+384 0 3072
+
+fl=(2)
+fn=(145)
+454 0 0
+
+fl=(2)
+fn=(319) php::connection_status
+456 0 0
+
+fl=(19)
+fn=(320) Slim\App->respond
+407 462 -4088
+cfl=(2)
+cfn=(300)
+calls=1 0 0
+410 1 0
+cfl=(36)
+cfn=(302)
+calls=1 0 0
+412 31 376
+cfl=(2)
+cfn=(144)
+calls=1 0 0
+413 0 0
+cfl=(2)
+cfn=(271)
+calls=1 0 0
+415 0 320
+cfl=(2)
+cfn=(303)
+calls=1 0 0
+415 3 128
+cfl=(36)
+cfn=(304)
+calls=1 0 0
+426 0 0
+cfl=(38)
+cfn=(288)
+calls=1 0 0
+427 0 0
+cfl=(38)
+cfn=(305)
+calls=1 0 0
+428 0 0
+cfl=(2)
+cfn=(271)
+calls=1 0 0
+428 0 320
+cfl=(38)
+cfn=(288)
+calls=1 0 0
+429 0 0
+cfl=(2)
+cfn=(303)
+calls=1 0 0
+429 0 40
+cfl=(15)
+cfn=(63)
+calls=1 0 0
+433 66 0
+cfl=(19)
+cfn=(297)
+calls=1 0 0
+434 56 0
+cfl=(19)
+cfn=(298)
+calls=1 0 0
+434 25 0
+cfl=(36)
+cfn=(306)
+calls=1 0 0
+435 0 0
+cfl=(41)
+cfn=(309)
+calls=1 0 0
+436 135 0
+cfl=(41)
+cfn=(310)
+calls=1 0 0
+437 25 0
+cfl=(15)
+cfn=(63)
+calls=1 0 0
+439 35 0
+cfl=(21)
+cfn=(68)
+calls=1 0 0
+440 48 0
+cfl=(36)
+cfn=(311)
+calls=1 0 0
+442 123 0
+cfl=(41)
+cfn=(312)
+calls=1 0 0
+444 56 0
+cfl=(41)
+cfn=(314)
+calls=1 0 0
+450 40 0
+cfl=(2)
+cfn=(315)
+calls=1 0 0
+451 0 0
+cfl=(41)
+cfn=(318)
+calls=1 0 0
+451 156 3072
+cfl=(2)
+cfn=(145)
+calls=1 0 0
+454 0 0
+cfl=(2)
+cfn=(319)
+calls=1 0 0
+456 0 0
+
+fl=(19)
+fn=(321) Slim\App->run
+291 242 -7112
+cfl=(15)
+cfn=(63)
+calls=1 0 0
+293 2461 87232
+cfl=(2)
+cfn=(125)
+calls=1 0 0
+296 1 16512
+cfl=(15)
+cfn=(63)
+calls=1 0 0
+297 10539 96736
+cfl=(19)
+cfn=(294)
+calls=1 0 0
+297 15589 26216
+cfl=(2)
+cfn=(295)
+calls=1 0 0
+301 0 -16480
+cfl=(19)
+cfn=(299)
+calls=1 0 0
+317 552 0
+cfl=(19)
+cfn=(320)
+calls=1 0 0
+320 1271 168
+
+fl=(2)
+fn=(8)
+22 0 0
+
+fl=(2)
+fn=(322) php::xdebug_stop_trace
+24 13 96
+
+fl=(70) /p3t/phpappfolder/includes/M2M/bootstrap.php
+fn=(323) include::/p3t/phpappfolder/includes/M2M/bootstrap.php
+1 401 96
+cfl=(10)
+cfn=(21)
+calls=1 0 0
+3 648 6352
+cfl=(11)
+cfn=(26)
+calls=1 0 0
+5 308 608
+cfl=(2)
+cfn=(8)
+calls=1 0 0
+7 4 0
+cfl=(2)
+cfn=(27)
+calls=1 0 0
+9 313 96
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+12 1850 3824
+cfl=(15)
+cfn=(42)
+calls=1 0 0
+12 672 7152
+cfl=(17)
+cfn=(47)
+calls=1 0 0
+14 99 3200
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+16 340 2720
+cfl=(19)
+cfn=(51)
+calls=1 0 0
+16 39 0
+cfl=(32)
+cfn=(98)
+calls=1 0 0
+18 5704 18296
+cfl=(19)
+cfn=(321)
+calls=1 0 0
+20 30660 203272
+cfl=(2)
+cfn=(8)
+calls=1 0 0
+22 0 0
+cfl=(2)
+cfn=(322)
+calls=1 0 0
+24 13 96
+
+fl=(71) /p3t/phpappfolder/public_php/M2M/index.php
+fn=(324) {main}
+
+summary: 41096 245776
+
+1 41 64
+cfl=(70)
+cfn=(323)
+calls=1 0 0
+6 41055 245712
+
