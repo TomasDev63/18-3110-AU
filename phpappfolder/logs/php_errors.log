@@ -1,0 +1,30 @@
+[16-Nov-2019 20:17:16 Europe/London] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[16-Nov-2019 20:17:16 Europe/London] PHP Fatal error:  Unknown: Failed opening required '/p3t/phpappfolder/public_php/country_details/index.php' (include_path='.:/p3t/phpappfolder/includes') in Unknown on line 0
+[16-Nov-2019 20:17:18 Europe/London] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[16-Nov-2019 20:17:18 Europe/London] PHP Fatal error:  Unknown: Failed opening required '/p3t/phpappfolder/public_php/country_details/index.php' (include_path='.:/p3t/phpappfolder/includes') in Unknown on line 0
+[16-Nov-2019 20:17:18 Europe/London] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[16-Nov-2019 20:17:18 Europe/London] PHP Fatal error:  Unknown: Failed opening required '/p3t/phpappfolder/public_php/country_details/index.php' (include_path='.:/p3t/phpappfolder/includes') in Unknown on line 0
+[16-Nov-2019 20:17:34 Europe/London] PHP Warning:  include(/p3t/phpappfolder/includes/country_details/bootstrap.php): failed to open stream: Permission denied in /p3t/phpappfolder/public_php/country_details/index.php on line 6
+[16-Nov-2019 20:17:34 Europe/London] PHP Stack trace:
+[16-Nov-2019 20:17:34 Europe/London] PHP   1. {main}() /p3t/phpappfolder/public_php/country_details/index.php:0
+[16-Nov-2019 20:17:34 Europe/London] PHP Warning:  include(): Failed opening 'country_details/bootstrap.php' for inclusion (include_path='.:/p3t/phpappfolder/includes') in /p3t/phpappfolder/public_php/country_details/index.php on line 6
+[16-Nov-2019 20:17:34 Europe/London] PHP Stack trace:
+[16-Nov-2019 20:17:34 Europe/London] PHP   1. {main}() /p3t/phpappfolder/public_php/country_details/index.php:0
+[16-Nov-2019 20:17:35 Europe/London] PHP Warning:  include(/p3t/phpappfolder/includes/country_details/bootstrap.php): failed to open stream: Permission denied in /p3t/phpappfolder/public_php/country_details/index.php on line 6
+[16-Nov-2019 20:17:35 Europe/London] PHP Stack trace:
+[16-Nov-2019 20:17:35 Europe/London] PHP   1. {main}() /p3t/phpappfolder/public_php/country_details/index.php:0
+[16-Nov-2019 20:17:35 Europe/London] PHP Warning:  include(): Failed opening 'country_details/bootstrap.php' for inclusion (include_path='.:/p3t/phpappfolder/includes') in /p3t/phpappfolder/public_php/country_details/index.php on line 6
+[16-Nov-2019 20:17:35 Europe/London] PHP Stack trace:
+[16-Nov-2019 20:17:35 Europe/London] PHP   1. {main}() /p3t/phpappfolder/public_php/country_details/index.php:0
+[16-Nov-2019 20:32:22 Europe/London] PHP Warning:  include(country_details/bootstrap.php): failed to open stream: No such file or directory in /p3t/phpappfolder/public_php/M2M/index.php on line 6
+[16-Nov-2019 20:32:22 Europe/London] PHP Stack trace:
+[16-Nov-2019 20:32:22 Europe/London] PHP   1. {main}() /p3t/phpappfolder/public_php/M2M/index.php:0
+[16-Nov-2019 20:32:22 Europe/London] PHP Warning:  include(): Failed opening 'country_details/bootstrap.php' for inclusion (include_path='.:/p3t/phpappfolder/includes') in /p3t/phpappfolder/public_php/M2M/index.php on line 6
+[16-Nov-2019 20:32:22 Europe/London] PHP Stack trace:
+[16-Nov-2019 20:32:22 Europe/London] PHP   1. {main}() /p3t/phpappfolder/public_php/M2M/index.php:0
+[16-Nov-2019 20:35:56 Europe/London] PHP Warning:  include(country_details/bootstrap.php): failed to open stream: No such file or directory in /p3t/phpappfolder/public_php/M2M/index.php on line 6
+[16-Nov-2019 20:35:56 Europe/London] PHP Stack trace:
+[16-Nov-2019 20:35:56 Europe/London] PHP   1. {main}() /p3t/phpappfolder/public_php/M2M/index.php:0
+[16-Nov-2019 20:35:56 Europe/London] PHP Warning:  include(): Failed opening 'country_details/bootstrap.php' for inclusion (include_path='.:/p3t/phpappfolder/includes') in /p3t/phpappfolder/public_php/M2M/index.php on line 6
+[16-Nov-2019 20:35:56 Europe/London] PHP Stack trace:
+[16-Nov-2019 20:35:56 Europe/London] PHP   1. {main}() /p3t/phpappfolder/public_php/M2M/index.php:0

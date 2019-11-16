@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3aa57651-c783-4cf8-8def-dbed7ac3d08d" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/includes/composer.json</pharConfigPath>
+    <execution>
+      <executable path="composer" />
+    </execution>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/includes/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/includes/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/includes/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/includes/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/includes/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/includes/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/includes/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/includes/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/includes/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/includes/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/includes/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/includes/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/includes/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/includes/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/includes/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/includes/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/includes/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/includes/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/includes/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/includes/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/includes/vendor/nikic/fast-route" />
+      <path value="$PROJECT_DIR$/includes/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/includes/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/includes/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/includes/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/includes/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/includes/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/includes/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/includes/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/includes/vendor/slim/slim" />
+      <path value="$PROJECT_DIR$/includes/vendor/slim/twig-view" />
+      <path value="$PROJECT_DIR$/includes/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/includes/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/includes/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/includes/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/includes/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/includes/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/includes/vendor/pimple/pimple" />
+      <path value="$PROJECT_DIR$/includes/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/includes/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/includes/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/includes/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/includes/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/includes/vendor/doctrine/reflection" />
+      <path value="$PROJECT_DIR$/includes/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/includes/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/includes/vendor/container-interop/container-interop" />
+      <path value="$PROJECT_DIR$/includes/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/includes/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/includes/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/includes/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/includes/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/includes/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/includes/vendor/composer" />
+      <path value="$PROJECT_DIR$/includes/vendor/myclabs/deep-copy" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1RKFPMMje19E1rcvu0H0paADdEM" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public_php/lab_01/say_hi_2" />
+      <recent name="$PROJECT_DIR$/public_php/lab_01/say_hi_1" />
+      <recent name="$PROJECT_DIR$/public_php/lab_01" />
+      <recent name="$PROJECT_DIR$/public_php" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3aa57651-c783-4cf8-8def-dbed7ac3d08d" name="Default Changelist" comment="" />
+      <created>1569407856394</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569407856394</updated>
+      <workItem from="1569407861537" duration="23000" />
+      <workItem from="1569409959048" duration="2439000" />
+      <workItem from="1569420952889" duration="1564000" />
+      <workItem from="1569425827579" duration="3592000" />
+      <workItem from="1569592534736" duration="16000" />
+      <workItem from="1569592574695" duration="627000" />
+      <workItem from="1569617023299" duration="2394000" />
+      <workItem from="1569694958200" duration="4913000" />
+      <workItem from="1569786674243" duration="128000" />
+      <workItem from="1571688879751" duration="448000" />
+      <workItem from="1573765254241" duration="48000" />
+      <workItem from="1573932702590" duration="62000" />
+      <workItem from="1573935271573" duration="8000" />
+      <workItem from="1573935296061" duration="1764000" />
+      <workItem from="1573937089436" duration="271000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
