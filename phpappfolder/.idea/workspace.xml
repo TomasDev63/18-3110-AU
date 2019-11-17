@@ -76,15 +76,16 @@
   <component name="ProjectId" id="1RKFPMMje19E1rcvu0H0paADdEM" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/includes/M2M/app/routes" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/includes/M2M/app/routes" />
+      <recent name="$PROJECT_DIR$/includes/M2M/app/templates" />
       <recent name="$PROJECT_DIR$/public_php/lab_01/say_hi_2" />
       <recent name="$PROJECT_DIR$/public_php/lab_01/say_hi_1" />
       <recent name="$PROJECT_DIR$/public_php/lab_01" />
-      <recent name="$PROJECT_DIR$/public_php" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -124,6 +125,9 @@
       <workItem from="1573935271573" duration="8000" />
       <workItem from="1573935296061" duration="1764000" />
       <workItem from="1573937089436" duration="271000" />
+      <workItem from="1574018811918" duration="1760000" />
+      <workItem from="1574020604927" duration="1640000" />
+      <workItem from="1574022277997" duration="17000" />
     </task>
     <servers />
   </component>
