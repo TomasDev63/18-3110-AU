@@ -21,7 +21,7 @@ $app->get('/', function(Request $request, Response $response) use ($app)
     $country_names = getCountryNamesAndIsoCodes($app);
 //var_dump($country_names);
     $html_output = $this->view->render($response,
-    'homepageform.html.twig',
+    'login.html.twig',
     [
       'css_path' => CSS_PATH,
       'landing_page' => LANDING_PAGE,
@@ -30,16 +30,15 @@ $app->get('/', function(Request $request, Response $response) use ($app)
       'initial_input_box_value' => null,
       'page_title' => APP_NAME,
       'page_heading_1' => APP_NAME,
-      'page_heading_2' => 'Display details about a country',
-      'country_names' => $country_names,
-      'page_text' => 'Select a country name, then select the required information details',
+      'page_heading_2' => 'Log in to your account',
+      'country_names' => $country_names
     ]);
 
     $processed_output = processOutput($app, $html_output);
 
     return $processed_output;
 
-})->setName('homepage');
+})->setName('login');
 
 function processOutput($app, $html_output)
 {
