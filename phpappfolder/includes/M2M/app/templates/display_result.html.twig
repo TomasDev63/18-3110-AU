@@ -1,11 +1,25 @@
 {% extends 'banner.html.twig' %}
 {% block content %}
-  <div id="lg-form-container">
-  <h2>{{ page_heading_2 }}</h2>
-  <p>{{ page_text }}</p>
-    <p>Country selected was <b>{{ country_name }}</b></p>
-    <p>Required detail was <b>{{ detail }}</b></p>
-    <p>{{ result }}</p>
-    <p class="curr_page"><a href="{{ landing_page }}">Another go</a></p>
+  <div id="page-content-div">
+    <br>
+    <h2>Messages</h2>
+    <br>
+    <div class="row">
+      <div class="column">
+        <h3>Message list</h3>
+        <select name="messagelist" size="20">
+          <option>Message 1</option>
+          <option>Message 2</option>
+          <option>Message 3</option>
+          <option>Message 4</option>
+          <option>Message 5</option>
+        </select>
+      </div>
+      <div class="column">
+        <h3>Message Content</h3>
+        Test
+      </div>
+    </div>
+    </form>
   </div>
 {% endblock %}

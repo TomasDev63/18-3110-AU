@@ -10,5 +10,5 @@
 	*
 	*/
 
-require 'routes/homepage.php';
+require 'routes/login.php';
 require 'routes/processcountrydetails.php';

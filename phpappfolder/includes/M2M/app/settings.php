@@ -19,7 +19,7 @@ define('CSS_PATH', $css_path);
 define('APP_NAME', 'M2M');
 define('LANDING_PAGE', $_SERVER['SCRIPT_NAME']);
 
-$wsdl = 'http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso?WSDL';
+$wsdl = 'https://m2mconnect.ee.co.uk/orange-soap/services/MessageServiceByCountry?WSDL';
 define('WSDL', $wsdl);
 
 $detail_types = ['capital', 'continents', 'full', 'gmt'];
