@@ -9,8 +9,8 @@
         <h3>Message list</h3>
         {{ error_message }}
         <select name="messagelist" size="20">
-          {% for code, name in messages %}
-            <option value="{{code}}">{{name}}</option>
+          {% for code, message in messages %}
+            <option value="{{code}}">{{message}}</option>
           {% endfor %}
         </select>
       </div>
