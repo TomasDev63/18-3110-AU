@@ -12,11 +12,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Country\\": "M2M/app/src",
-            "Sessions\\": "sessions/app/src",
-            "Dictionary\\": "dictionary/app/src",
-            "StockQuotes\\": "stockquotes/app/src",
-            "TempConv\\": "temperature_conversion/app/src"
+            "M2M\\": "M2M/app/src"
         }
     }
 }

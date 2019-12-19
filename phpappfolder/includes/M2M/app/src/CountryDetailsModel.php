@@ -6,7 +6,7 @@
  * Time: 10:01
  */
 
-namespace Country;
+namespace M2M;
 
 class CountryDetailsModel
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Country;
+namespace M2M;
 
 class SoapWrapper
 {

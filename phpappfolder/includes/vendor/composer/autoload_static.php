@@ -26,7 +26,6 @@ class ComposerStaticInit278cf0a2223ad86eeeab6943634f1ad9
         'T' => 
         array (
             'Twig\\' => 5,
-            'TempConv\\' => 9,
         ),
         'S' => 
         array (
@@ -35,10 +34,8 @@ class ComposerStaticInit278cf0a2223ad86eeeab6943634f1ad9
             'Symfony\\Polyfill\\Ctype\\' => 23,
             'Symfony\\Contracts\\Service\\' => 26,
             'Symfony\\Component\\Console\\' => 26,
-            'StockQuotes\\' => 12,
             'Slim\\Views\\' => 11,
             'Slim\\' => 5,
-            'Sessions\\' => 9,
         ),
         'P' => 
         array (
@@ -50,10 +47,7 @@ class ComposerStaticInit278cf0a2223ad86eeeab6943634f1ad9
         'M' => 
         array (
             'Monolog\\' => 8,
-        ),
-        'I' => 
-        array (
-            'Interop\\Container\\' => 18,
+            'M2M\\' => 4,
         ),
         'F' => 
         array (
@@ -61,6 +55,7 @@ class ComposerStaticInit278cf0a2223ad86eeeab6943634f1ad9
         ),
         'D' => 
         array (
+            'Doctrine\\Persistence\\' => 21,
             'Doctrine\\ORM\\' => 13,
             'Doctrine\\Instantiator\\' => 22,
             'Doctrine\\DBAL\\' => 14,
@@ -70,12 +65,7 @@ class ComposerStaticInit278cf0a2223ad86eeeab6943634f1ad9
             'Doctrine\\Common\\Cache\\' => 22,
             'Doctrine\\Common\\Annotations\\' => 28,
             'Doctrine\\Common\\' => 16,
-            'Dictionary\\' => 11,
             'DeepCopy\\' => 9,
-        ),
-        'C' => 
-        array (
-            'Country\\' => 8,
         ),
     );
 
@@ -93,10 +83,6 @@ class ComposerStaticInit278cf0a2223ad86eeeab6943634f1ad9
         'Twig\\' => 
         array (
             0 => __DIR__ . '/..' . '/twig/twig/src',
-        ),
-        'TempConv\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/temperature_conversion/app/src',
         ),
         'Symfony\\Polyfill\\Php73\\' => 
         array (
@@ -118,10 +104,6 @@ class ComposerStaticInit278cf0a2223ad86eeeab6943634f1ad9
         array (
             0 => __DIR__ . '/..' . '/symfony/console',
         ),
-        'StockQuotes\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/stockquotes/app/src',
-        ),
         'Slim\\Views\\' => 
         array (
             0 => __DIR__ . '/..' . '/slim/twig-view/src',
@@ -129,10 +111,6 @@ class ComposerStaticInit278cf0a2223ad86eeeab6943634f1ad9
         'Slim\\' => 
         array (
             0 => __DIR__ . '/..' . '/slim/slim/Slim',
-        ),
-        'Sessions\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/sessions/app/src',
         ),
         'Psr\\Log\\' => 
         array (
@@ -154,13 +132,17 @@ class ComposerStaticInit278cf0a2223ad86eeeab6943634f1ad9
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
         ),
-        'Interop\\Container\\' => 
+        'M2M\\' => 
         array (
-            0 => __DIR__ . '/..' . '/container-interop/container-interop/src/Interop/Container',
+            0 => __DIR__ . '/../..' . '/M2M/app/src',
         ),
         'FastRoute\\' => 
         array (
             0 => __DIR__ . '/..' . '/nikic/fast-route/src',
+        ),
+        'Doctrine\\Persistence\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/persistence/lib/Doctrine/Persistence',
         ),
         'Doctrine\\ORM\\' => 
         array (
@@ -201,28 +183,13 @@ class ComposerStaticInit278cf0a2223ad86eeeab6943634f1ad9
             2 => __DIR__ . '/..' . '/doctrine/persistence/lib/Doctrine/Common',
             3 => __DIR__ . '/..' . '/doctrine/reflection/lib/Doctrine/Common',
         ),
-        'Dictionary\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/dictionary/app/src',
-        ),
         'DeepCopy\\' => 
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
         ),
-        'Country\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/M2M/app/src',
-        ),
     );
 
     public static $prefixesPsr0 = array (
-        'T' => 
-        array (
-            'Twig_' => 
-            array (
-                0 => __DIR__ . '/..' . '/twig/twig/lib',
-            ),
-        ),
         'P' => 
         array (
             'Pimple' => 
@@ -284,6 +251,8 @@ class ComposerStaticInit278cf0a2223ad86eeeab6943634f1ad9
         'PHPUnit\\Framework\\Constraint\\StringMatchesFormatDescription' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Constraint/StringMatchesFormatDescription.php',
         'PHPUnit\\Framework\\Constraint\\StringStartsWith' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Constraint/StringStartsWith.php',
         'PHPUnit\\Framework\\Constraint\\TraversableContains' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Constraint/TraversableContains.php',
+        'PHPUnit\\Framework\\Constraint\\TraversableContainsEqual' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Constraint/TraversableContainsEqual.php',
+        'PHPUnit\\Framework\\Constraint\\TraversableContainsIdentical' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Constraint/TraversableContainsIdentical.php',
         'PHPUnit\\Framework\\Constraint\\TraversableContainsOnly' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Constraint/TraversableContainsOnly.php',
         'PHPUnit\\Framework\\CoveredCodeNotExecutedException' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Exception/CoveredCodeNotExecutedException.php',
         'PHPUnit\\Framework\\DataProviderTestSuite' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/DataProviderTestSuite.php',
@@ -354,6 +323,7 @@ class ComposerStaticInit278cf0a2223ad86eeeab6943634f1ad9
         'PHPUnit\\Framework\\MockObject\\Stub\\Stub' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/MockObject/Stub/Stub.php',
         'PHPUnit\\Framework\\MockObject\\UnmockedCloneMethod' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/MockObject/Api/UnmockedCloneMethod.php',
         'PHPUnit\\Framework\\MockObject\\Verifiable' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/MockObject/Verifiable.php',
+        'PHPUnit\\Framework\\NoChildTestSuiteException' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Exception/NoChildTestSuiteException.php',
         'PHPUnit\\Framework\\OutputError' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Exception/OutputError.php',
         'PHPUnit\\Framework\\PHPTAssertionFailedError' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Exception/PHPTAssertionFailedError.php',
         'PHPUnit\\Framework\\RiskyTestError' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Exception/RiskyTestError.php',
@@ -373,7 +343,6 @@ class ComposerStaticInit278cf0a2223ad86eeeab6943634f1ad9
         'PHPUnit\\Framework\\TestResult' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/TestResult.php',
         'PHPUnit\\Framework\\TestSuite' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/TestSuite.php',
         'PHPUnit\\Framework\\TestSuiteIterator' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/TestSuiteIterator.php',
-        'PHPUnit\\Framework\\UnexpectedValueException' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Exception/UnexpectedValueException.php',
         'PHPUnit\\Framework\\UnintentionallyCoveredCodeError' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Exception/UnintentionallyCoveredCodeError.php',
         'PHPUnit\\Framework\\Warning' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Exception/Warning.php',
         'PHPUnit\\Framework\\WarningTestCase' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/WarningTestCase.php',
@@ -425,6 +394,7 @@ class ComposerStaticInit278cf0a2223ad86eeeab6943634f1ad9
         'PHPUnit\\Util\\Filter' => __DIR__ . '/..' . '/phpunit/phpunit/src/Util/Filter.php',
         'PHPUnit\\Util\\Getopt' => __DIR__ . '/..' . '/phpunit/phpunit/src/Util/Getopt.php',
         'PHPUnit\\Util\\GlobalState' => __DIR__ . '/..' . '/phpunit/phpunit/src/Util/GlobalState.php',
+        'PHPUnit\\Util\\InvalidDataSetException' => __DIR__ . '/..' . '/phpunit/phpunit/src/Util/InvalidDataSetException.php',
         'PHPUnit\\Util\\Json' => __DIR__ . '/..' . '/phpunit/phpunit/src/Util/Json.php',
         'PHPUnit\\Util\\Log\\JUnit' => __DIR__ . '/..' . '/phpunit/phpunit/src/Util/Log/JUnit.php',
         'PHPUnit\\Util\\Log\\TeamCity' => __DIR__ . '/..' . '/phpunit/phpunit/src/Util/Log/TeamCity.php',
