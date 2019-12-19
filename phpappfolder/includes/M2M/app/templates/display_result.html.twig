@@ -7,12 +7,11 @@
     <div class="row">
       <div class="column">
         <h3>Message list</h3>
+        {{ error_message }}
         <select name="messagelist" size="20">
-          <option>Message 1</option>
-          <option>Message 2</option>
-          <option>Message 3</option>
-          <option>Message 4</option>
-          <option>Message 5</option>
+          {% for code, name in messages %}
+            <option value="{{code}}">{{name}}</option>
+          {% endfor %}
         </select>
       </div>
       <div class="column">
@@ -21,5 +20,8 @@
       </div>
     </div>
     </form>
+    <br>
+    <br>
+    <a href="index.php">Go Back</a>
   </div>
 {% endblock %}

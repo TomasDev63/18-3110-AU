@@ -4,21 +4,21 @@
         <br>
         <h2>{{ page_heading_2 }}</h2>
         <br>
-            <div>
-                <form action="/action_page.php">
-                    <label for="username">Username</label>
-                    <br>
-                    <input type="text" id="username" name="username">
-                    <br>
-                    <label for="password">Password</label>
-                    <br>
-                    <input type="password" id="password" name="password">
-                    <br>
-                    <input id="login" type="submit" value="Login">
-                    <br>
-                    <input id="register" type="button" value="Register">
-                </form>
-            </div>
+        <div>
+            <form method="{{ method }}" action="{{ action }}">
+                <label for="username">Username</label>
+                <br>
+                <input type="text" id="username" name="username">
+                <br>
+                <label for="password">Password</label>
+                <br>
+                <input type="password" id="password" name="password">
+                <br>
+                <input id="login" type="submit" value="Login">
+                <br>
+                <input id="register" type="button" value="Register">
+            </form>
+        </div>
         </form>
     </div>
 {% endblock %}

@@ -20,7 +20,7 @@ input[id=register] {width: 15%;background-color: #844560cc;color: white;padding:
 /***********************************************/
 /* select styles                               */
 /***********************************************/
-select[name=messagelist] {width: 400px;}
+select[name=messagelist] {width: 800px;}
 
 /***********************************************/
 /* division styles                             */

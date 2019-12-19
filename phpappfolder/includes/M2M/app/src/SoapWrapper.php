@@ -30,7 +30,7 @@ class SoapWrapper
         return $soap_client_handle;
     }
 
-    public function performSoapCall($soap_client, $webservice_function, $webservice_call_parameters, $webservice_value)
+    public function performSoapCall($soap_client, $webservice_function, $username, $password, $message_count, $device_msisdn, $country_code)
     {
         $soap_call_result = null;
         $raw_xml = '';
@@ -39,14 +39,13 @@ class SoapWrapper
         {
             try
             {
-                $webservice_call_result = $soap_client->{$webservice_function}($webservice_call_parameters);
-                $soap_call_result = $webservice_call_result->{$webservice_value};
+                $webservice_call_result = $soap_client->{$webservice_function}($username, $password, $message_count, $device_msisdn, $country_code);
             }
             catch (\SoapFault $exception)
             {
-                $soap_call_result = $exception;
+                $webservice_call_result = $exception;
             }
         }
-        return $soap_call_result;
+        return $webservice_call_result;
     }
 }
