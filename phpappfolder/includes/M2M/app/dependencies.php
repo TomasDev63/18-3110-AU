@@ -26,7 +26,7 @@ $container['soapWrapper'] = function ($container) {
   return $validator;
 };
 
-$container['countryDetailsModel'] = function ($container) {
+$container['messageDetailsModel'] = function ($container) {
   $model = new \M2M\CountryDetailsModel();
   return $model;
 };
