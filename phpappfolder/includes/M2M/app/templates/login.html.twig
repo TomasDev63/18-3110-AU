@@ -5,7 +5,7 @@
         <h2>{{ page_heading_2 }}</h2>
         <br>
         <div>
-            <form method="{{ method }}" action="{{ action }}">
+            <form method="{{ login_method }}" action="{{ login_action }}">
                 <label for="username">Username</label>
                 <br>
                 <input type="text" id="username" name="username">
@@ -15,8 +15,10 @@
                 <input type="password" id="password" name="password">
                 <br>
                 <input id="login" type="submit" value="Login">
-                <br>
-                <input id="register" type="button" value="Register">
+                <p class="login_error">{{ error_message }}</p>
+            </form>
+            <form method="{{ help_method }}" action="{{ help_action }}">
+                <input id="help" type="submit" value="Help">
             </form>
         </div>
         </form>

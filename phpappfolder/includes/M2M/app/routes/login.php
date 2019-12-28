@@ -1,14 +1,12 @@
 <?php
 /**
- * homepage.php
+ * login.php
  *
- * display the check primes application homepage
+ * Display the login page
+ * Allows the user to enter their username and password
  *
- * allows the user to enter a value for testing if prime
- *
- * Author: CF Ingrams
- * Email: <cfi@dmu.ac.uk>
- * Date: 18/10/2015
+ * Author: Tomas Tarapavicius
+ * Date: 26/12/2019
  *
  */
 
@@ -22,8 +20,10 @@ $app->get('/', function(Request $request, Response $response) use ($app)
         [
             'css_path' => CSS_PATH,
             'landing_page' => LANDING_PAGE,
-            'method' => 'post',
-            'action' => 'processlogin',
+            'login_method' => 'post',
+            'login_action' => 'processlogin',
+            'help_method' => 'get',
+            'help_action' => 'help',
             'initial_input_box_value' => null,
             'page_title' => APP_NAME,
             'page_heading_1' => APP_NAME,

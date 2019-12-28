@@ -10,5 +10,6 @@
 	*
 	*/
 
+require 'routes/help.php';
 require 'routes/login.php';
 require 'routes/processlogin.php';

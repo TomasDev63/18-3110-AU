@@ -1,14 +1,12 @@
 <?php
 /**
- * homepage.php
+ * processlogin.php
  *
- * display the check primes application homepage
+ * Display the messages page
+ * Allows the user to view messages
  *
- * allows the user to enter a value for testing if prime
- *
- * Author: CF Ingrams
- * Email: <cfi@dmu.ac.uk>
- * Date: 18/10/2015
+ * Author: Tomas Tarapavicius
+ * Date: 26/12/2019
  *
  */
 
@@ -20,20 +18,44 @@ $app->post('/processlogin', function(Request $request, Response $response) use (
     $tainted_parameters = $request->getParsedBody();
     $cleaned_parameters = cleanupParameters($app, $tainted_parameters);
     $messages = getMessages($app, $cleaned_parameters);
-    $validated_messages = validateDownloadedData($app, $messages);
+
+    if (is_soap_fault($messages))
+    {
+        $html_output = $this->view->render($response,
+            'login.html.twig',
+            [
+                'css_path' => CSS_PATH,
+                'landing_page' => LANDING_PAGE,
+                'login_method' => 'post',
+                'login_action' => 'processlogin',
+                'help_method' => 'get',
+                'help_action' => 'help',
+                'initial_input_box_value' => null,
+                'page_title' => APP_NAME,
+                'page_heading_1' => APP_NAME,
+                'page_heading_2' => 'Log in to your account',
+                'error_message' => 'Incorrect Username or Password entered.',
+            ]);
+    }
+
+    else
+    {
+        $validated_messages = validateDownloadedData($app, $messages);
 //  var_dump($validated_messages);
 
-    $html_output = $this->view->render($response,
-        'display_result.html.twig',
-        [
-            'css_path' => CSS_PATH,
-            'landing_page' => LANDING_PAGE,
-            'initial_input_box_value' => null,
-            'page_title' => APP_NAME,
-            'page_heading_1' => APP_NAME,
-            'page_heading_2' => 'Log in to your account',
-            'messages' => $messages
-        ]);
+        $html_output = $this->view->render($response,
+            'display_result.html.twig',
+            [
+                'css_path' => CSS_PATH,
+                'landing_page' => LANDING_PAGE,
+                'initial_input_box_value' => null,
+                'page_title' => APP_NAME,
+                'page_heading_1' => APP_NAME,
+                'page_heading_2' => 'Log in to your account',
+                'messages' => $messages
+            ]);
+
+    }
 
     $processed_output = processOutput($app, $html_output);
 
