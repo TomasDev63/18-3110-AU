@@ -38,8 +38,11 @@ class MessageDetailsModel
 
     public function setParameters($cleaned_parameters)
     {
-        $this->username = $cleaned_parameters['username'];
-        $this->password = $cleaned_parameters['password'];
+        if ($cleaned_parameters != null)
+        {
+            $this->username = $cleaned_parameters['username'];
+            $this->password = $cleaned_parameters['password'];
+        }
     }
 
 
