@@ -20,8 +20,10 @@ $app->get('/', function(Request $request, Response $response) use ($app)
         [
             'css_path' => CSS_PATH,
             'landing_page' => LANDING_PAGE,
-            'method' => 'post',
-            'action' => 'processlogin',
+            'login_method' => 'post',
+            'login_action' => 'processlogin',
+            'help_method' => 'get',
+            'help_action' => 'help',
             'initial_input_box_value' => null,
             'page_title' => APP_NAME,
             'page_heading_1' => APP_NAME,
