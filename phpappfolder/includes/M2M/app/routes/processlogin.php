@@ -1,14 +1,12 @@
 <?php
 /**
- * homepage.php
+ * processlogin.php
  *
- * display the check primes application homepage
+ * Display the messages page
+ * Allows the user to view messages
  *
- * allows the user to enter a value for testing if prime
- *
- * Author: CF Ingrams
- * Email: <cfi@dmu.ac.uk>
- * Date: 18/10/2015
+ * Author: Tomas Tarapavicius
+ * Date: 26/12/2019
  *
  */
 
