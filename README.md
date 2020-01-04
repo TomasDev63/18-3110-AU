@@ -8,7 +8,8 @@ M2M allows users to view the messages over the [Simple Object Access Protocol](h
 Use your M2M CONNECT Username and Password to view the messages.
 
 ### Controls
-{switch_1:true; switch_2:false; switch_3:false; switch_4:true; fan:true; heater:20; keypad:5; id:18-3110-AU}
+Controls should be included in the message  
+```{switch_1:true; switch_2:false; switch_3:false; switch_4:true; fan:true; heater:20; keypad:5; id:18-3110-AU}```
 
 * **All** or only **some** controls can be used  
 ```{switch_3:false; switch_4:true; id:18-3110-AU}```
