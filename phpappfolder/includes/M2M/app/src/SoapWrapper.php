@@ -1,4 +1,11 @@
 <?php
+/**
+ * SoapWrapper.php
+ * Model
+ *
+ * Tries to perform a Soap call
+ *
+ */
 
 namespace M2M;
 

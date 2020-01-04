@@ -1,4 +1,14 @@
 <?php
+/**
+ * Validator.php
+ * Model
+ *
+ * Validates Messages, Controls and more
+ *
+ * Author: Tomas Tarapavicius
+ * Date: 26/12/2019
+ *
+ */
 
 namespace M2M;
 
@@ -30,19 +40,30 @@ class Validator
         return $this->message[$field];
     }
 
-    public function validateCountryCode($country_code_to_check)
+    public function validateUsername($username_to_check)
     {
-        $checked_country = false;
-        if (isset($country_code_to_check)) {
-            if (!empty($country_code_to_check)) {
-                if (strlen($country_code_to_check) == 2) {
-                    $checked_country = $country_code_to_check;
-                }
+        $checked_username = false;
+        if (isset($username_to_check)) {
+            if (!empty($username_to_check)) {
+                $checked_username = filter_var($username_to_check, FILTER_SANITIZE_SPECIAL_CHARS);
             } else {
-                $checked_country = 'none selected';
+                $checked_username = false;
             }
         }
-        return $checked_country;
+        return $checked_username;
+    }
+
+    public function validatePassword($password_to_check)
+    {
+        $checked_password = false;
+        if (isset($password_to_check)) {
+            if (!empty($password_to_check)) {
+                $checked_password = filter_var($password_to_check, FILTER_SANITIZE_SPECIAL_CHARS);
+            } else {
+                $checked_password = false;
+            }
+        }
+        return $checked_password;
     }
 
     public function validateSourceMSISDN()
@@ -205,26 +226,5 @@ class Validator
         }
 
         return $checked_keypad;
-    }
-
-    public function validateDetailType($type_to_check)
-    {
-        $checked_detail_type = false;
-        $detail_types = DETAIL_TYPES;
-
-        if (in_array($type_to_check, $detail_types) === true) {
-            $checked_detail_type = $type_to_check;
-        }
-
-        return $checked_detail_type;
-    }
-
-    public function validateDownloadedData($tainted_data)
-    {
-        $validated_string_data = '';
-
-        $validated_string_data = filter_var($tainted_data, FILTER_SANITIZE_STRING);
-
-        return $validated_string_data;
     }
 }

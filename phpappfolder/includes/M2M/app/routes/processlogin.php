@@ -15,12 +15,19 @@ use \Psr\Http\Message\ResponseInterface as Response;
 
 $app->post('/processlogin', function(Request $request, Response $response) use ($app)
 {
-    $tainted_parameters = $request->getParsedBody();
-    $cleaned_parameters = cleanupParameters($app, $tainted_parameters);
-    $messages = getMessages($app, $cleaned_parameters);
+    // Get the details
+    $tainted_details = $request->getParsedBody();
 
+    // Check the details
+    $cleaned_details = cleanupDetails($app, $tainted_details);
+
+    // Try to get the messages
+    $messages = getMessages($app, $cleaned_details);
+
+    // If there is a problem with the details or the connection
     if (is_soap_fault($messages))
     {
+        // Show the login page with an error
         $html_output = $this->view->render($response,
             'login.html.twig',
             [
@@ -30,7 +37,6 @@ $app->post('/processlogin', function(Request $request, Response $response) use (
                 'login_action' => 'processlogin',
                 'help_method' => 'get',
                 'help_action' => 'help',
-                'initial_input_box_value' => null,
                 'page_title' => APP_NAME,
                 'page_heading_1' => APP_NAME,
                 'page_heading_2' => 'Log in to your account',
@@ -38,17 +44,15 @@ $app->post('/processlogin', function(Request $request, Response $response) use (
             ]);
     }
 
+    // If there are no problems connecting
     else
     {
-        $validated_messages = validateDownloadedData($app, $messages);
-//  var_dump($validated_messages);
-
+        // Show the result page
         $html_output = $this->view->render($response,
             'display_result.html.twig',
             [
                 'css_path' => CSS_PATH,
                 'landing_page' => LANDING_PAGE,
-                'initial_input_box_value' => null,
                 'page_title' => APP_NAME,
                 'page_heading_1' => APP_NAME,
                 'page_heading_2' => 'Log in to your account',
@@ -62,63 +66,58 @@ $app->post('/processlogin', function(Request $request, Response $response) use (
     return $processed_output;
 });
 
-function cleanupParameters($app, $tainted_parameters)
+function cleanupDetails($app, $tainted_details)
 {
-    $cleaned_parameters = [];
-    $validated_country_code = false;
-    $validated_detail = false;
+    $cleaned_details = [];
+    $validated_username = false;
+    $validated_password = false;
 
+    // Get the container for validation
     $validator = $app->getContainer()->get('validator');
 
-    if (isset($tainted_parameters['username']))
+    if (isset($tainted_details['username']))
     {
-        $tainted_username = $tainted_parameters['username'];
-//        $validated_country_code = $validator->validateCountryCode($tainted_country);
+        $tainted_username = $tainted_details['username'];
+        // Validate Username
+        $validated_username = $validator->validateUsername($tainted_username);
     }
-    if (isset($tainted_parameters['password']))
+    if (isset($tainted_details['password']))
     {
-        $tainted_password = $tainted_parameters['password'];
-//        $validated_detail = $validator->validateDetailType($tainted_detail);
-    }
-
-    if (($tainted_username != false) && ($tainted_password != false))
-    {
-        $cleaned_parameters['username'] = $tainted_username;
-        $cleaned_parameters['password'] = $tainted_password;
+        $tainted_password = $tainted_details['password'];
+        // Validate Password
+        $validated_password = $validator->validatePassword($tainted_password);
     }
 
-    return $cleaned_parameters;
+    // If details are valid make them available
+    if (($validated_username != false) && ($validated_password != false))
+    {
+        $cleaned_details['username'] = $validated_username;
+        $cleaned_details['password'] = $validated_password;
+    }
+
+    // Return the details
+    return $cleaned_details;
 }
 
-function validateDownloadedData($app, $tainted_data)
+function getMessages($app, $cleaned_details)
 {
-    $cleaned_data = '';
+    $message_detail_result = [];
 
-    if (is_string($tainted_data) == true)
-    {
-        $validator = $app->getContainer()->get('validator');
-        $cleaned_data = $validator->validateDownloadedData($tainted_data);
-    }
-    else
-    {
-        $cleaned_data = $tainted_data;
-    }
-
-    return $cleaned_data;
-}
-
-function getMessages($app, $cleaned_parameters)
-{
-//    $message_detail_result = [];
+    // Get the container for Soap
     $soap_wrapper = $app->getContainer()->get('soapWrapper');
 
+    // Get the container for messageDetailsModel
     $messagedetails_model = $app->getContainer()->get('messageDetailsModel');
-    $messagedetails_model->setSoapWrapper($soap_wrapper);
 
-    $messagedetails_model->setParameters($cleaned_parameters);
+    // Set the SoapWrapper and Details
+    $messagedetails_model->setSoapWrapper($soap_wrapper);
+    $messagedetails_model->setDetails($cleaned_details);
+
+    // Retrieve the messages
     $messagedetails_model->retrieveMessages();
+    // Get the result
     $message_detail_result = $messagedetails_model->getResult();
 
-    //   var_dump($message_detail_result);
+    // Return messages
     return $message_detail_result;
 }

@@ -17,6 +17,7 @@ $container['view'] = function ($container) {
   return $view;
 };
 
+// Containers
 $container['validator'] = function ($container) {
   $validator = new \M2M\Validator();
   return $validator;

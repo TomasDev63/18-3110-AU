@@ -1,9 +1,13 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: slim
- * Date: 24/10/17
- * Time: 10:01
+ * MessageDetailsModel.php
+ * Model
+ *
+ * Gets Messages and control values
+ *
+ * Author: Tomas Tarapavicius
+ * Date: 26/12/2019
+ *
  */
 
 namespace M2M;
@@ -12,16 +16,16 @@ use mysql_xdevapi\Exception;
 
 class MessageDetailsModel
 {
+    private $xml_parser;
+    private $soap_wrapper;
     private $username;
     private $password;
     private $result;
-    private $xml_parser;
-    private $soap_wrapper;
 
     public function __construct()
     {
-        $this->soap_wrapper = null;
         $this->xml_parser = null;
+        $this->soap_wrapper = null;
         $this->username = '';
         $this->password = '';
         $this->result = [];
@@ -36,15 +40,14 @@ class MessageDetailsModel
         $this->soap_wrapper = $soap_wrapper;
     }
 
-    public function setParameters($cleaned_parameters)
+    public function setDetails($cleaned_details)
     {
-        if ($cleaned_parameters != null)
+        if ($cleaned_details != null)
         {
-            $this->username = $cleaned_parameters['username'];
-            $this->password = $cleaned_parameters['password'];
+            $this->username = $cleaned_details['username'];
+            $this->password = $cleaned_details['password'];
         }
     }
-
 
     public function getResult()
     {
@@ -62,6 +65,7 @@ class MessageDetailsModel
         return (substr($currentString, -$length) === $target);
     }
 
+    // Get the control values from the message
     private function getValidControls($validated_message)
     {
         $validator = new Validator();
@@ -69,6 +73,7 @@ class MessageDetailsModel
         // Switch 1
         preg_match('#switch_1:([^\s]+)#', $validated_message, $switch_1);
         if (isset($switch_1[1])) {
+            // Validate Switch 1
             $switch_1_valid = $validator->validateSwitch($switch_1[1]);
             {
                 if ($switch_1_valid == true) {
@@ -85,6 +90,7 @@ class MessageDetailsModel
         // Switch 2
         preg_match('#switch_2:([^\s]+)#', $validated_message, $switch_2);
         if (isset($switch_2[1])) {
+            // Validate Switch 2
             $switch_2_valid = $validator->validateSwitch($switch_2[1]);
             {
                 if ($switch_2_valid == true) {
@@ -101,6 +107,7 @@ class MessageDetailsModel
         // Switch 3
         preg_match('#switch_3:([^\s]+)#', $validated_message, $switch_3);
         if (isset($switch_3[1])) {
+            // Validate Switch 3
             $switch_3_valid = $validator->validateSwitch($switch_3[1]);
             {
                 if ($switch_3_valid == true) {
@@ -117,6 +124,7 @@ class MessageDetailsModel
         // Switch 4
         preg_match('#switch_4:([^\s]+)#', $validated_message, $switch_4);
         if (isset($switch_4[1])) {
+            // Validate Switch 4
             $switch_4_valid = $validator->validateSwitch($switch_4[1]);
             {
                 if ($switch_4_valid == true) {
@@ -133,6 +141,7 @@ class MessageDetailsModel
         // Fan
         preg_match('#fan:([^\s]+)#', $validated_message, $fan);
         if (isset($fan[1])) {
+            // Validate Fan
             $fan_valid = $validator->validateFan($fan[1]);
             {
                 if ($fan_valid == true) {
@@ -149,6 +158,7 @@ class MessageDetailsModel
         // Heater
         preg_match('#heater:([^\s]+)#', $validated_message, $heater);
         if (isset($heater[1])) {
+            // Validate Heater
             $heater_valid = $validator->validateHeater($heater[1]);
             {
                 if ($heater_valid != false) {
@@ -164,6 +174,7 @@ class MessageDetailsModel
         // Keypad
         preg_match('#keypad:([^\s]+)#', $validated_message, $keypad);
         if (isset($keypad[1])) {
+            // Validate Keypad
             $keypad_valid = $validator->validateKeypad($keypad[1]);
             {
                 if ($keypad_valid != false) {
@@ -176,6 +187,7 @@ class MessageDetailsModel
             $controls['KEYPAD'] = null;
         }
 
+        // Return the controls
         return ($controls);
     }
 
@@ -185,11 +197,15 @@ class MessageDetailsModel
         $soap_client_handle = $this->soap_wrapper->createSoapClient();
 
         if ($soap_client_handle !== false) {
-            $webservice_function = 'peekMessages';
 
+            // Function for viewing the messages
+            $webservice_function = 'peekMessages';
             $username = $this->username;
             $password = $this->password;
+
+            // Amount of messages to view
             $message_count = '';
+            // Specific MSISDN
             $device_msisdn = '';
             $country_code = 44;
 

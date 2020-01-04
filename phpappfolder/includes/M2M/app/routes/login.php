@@ -24,7 +24,6 @@ $app->get('/', function(Request $request, Response $response) use ($app)
             'login_action' => 'processlogin',
             'help_method' => 'get',
             'help_action' => 'help',
-            'initial_input_box_value' => null,
             'page_title' => APP_NAME,
             'page_heading_1' => APP_NAME,
             'page_heading_2' => 'Log in to your account',
