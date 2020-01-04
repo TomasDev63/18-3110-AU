@@ -1,10 +1,13 @@
-# Secure Web Application Development Coursework
+# Secure Web Application Development Coursework (M2M)
 ## 18-3110-AU
 
-###### Login  
+### Introduction
+M2M allows users to view the messages over the [Simple Object Access Protocol](https://en.wikipedia.org/wiki/SOAP) via the [EE M2M Connect Service](https://m2mconnect.ee.co.uk/). It also lets users control switch, fan, keypad and temperature states.
+
+### Access
 Use your M2M CONNECT Username and Password to view the messages.
 
-###### Controls  
+### Controls
 {switch_1:true; switch_2:false; switch_3:false; switch_4:true; fan:true; heater:20; keypad:5; id:18-3110-AU}
 
 * **All** or only **some** controls can be used  
@@ -19,4 +22,5 @@ Use your M2M CONNECT Username and Password to view the messages.
 * It should be included at the end of the message  
 ```{keypad:5; id:18-3110-AU}```
 
-Brief explanation as to how to access and use your web-application.
+* Regular message can be included before using the controls  
+```Hello {switch_2:false; id:18-3110-AU}```
