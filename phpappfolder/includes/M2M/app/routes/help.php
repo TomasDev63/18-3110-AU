@@ -22,7 +22,6 @@ $app->get('/help', function(Request $request, Response $response) use ($app)
       'landing_page' => LANDING_PAGE,
       'method' => 'post',
       'action' => 'help',
-      'initial_input_box_value' => null,
       'page_title' => APP_NAME,
       'page_heading_1' => APP_NAME,
       'page_heading_2' => 'Help Page',

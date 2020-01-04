@@ -8,7 +8,7 @@
 
 ini_set('display_errors', 'On');
 ini_set('html_errors', 'On');
-ini_set('xdebug.trace_output_name', 'country_details.%t');
+ini_set('xdebug.trace_output_name', 'M2M.%t');
 
 define('DIRSEP', DIRECTORY_SEPARATOR);
 
