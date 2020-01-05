@@ -13,8 +13,23 @@
 use \Psr\Http\Message\ServerRequestInterface as Request;
 use \Psr\Http\Message\ResponseInterface as Response;
 
+use Monolog\Logger;
+use Monolog\Handler\StreamHandler;
+
+require 'vendor/autoload.php';
+
 $app->post('/processlogin', function(Request $request, Response $response) use ($app)
 {
+    // Name and path can be changed in settings
+    $logs_file_path = LOGS_FILE_PATH;
+    $logs_file_name = LOGS_FILE_NAME;
+    $logs_file = $logs_file_path . $logs_file_name;
+
+    // Monolog
+    $log = new Logger('logger');
+    $log->pushHandler(new StreamHandler($logs_file, Logger::WARNING));
+    $log->pushHandler(new StreamHandler($logs_file, Logger::INFO));
+
     // Get the details
     $tainted_details = $request->getParsedBody();
 
@@ -27,6 +42,17 @@ $app->post('/processlogin', function(Request $request, Response $response) use (
     // If there is a problem with the details or the connection
     if (is_soap_fault($messages))
     {
+        // If details included other characters
+        if(preg_match('#[^a-zA-Z0-9]#', $tainted_details['username']) ||
+           preg_match('#[^a-zA-Z0-9]#', $tainted_details['password']))
+        {
+            // Add the problem to the log
+            $log->warning('User tried entering other characters');
+        }
+
+        // Add the problem to the log
+        $log->notice($messages->faultstring);
+
         // Show the login page with an error
         $html_output = $this->view->render($response,
             'login.html.twig',
@@ -47,9 +73,17 @@ $app->post('/processlogin', function(Request $request, Response $response) use (
     // If there are no problems connecting
     else
     {
+        // Username for the log
+        $user = $cleaned_details['username'];
+        // Count the messages for the log
+        $message_count = count($messages);
+
+        // Add to the log
+        $log->info("Showing $message_count messages to $user");
+
         // Show the result page
         $html_output = $this->view->render($response,
-            'display_result.html.twig',
+            'result.html.twig',
             [
                 'css_path' => CSS_PATH,
                 'landing_page' => LANDING_PAGE,
@@ -106,8 +140,8 @@ function getMessages($app, $cleaned_details)
     // Get the container for Soap
     $soap_wrapper = $app->getContainer()->get('soapWrapper');
 
-    // Get the container for messageDetailsModel
-    $messagedetails_model = $app->getContainer()->get('messageDetailsModel');
+    // Get the container for messageDetails
+    $messagedetails_model = $app->getContainer()->get('messageDetails');
 
     // Set the SoapWrapper and Details
     $messagedetails_model->setSoapWrapper($soap_wrapper);
