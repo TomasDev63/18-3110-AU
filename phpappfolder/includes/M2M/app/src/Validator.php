@@ -55,7 +55,7 @@ class Validator
 
     public function validatePassword($password_to_check)
     {
-        $checked_password = '';
+        $checked_password = false;
         if (isset($password_to_check)) {
             if (!empty($password_to_check)) {
                 $checked_password = filter_var($password_to_check, FILTER_SANITIZE_SPECIAL_CHARS);
