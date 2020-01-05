@@ -22,8 +22,11 @@ define('LANDING_PAGE', $_SERVER['SCRIPT_NAME']);
 $wsdl = 'https://m2mconnect.ee.co.uk/orange-soap/services/MessageServiceByCountry?WSDL';
 define('WSDL', $wsdl);
 
-$detail_types = ['capital', 'continents', 'full', 'gmt'];
-define('DETAIL_TYPES', $detail_types);
+$logs_file_path = '/p3t/phpappfolder/logs/';
+define('LOGS_FILE_PATH', $logs_file_path);
+
+$logs_file_name = 'M2MLogs.log';
+define('LOGS_FILE_NAME', $logs_file_name);
 
 $settings = [
   "settings" => [

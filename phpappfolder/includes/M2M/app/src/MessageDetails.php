@@ -1,7 +1,6 @@
 <?php
 /**
- * MessageDetailsModel.php
- * Model
+ * MessageDetails.phpodel
  *
  * Gets Messages and control values
  *
@@ -14,7 +13,7 @@ namespace M2M;
 
 use mysql_xdevapi\Exception;
 
-class MessageDetailsModel
+class MessageDetails
 {
     private $xml_parser;
     private $soap_wrapper;
