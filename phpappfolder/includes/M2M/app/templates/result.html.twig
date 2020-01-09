@@ -3,11 +3,11 @@
   <div id="page-content-div">
     <br>
     <h2>Messages</h2>
+    <input id="refresh" type="button" value="Refresh" onClick="window.location.reload();">
     <br>
     <div class="row">
       <div class="column">
         <h3>Message list</h3>
-        {{ error_message }}
         <select name="messagelist" size="20">
           {% for message in messages %}
             <option value="">{{message}}</option>
