@@ -1,6 +1,7 @@
 <?php
 /**
- * MessageDetails.phpodel
+ * MessageDetails.php
+ * Model
  *
  * Gets Messages and control values
  *
@@ -239,11 +240,17 @@ class MessageDetails
 
                     // Add validated controls and the rest of the message together
                     $result = array_merge($validated_messages, $controls);
+
+                    // Database
                     var_dump($result);
+
+                    // Temporary
+                    $list_result[] = implode("|", $validated_messages);
                 }
             }
+
         }
-        // Temporary (Database)
-        $this->result = $soapcall_result;
+        // Temporary
+        $this->result = $list_result;
     }
 }
